@@ -1,0 +1,61 @@
+x1,y1,x2,y2 = map(int,input().split())
+ 
+x = x2-x1+1
+ 
+if x%2==0:
+    oddx = x//2
+    evenx = x//2
+else:
+    if x1%2==0:
+        oddx = x//2
+        evenx = x//2+1
+    else:
+        oddx = x//2+1
+        evenx = x//2
+ 
+y = y2-y1+1
+ 
+if y%2==0:
+    oddy = y//2
+    eveny = y//2
+else:
+    if y1%2==0:
+        oddy = y//2
+        eveny = y//2+1
+    else:
+        oddy = y//2+1
+        eveny = y//2
+ 
+ans1 = oddx*oddy+evenx*eveny
+ 
+x1,y1,x2,y2 = x1+1,y1,x2+1,y2
+ 
+x = x2-x1+1
+ 
+if x%2==0:
+    oddx = x//2
+    evenx = x//2
+else:
+    if x1%2==0:
+        oddx = x//2
+        evenx = x//2+1
+    else:
+        oddx = x//2+1
+        evenx = x//2
+ 
+y = y2-y1+1
+ 
+if y%2==0:
+    oddy = y//2
+    eveny = y//2
+else:
+    if y1%2==0:
+        oddy = y//2
+        eveny = y//2+1
+    else:
+        oddy = y//2+1
+        eveny = y//2
+ 
+ans2 = oddx*oddy+evenx*eveny
+ 
+print(max(ans1,ans2))
