@@ -1,0 +1,6 @@
+t = int(input())
+for _ in range(t):
+    n = int(input())
+    arr = list(i for i in range(n,0,-1))
+ 
+    print(*arr)
