@@ -1,0 +1,65 @@
+n,k = map(int,input().split())
+arr = list(map(int,input().split()))
+ 
+spf = [0]*100001
+primes = []
+ 
+for i in range(2, len(spf)):
+    if spf[i]==0:
+        spf[i]=i
+        primes.append(i)
+ 
+    for j in primes:
+        x = i*j
+        if x>=len(spf):
+            break
+ 
+        spf[x] = j
+ 
+        if j==spf[i]:
+            break
+ 
+# print(spf)
+ 
+d = {}
+complete = 0
+ 
+ans = 0
+ 
+for i in range(n):
+    check = False
+ 
+    if arr[i]==1:
+        check = True
+    else:
+        key = ""
+        find = ""
+        curr = arr[i]
+        last = spf[curr]
+        cnt = 0
+        while curr>1:
+            s = spf[curr]
+            curr//=s
+            if s!=last:
+                if cnt%k!=0:
+                    key += f"{last}%{cnt%k}."
+                    find += f"{last}%{k-(cnt%k)}."
+                cnt = 1
+            else:
+                cnt+=1
+            last = s
+        if cnt%k!=0:
+            key += f"{last}%{cnt%k}."
+            find += f"{last}%{k-(cnt%k)}."
+        
+        if key == "":
+            check = True
+        else:
+            ans += d.get(find,0)
+            d[key] = d.get(key,0)+1
+        
+    if check:
+        ans+=complete
+        complete+=1
+ 
+print(ans)
