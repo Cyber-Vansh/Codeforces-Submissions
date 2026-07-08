@@ -1,0 +1,12 @@
+t = int(input())
+ 
+for _ in range(t):
+    n = int(input())
+    p = list(map(int,input().split()))
+ 
+    pos = p.index(n)
+ 
+    if pos!=0:
+        p[0],p[pos] = p[pos],p[0]
+ 
+    print(*p)
