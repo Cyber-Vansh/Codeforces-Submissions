@@ -1,0 +1,19 @@
+t = int(input())
+ 
+for _ in range(t):
+    n = int(input())
+    s = input().strip()
+ 
+    diff = 0
+    same_exists = False
+ 
+    for i in range(n):
+        if s[i]!=s[(i+1)%n]:
+            diff += 1
+        else:
+            same_exists = True
+ 
+    if diff == 0:
+        print(1)
+    else:
+        print(diff + (1 if same_exists else 0))
