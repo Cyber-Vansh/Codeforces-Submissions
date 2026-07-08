@@ -1,0 +1,23 @@
+import math
+ 
+def compute(x,a,b):
+    v = (a*b)//math.gcd(a,b)
+    
+    count = x//v
+ 
+    ans = (count-1)*max(a,b)
+ 
+    l = v*count
+    ans += min(max(a,b),x-l+1)
+ 
+    return x-ans
+ 
+t = int(input())
+for _ in range(t):
+    a,b,q = map(int,input().split())
+ 
+    for i in range(q):
+        l,r = map(int,input().split())
+ 
+        print(compute(r,a,b)-compute(l-1,a,b), end = " ")
+    print()
