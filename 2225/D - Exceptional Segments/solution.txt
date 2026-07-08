@@ -1,0 +1,14 @@
+mod = 998244353
+ 
+t = int(input())
+for _ in range(t):
+    n,x = map(int,input().split())
+ 
+    left0 = (x//4)+1
+    left1 = (x+2)//4
+    right0 = ((n+1)//4)+1-left0
+    right1 = ((n+3)//4)-left1
+ 
+    ans = ((left0*right0)%mod + (left1*right1)%mod)%mod
+ 
+    print(ans)
