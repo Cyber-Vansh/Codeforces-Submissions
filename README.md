@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 234 | 32 |
+| 235 | 32 |
 
 ---
 
@@ -18,9 +18,9 @@
 - [bitmasks](#bitmasks) (13)
 - [brute force](#brute-force) (49)
 - [chinese remainder theorem](#chinese-remainder-theorem) (1)
-- [combinatorics](#combinatorics) (6)
+- [combinatorics](#combinatorics) (7)
 - [constructive algorithms](#constructive-algorithms) (58)
-- [data structures](#data-structures) (14)
+- [data structures](#data-structures) (15)
 - [dfs and similar](#dfs-and-similar) (7)
 - [divide and conquer](#divide-and-conquer) (1)
 - [dp](#dp) (27)
@@ -170,6 +170,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1305C | [Kuroni and Impossible Calculation](https://codeforces.com/contest/1305/problem/C) | 1600 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1305/C%20-%20Kuroni%20and%20Impossible%20Calculation/solution.txt) |
+| 1974C | [Beautiful Triple Pairs](https://codeforces.com/contest/1974/problem/C) | 1400 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1974/C%20-%20Beautiful%20Triple%20Pairs/solution.txt) |
 | 1985G | [D-Function](https://codeforces.com/contest/1985/problem/G) | 1600 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1985/G%20-%20D-Function/solution.txt) |
 | 2030B | [Minimise Oneness](https://codeforces.com/contest/2030/problem/B) | 800 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2030/B%20-%20Minimise%20Oneness/solution.txt) |
 | 2072B | [Having Been a Treasurer in the Past, I Help Goblins Deceive](https://codeforces.com/contest/2072/problem/B) | 900 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2072/B%20-%20Having%20Been%20a%20Treasurer%20in%20the%20Past%2C%20I%20Help%20Goblins%20Deceive/solution.py) |
@@ -247,6 +248,7 @@
 | 1490E | [Accidental Victory](https://codeforces.com/contest/1490/problem/E) | 1400 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1490/E%20-%20Accidental%20Victory/solution.txt) |
 | 1499C | [Minimum Grid Path](https://codeforces.com/contest/1499/problem/C) | 1500 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1499/C%20-%20Minimum%20Grid%20Path/solution.txt) |
 | 1536C | [Diluc and Kaeya](https://codeforces.com/contest/1536/problem/C) | 1500 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1536/C%20-%20Diluc%20and%20Kaeya/solution.txt) |
+| 1974C | [Beautiful Triple Pairs](https://codeforces.com/contest/1974/problem/C) | 1400 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1974/C%20-%20Beautiful%20Triple%20Pairs/solution.txt) |
 | 2104B | [Move to the End](https://codeforces.com/contest/2104/problem/B) | 1000 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2104/B%20-%20Move%20to%20the%20End/solution.py) |
 | 2133A | [Redstone?](https://codeforces.com/contest/2133/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2133/A%20-%20Redstone%3F/solution.py) |
 | 2148E | [Split](https://codeforces.com/contest/2148/problem/E) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2148/E%20-%20Split/solution.txt) |
