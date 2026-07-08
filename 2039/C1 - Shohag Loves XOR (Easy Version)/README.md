@@ -1,0 +1,22 @@
+<h2><a href="https://codeforces.com/contest/2039/problem/C1" target="_blank" rel="noopener noreferrer">2039C1 — Shohag Loves XOR (Easy Version)</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 1200 |
+| **Language** | PyPy 3-64 |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 2039C1](https://codeforces.com/contest/2039/problem/C1) |
+
+## Topics
+`bitmasks` `brute force` `math` `number theory`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">C1. Shohag Loves XOR (Easy Version)</div><div class="time-limit"><div class="property-title">time limit per test</div>2 seconds</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p><span class="tex-font-style-bf">This is the easy version of the problem. The differences between the two versions are highlighted in bold. You can only make hacks if both versions of the problem are solved.</span></p><p>Shohag has two integers $$$x$$$ and $$$m$$$. Help him count the number of integers $$$1 \le y \le m$$$ such that $$$\mathbf{x \neq y}$$$ and $$$x \oplus y$$$ is <span class="tex-font-style-bf">a divisor$$$^{\text{∗}}$$$ of</span> either $$$x$$$, $$$y$$$, or both. Here $$$\oplus$$$ is the <a href="https://en.wikipedia.org/wiki/Bitwise_operation#XOR">bitwise XOR</a> operator.</p><div class="statement-footnote"><p>$$$^{\text{∗}}$$$The number $$$b$$$ is a divisor of the number $$$a$$$ if there exists an integer $$$c$$$ such that $$$a = b \cdot c$$$.</p></div></div><div class="input-specification"><div class="section-title">Input</div><p>The first line contains a single integer $$$t$$$ ($$$1 \le t \le 10^4$$$) — the number of test cases.</p><p>The first and only line of each test case contains two space-separated integers $$$x$$$ and $$$m$$$ ($$$1 \le x \le 10^6$$$, $$$1 \le m \le 10^{18}$$$).</p><p>It is guaranteed that the sum of $$$x$$$ over all test cases does not exceed $$$10^7$$$.</p></div><div class="output-specification"><div class="section-title">Output</div><p>For each test case, print a single integer — the number of suitable $$$y$$$.</p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id005164228817771764" id="id0040743355726215413" class="input-output-copier">Copy</div></div><pre id="id005164228817771764"><div class="test-example-line test-example-line-even test-example-line-0">5</div><div class="test-example-line test-example-line-odd test-example-line-1">6 9</div><div class="test-example-line test-example-line-even test-example-line-2">5 7</div><div class="test-example-line test-example-line-odd test-example-line-3">2 3</div><div class="test-example-line test-example-line-even test-example-line-4">6 4</div><div class="test-example-line test-example-line-odd test-example-line-5">4 1</div></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id003793197260283231" id="id007888449812960484" class="input-output-copier">Copy</div></div><pre id="id003793197260283231">3
+2
+1
+1
+0
+</pre></div></div></div><div class="note"><div class="section-title">Note</div><p>In the first test case, for $$$x = 6$$$, there are $$$3$$$ valid values for $$$y$$$ among the integers from $$$1$$$ to $$$m = 9$$$, and they are $$$4$$$, $$$5$$$, and $$$7$$$.</p><ul> <li> $$$y = 4$$$ is valid because $$$x \oplus y = 6 \oplus 4 = 2$$$ and $$$2$$$ is a divisor of both $$$x = 6$$$ and $$$y = 4$$$. </li><li> $$$y = 5$$$ is valid because $$$x \oplus y = 6 \oplus 5 = 3$$$ and $$$3$$$ is a divisor of $$$x = 6$$$. </li><li> $$$y = 7$$$ is valid because $$$x \oplus y = 6 \oplus 7 = 1$$$ and $$$1$$$ is a divisor of both $$$x = 6$$$ and $$$y = 7$$$. </li></ul><p>In the second test case, for $$$x = 5$$$, there are $$$2$$$ valid values for $$$y$$$ among the integers from $$$1$$$ to $$$m = 7$$$, and they are $$$4$$$ and $$$6$$$.</p><ul> <li> $$$y = 4$$$ is valid because $$$x \oplus y = 5 \oplus 4 = 1$$$ and $$$1$$$ is a divisor of both $$$x = 5$$$ and $$$y = 4$$$. </li><li> $$$y = 6$$$ is valid because $$$x \oplus y = 5 \oplus 6 = 3$$$ and $$$3$$$ is a divisor of $$$y = 6$$$. </li></ul></div>
