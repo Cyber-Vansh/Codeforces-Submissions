@@ -1,0 +1,8 @@
+t = int(input())
+for _ in range(t):
+    n,w,d = map(int,input().split())
+ 
+    x = d//w+1
+ 
+ 
+    print((n//x)+(1 if n%x !=0 else 0))
