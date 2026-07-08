@@ -1,0 +1,19 @@
+n,k = map(int,input().split())
+ 
+grid = [[0]*n for i in range(n)]
+ 
+for i in range(n):
+    for j in range(i,n):
+        if i==j and k>0:
+            k-=1
+            grid[i][i] = 1
+        elif k>1:
+            k-=2
+            grid[i][j] = 1
+            grid[j][i] = 1
+ 
+if k==0:
+    for g in grid:
+        print(*g)
+else:
+    print(-1)
