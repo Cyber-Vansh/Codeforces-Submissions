@@ -1,0 +1,42 @@
+t = int(input())
+for _ in range(t):
+    n = int(input())
+    arr = list(map(int,input().split()))
+ 
+    m = sorted(arr)[n//2]
+ 
+    # print(m)
+ 
+    dp = [-1]*(n)
+ 
+    for i in range(n):
+        if i>0 and dp[i-1]==-1:
+            continue
+        
+        prev = dp[i-1] if i>0 else 0
+ 
+        greater = 0
+        smaller = 0
+        equal = 0
+ 
+        for j in range(i,n):
+            if arr[j]==m:
+                equal += 1
+            elif arr[j]>m:
+                greater += 1
+            else:
+                smaller += 1
+        
+            if equal==0 or (j-i+1)%2==0:
+                continue
+            
+            if abs(greater-smaller)<=equal-1:
+                dp[j] = max(dp[j],prev+1)
+        
+        # print(dp)
+    
+    print(dp[n-1])
+ 
+ 
+ 
+ 
