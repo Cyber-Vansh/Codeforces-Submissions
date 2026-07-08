@@ -1,0 +1,63 @@
+def solve():
+    # Read n
+    n = int(input())
+    
+    # Read the array using a simple list comprehension
+    # input().split() breaks the input string by spaces
+    v = [int(x) for x in input().split()]
+    
+    # If there are fewer than 3 elements, no triplets can be formed
+    if n < 3:
+        print(0)
+        return
+ 
+    # Standard dictionaries to keep track of how many times we've seen specific patterns
+    pair_12 = {}  # Tracks the 1st and 2nd elements of a triplet
+    pair_23 = {}  # Tracks the 2nd and 3rd elements of a triplet
+    pair_13 = {}  # Tracks the 1st and 3rd elements of a triplet
+    triplet = {}  # Tracks the exact 3-element triplet
+    
+    ans = 0
+    
+    # Set up our initial window of three elements
+    f = v[0]
+    s = v[1]
+    t = v[2]
+    
+    for i in range(2, n):
+        # Shift our 3-element window forward, but skip the very first time (i == 2)
+        if i > 2:
+            f = s
+            s = t
+            t = v[i]
+        
+        # Check our dictionaries for counts. 
+        # .get(key, 0) is a safe way to check a dictionary: it returns 0 if the key isn't there yet.
+        count_f_s = pair_12.get((f, s), 0)
+        count_s_t = pair_23.get((s, t), 0)
+        count_f_t = pair_13.get((f, t), 0)
+        count_all = triplet.get((f, s, t), 0)
+        
+        # We only calculate the answer for elements after the initial setup
+        if i > 2:
+            # The math: (Total times we saw the pair) - (Times we saw this exact triplet)
+            ans += (count_f_s - count_all)
+            ans += (count_s_t - count_all)
+            ans += (count_f_t - count_all)
+            
+        # Update our dictionaries with the current elements
+        pair_12[(f, s)] = count_f_s + 1
+        pair_23[(s, t)] = count_s_t + 1
+        pair_13[(f, t)] = count_f_t + 1
+        triplet[(f, s, t)] = count_all + 1
+        
+    print(ans)
+ 
+# Standard Python starting point
+if __name__ == '__main__':
+    # Read the number of test cases
+    test_cases = int(input())
+    
+    # Run the solve function for each test case
+    for _ in range(test_cases):
+        solve()
