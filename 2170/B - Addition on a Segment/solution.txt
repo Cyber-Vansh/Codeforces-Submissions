@@ -1,0 +1,13 @@
+t = int(input())
+for _ in range(t):
+    n = int(input())
+    arr = list(map(int,input().split()))
+ 
+    arr.sort()
+ 
+    c = 0
+    for i in arr:
+        if i==0:
+            c+=1
+ 
+    print(min(sum(arr)-n+1,n-c))
