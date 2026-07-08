@@ -1,0 +1,36 @@
+t = int(input())
+for _ in range(t):
+    n = int(input())
+    a = list(map(int,input().split()))
+    b = list(map(int,input().split()))
+    c = list(map(int,input().split()))
+ 
+    ans = n
+ 
+    curr = [1]*n
+ 
+    for i in range(n):
+        for j in range(n):
+            if a[i]>=b[j]:
+                if j>=i:
+                    x = j-i
+                else:
+                    x = n-i-1 + j+1
+                curr[x] = 0
+ 
+    ans *= sum(curr)
+ 
+    curr = [1]*n
+ 
+    for i in range(n):
+        for j in range(n):
+            if b[i]>=c[j]:
+                if j>=i:
+                    x = j-i
+                else:
+                    x = n-i-1 + j+1
+                curr[x] = 0
+    
+    ans *= sum(curr)
+ 
+    print(ans)
