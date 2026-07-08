@@ -1,0 +1,19 @@
+t = int(input())
+for _ in range(t):
+    n,x,y = map(int,input().split())
+    arr = list(map(int,input().split()))
+ 
+    Sum = 0
+ 
+    for i in range(n):
+        Sum += arr[i]//x
+    
+    ans = 0
+    
+    for i in range(n):
+        val = Sum-(arr[i]//x)
+ 
+        ans = max(ans,val*y+arr[i])
+        # print(ans)
+    
+    print(ans)
