@@ -1,0 +1,19 @@
+t = int(input())
+for _ in range(t):
+    n = int(input())
+    arr = list(map(int,input().split()))
+ 
+    check = True
+ 
+    assigned = [0]*n
+ 
+    for i in range(n):
+        x = (i+arr[i])%n
+ 
+        if assigned[x]==0:
+            assigned[x]=1
+        else:
+            check = False
+            break
+    
+    print("YES" if check else "NO")
