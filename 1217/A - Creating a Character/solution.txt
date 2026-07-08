@@ -1,0 +1,19 @@
+t = int(input())
+for _ in range(t):
+    s,i,e = map(int,input().split())
+ 
+    ans = 0
+ 
+    left = 0
+    right = e
+ 
+    while left<=right:
+        mid = (left+right)//2
+ 
+        if s+(mid)>i+(e-mid):
+            ans = max(ans,e-mid+1)
+            right = mid-1
+        else:
+            left = mid+1
+    
+    print(ans)
