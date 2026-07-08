@@ -1,0 +1,25 @@
+t = int(input())
+for _ in range(t):
+    n,m = map(int,input().split())
+    arr = list(map(int,input().split()))
+ 
+    arr.sort()
+ 
+    ans = 0
+ 
+    curr = 0
+ 
+    i = 0
+ 
+    for j in range(n):
+        curr += arr[j]
+ 
+        while i<=j and (arr[j]-arr[i]>1 or curr>m):
+            curr -= arr[i]
+            i += 1
+ 
+        ans = max(ans,curr)
+ 
+        # print(i,j)
+    
+    print(ans)
