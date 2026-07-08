@@ -1,0 +1,51 @@
+t = int(input())
+for _ in range(t):
+    s = input()
+    m = int(input())
+    l = input()
+    r = input()
+ 
+    ahead = [[-1]*10 for i in range((len(s)))]
+ 
+    for i in range(10):
+        found = False
+        idx = None
+ 
+        for j in range(len(s)-1,-1,-1):
+            if s[j]==str(i):
+                found = True
+                idx = j
+            
+            if found:
+                ahead[j][i] = idx
+    
+    ans = False
+ 
+    dp = [[-1]*10 for i in range((len(s)))]
+ 
+    def code(i,j):
+        if i>=m:
+            return False
+        if j>=len(s):
+            return True
+ 
+        if dp[j][i]!=-1:
+            return dp[j][i]
+ 
+        for x in range(int(l[i]),int(r[i])+1):
+            if ahead[j][x]!=-1:
+                # print(i,j,x,ahead[j][x])
+                if code(i+1,ahead[j][x]+1):
+                    dp[j][i] = True
+                    return True
+            else:
+                dp[j][i] = True
+                return True
+        
+        dp[j][i] = False
+        return False
+    
+    print("YES" if code(0,0) else "NO")
+ 
+ 
+ 
