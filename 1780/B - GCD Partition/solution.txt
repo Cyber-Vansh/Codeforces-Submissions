@@ -1,0 +1,27 @@
+def gcd(a,b):
+    if a==0:
+        return b
+    return gcd(b%a,a)
+ 
+t = int(input())
+for _ in range(t):
+    n = int(input())
+    arr = list(map(int,input().split()))
+ 
+    Max = 0
+    curr = 0
+ 
+    total = sum(arr)
+ 
+    for i in arr:
+        curr+=i
+ 
+        if total-curr==0:
+            break
+ 
+        x = gcd(curr,total-curr)
+ 
+        if x>Max:
+            Max = x
+    
+    print(Max)
