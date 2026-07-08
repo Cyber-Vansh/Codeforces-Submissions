@@ -1,0 +1,27 @@
+t = int(input())
+for _ in range(t):
+    n = int(input())
+    arr = list(map(int,input().split()))
+ 
+    pre = [arr[0]]
+    for i in range(1,n):
+        x = max(arr[i],0-arr[i])
+        pre.append(pre[-1]+x)
+    
+    suff = [0-arr[-1]]
+    for i in range(n-2,-1,-1):
+        suff.append(suff[-1]-arr[i])
+    suff.reverse()
+ 
+    ans = -float('inf')
+ 
+    for i in range(n):
+        x = 0
+        if 0<=i-1<n:
+            x+=pre[i-1]
+        if 0<=i+1<n:
+            x+=suff[i+1]
+        
+        ans = max(ans,x)
+    
+    print(ans)
