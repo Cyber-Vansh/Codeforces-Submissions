@@ -1,0 +1,21 @@
+t = int(input())
+for _ in range(t):
+    n = int(input())
+    arr = list(map(int,input().split()))
+    brr = list(map(int,input().split()))
+ 
+    lis = sorted(arr)
+    
+    ans = 0
+ 
+    curr = 0
+    for i in range(n):
+        curr+=brr[i]
+ 
+        if curr>n:
+            break
+        
+        x = lis[n-curr]*(i+1)
+        ans = max(ans,x)
+    
+    print(ans)
