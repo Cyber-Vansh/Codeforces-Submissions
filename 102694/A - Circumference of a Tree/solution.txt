@@ -1,0 +1,47 @@
+def win(arr):
+    n = len(arr)
+ 
+    extras = 0
+    largest = 0
+ 
+    Max = max(arr)
+ 
+    for i in range(n-1,-1,-1):
+        if arr[i]==Max:
+            largest += 1
+        else:
+            extras += 1
+    
+    if extras==0:
+        if largest%2==1:
+            return False
+        else:
+            return True
+    else:
+        return True
+ 
+t = int(input())
+for _ in range(t):
+    n,k = map(int,input().split())
+    arr = list(map(int,input().split()))
+ 
+    arr.sort()
+ 
+    curr = [arr[0]]
+    check = False
+ 
+    for i in range(1,n):
+        # print(i)
+        if arr[i]-arr[i-1]<=k:
+            curr.append(arr[i])
+        else:
+            # print(curr)
+            check = check or win(curr)
+            curr = [arr[i]]
+    
+    check = check or win(curr)
+        
+    if check:
+        print("YES")
+    else:
+        print("NO")
