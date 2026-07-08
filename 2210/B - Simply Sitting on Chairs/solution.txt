@@ -1,0 +1,23 @@
+t = int(input())
+for _ in range(t):
+    n = int(input())
+    arr = list(map(int,input().split()))
+ 
+    comp = [-1]*n
+ 
+    curr = 0
+ 
+    for i in range(n):
+        if comp[i]==-1:
+            comp[i]=curr
+            x = arr[i]-1
+            idx = i
+            while x>idx:
+                comp[x] = curr
+                idx = x
+                x = arr[idx]-1
+            
+            curr+=1
+    
+    print(curr)
+ 
