@@ -1,0 +1,15 @@
+n = int(input())
+arr = list(map(int,input().split()))
+ 
+Min = min(arr)
+ 
+prev = None
+ans = float('inf')
+ 
+for i in range(n):
+    if arr[i]==Min:
+        if prev is not None:
+            ans = min(ans,abs(i-prev))
+        prev = i
+ 
+print(ans)
