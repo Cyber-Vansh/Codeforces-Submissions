@@ -1,0 +1,29 @@
+t = int(input())
+for _ in range(t):
+    n,k = map(int,input().split())
+    b = list(map(int,input().split()))
+ 
+    visited = [0]*n
+ 
+    idx = n-1
+ 
+    check = True
+ 
+    for i in range(min(n,k)):
+        if b[idx]>n:
+            check = False
+            break
+        
+        if visited[idx]==1:
+            break
+        
+        visited[idx] = 1
+        idx += n-b[idx]
+ 
+        if idx>=n:
+            idx -= n
+ 
+    if check:
+        print("YES")
+    else:
+        print("NO")
