@@ -1,0 +1,39 @@
+n,m = map(int,input().split())
+ 
+if n>=m:
+    ans = ["0"]
+    n -= 1
+else:
+    ans = ["1"]
+    m -= 1
+ 
+while n>0 and m>0:
+    if ans[-1]=="0":
+        ans.append("1")
+        m -= 1
+    else:
+        ans.append("0")
+        n -= 1
+ 
+if n==0 and m==0:
+    print("".join(ans))
+elif m==0:
+    if n>=2:
+        print(-1)
+    else:
+        ans.append("0")
+        print("".join(ans))
+else:
+    new = []
+ 
+    for i in range(len(ans)):
+        if ans[i]=="1" and m>0:
+            new.append(ans[i])
+            m -= 1
+        new.append(ans[i])
+ 
+    if m>2:
+        print(-1)
+    else:
+        new.extend(["1"]*m)
+        print("".join(new))
