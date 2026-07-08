@@ -1,0 +1,32 @@
+t = int(input())
+for _ in range(t):
+    n,q = map(int,input().split())
+    s = input()
+    arr = list(map(int,input().split()))
+ 
+    alla = True if s.count("B")==0 else False
+ 
+    for i in range(q):
+        ans = 0
+ 
+        if alla:
+            x = arr[i]//n
+ 
+            ans += n*x
+            arr[i] -= x*n
+ 
+        idx = 0
+        while arr[i]>0:
+            if s[idx]=="B":
+                arr[i] = arr[i]//2
+            else:
+                arr[i] -= 1
+            
+            ans += 1
+            idx += 1
+ 
+            if idx==n:
+                idx = 0
+        
+        print(ans)
+ 
