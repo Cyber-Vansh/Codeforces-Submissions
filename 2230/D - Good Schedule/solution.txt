@@ -1,0 +1,121 @@
+t = int(input())
+for _ in range(t):
+    n = int(input())
+    a = list(map(int,input().split()))
+    b = list(map(int,input().split()))
+ 
+    idx_a = [[] for i in range(n+1)]
+    idx_b = [[] for i in range(n+1)]
+ 
+    ones = []
+ 
+    for i in range(n):
+        idx_a[a[i]].append(i)
+        idx_b[b[i]].append(i)
+ 
+        if a[i]==1 or b[i]==1:
+            ones.append(i)
+    
+    ones.append(n-1)
+    
+    valid = [n-1 for i in range(n)]
+ 
+    for i in range(n-1,-1,-1):
+        if a[i]==b[i]:
+            if a[i]+1>n:
+                continue
+ 
+            lisa = idx_a[a[i]+1]
+            lisb = idx_b[b[i]+1]
+ 
+            # print(a[i],lisa,lisb)
+ 
+            posa = n
+            posb = n
+ 
+            if len(lisa)>0:
+                left = 0
+                right = len(lisa)-1
+ 
+                while left<=right:
+                    mid = (left+right)//2
+ 
+                    if lisa[mid]<i:
+                        left = mid+1
+                    else:
+                        posa = lisa[mid]
+                        right = mid-1
+            
+            if len(lisb)>0:
+                left = 0
+                right = len(lisb)-1
+ 
+                while left<=right:
+                    mid = (left+right)//2
+ 
+                    if lisb[mid]<i:
+                        left = mid+1
+                    else:
+                        posb = lisb[mid]
+                        right = mid-1
+            
+            # print(a[i],posa,posb,lisa,lisb)
+ 
+            if posa<i:
+                posa = n
+            if posb<i:
+                posb = n
+            
+            if posa==posb:
+                if posa>=n:
+                    continue
+                valid[i] = valid[posa]
+            else:
+                valid[i] = min(posa,posb)-1
+            
+    
+    # print(valid)
+ 
+    ans = 0
+ 
+    for i in range(n):
+        if a[i]!=b[i] and (a[i]==1 or b[i]==1):
+            continue
+        
+        if a[i]==b[i]==1:
+            ans += valid[i]-i+1
+        else:
+            pos = n-1
+ 
+            left = 0
+            right = len(ones)-1
+ 
+            while left<=right:
+                mid = (left+right)//2
+ 
+                if ones[mid]<i:
+                    left = mid+1
+                else:
+                    pos = ones[mid]
+                    right = mid-1
+            
+            # print(pos)
+            
+            if a[pos]==b[pos]==1:
+                ans += valid[pos]-i+1
+            elif a[pos]!=1 and b[pos]!=1:
+                ans += pos-i+1
+            else:
+                ans += pos-i
+        
+        # print(i,ans)
+        # print()
+    
+    print(ans)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
