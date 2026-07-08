@@ -1,0 +1,77 @@
+t = int(input())
+for _ in range(t):
+    n,k = map(int,input().split())
+    s = input()
+ 
+    ans = ["0"]*n
+    best = n
+ 
+    left = k
+    curr = ["0"]*n
+ 
+    store_curr = curr[::]
+    store_left = left
+ 
+    arr = []
+    count = 0
+    
+    for j in range(n-1,-1,-1):
+        if s[j]==")" and left>0:
+            left -= 1
+            curr[j] = "1"
+        elif s[j]==")":
+            arr.append(j)
+        else:
+            if arr:
+                count+=2
+                arr.pop()
+        
+    if count<best:
+        ans = curr
+        best = count
+    
+    left = store_left
+    curr = store_curr[::]
+ 
+    for i in range(n):
+        # print(left,curr,best,ans)
+ 
+        if s[i]=="(" and left>0:
+            left -= 1
+            curr[i] = "1"
+        
+        store_curr = curr[::]
+        store_left = left
+ 
+        arr = []
+        count = 0
+        
+        for j in range(n-1,-1,-1):
+            if curr[j]=="1":
+                continue
+ 
+            if s[j]==")" and left>0:
+                left -= 1
+                curr[j] = "1"
+            elif s[j]==")":
+                arr.append(j)
+            else:
+                if arr:
+                    count+=2
+                    arr.pop()
+        
+        # print(count)
+        if count<best:
+            ans = curr
+            best = count
+        
+        # print(left,curr,best,ans)
+        
+        left = store_left
+        curr = store_curr[::]
+ 
+        # print(left,curr,best,ans)
+    
+    print("".join(ans))
+ 
+ 
