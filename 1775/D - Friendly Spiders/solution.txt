@@ -1,0 +1,78 @@
+from collections import deque
+ 
+spf = [None]*(3*(10**5)+1)
+spf[1] = 1
+ 
+for i in range(2,len(spf)):
+    if spf[i] is None:
+        spf[i] = i
+        for j in range(i*i,len(spf),i):
+            if spf[j] is None:
+                spf[j] = spf[i]
+ 
+n = int(input())
+arr = list(map(int,input().split()))
+s,t = map(int,input().split())
+ 
+s,t = s-1,t-1
+ 
+adj = [[] for i in range(3*(10**5)+1)]
+ 
+for i in range(n):
+    x = arr[i]
+    if x==1:
+        continue
+    smallest = spf[x]
+ 
+    while smallest!=x:
+        adj[smallest].append(i)
+        x = x//smallest
+        smallest = spf[x]
+ 
+    adj[smallest].append(i)
+ 
+visited = [None]*(3*(10**5)+1)
+dis = [float('inf')]*(3*(10**5)+1)
+ 
+visited[s] = s
+dis[s] = 1
+ 
+de = deque([s])
+ 
+while de:
+    curr = de.popleft()
+ 
+    x = arr[curr]
+    if x==1:
+        continue
+    smallest = spf[x]
+ 
+    while smallest!=x:
+        for ele in adj[smallest]:
+            if visited[ele] is None:
+                visited[ele] = curr
+                dis[ele] = dis[curr]+1
+                de.append(ele)
+        adj[smallest] = []
+ 
+        x = x//smallest
+        smallest = spf[x]
+    for ele in adj[smallest]:
+        if visited[ele] is None:
+            visited[ele] = curr
+            dis[ele] = dis[curr]+1
+            de.append(ele)
+    adj[smallest] = []
+ 
+if visited[t] is None:
+    print(-1)
+else:
+    curr = t
+    ans = [t+1]
+ 
+    while curr!=s:
+        curr = visited[curr]
+        ans.append(curr+1)
+    
+    print(dis[t])
+    print(*reversed(ans))
