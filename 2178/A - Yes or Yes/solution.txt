@@ -1,0 +1,8 @@
+t = int(input())
+for _ in range(t):
+    s = input()
+ 
+    if list(s).count("Y")>1:
+        print("No")
+    else:
+        print("Yes")
