@@ -6,33 +6,33 @@
 
 | Total Problems | Topics |
 |---|---|
-| 76 | 21 |
+| 91 | 21 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [Uncategorized](#uncategorized) (1)
-- [binary search](#binary-search) (4)
+- [binary search](#binary-search) (7)
 - [bitmasks](#bitmasks) (3)
-- [brute force](#brute-force) (21)
-- [combinatorics](#combinatorics) (3)
-- [constructive algorithms](#constructive-algorithms) (25)
-- [data structures](#data-structures) (2)
-- [dfs and similar](#dfs-and-similar) (1)
-- [dp](#dp) (7)
+- [brute force](#brute-force) (26)
+- [combinatorics](#combinatorics) (4)
+- [constructive algorithms](#constructive-algorithms) (26)
+- [data structures](#data-structures) (5)
+- [dfs and similar](#dfs-and-similar) (2)
+- [dp](#dp) (9)
 - [games](#games) (1)
 - [geometry](#geometry) (2)
-- [graphs](#graphs) (3)
-- [greedy](#greedy) (40)
+- [graphs](#graphs) (4)
+- [greedy](#greedy) (46)
 - [hashing](#hashing) (2)
-- [implementation](#implementation) (17)
-- [math](#math) (39)
-- [number theory](#number-theory) (11)
-- [shortest paths](#shortest-paths) (1)
-- [sortings](#sortings) (9)
+- [implementation](#implementation) (20)
+- [math](#math) (48)
+- [number theory](#number-theory) (17)
+- [shortest paths](#shortest-paths) (2)
+- [sortings](#sortings) (11)
 - [strings](#strings) (5)
-- [two pointers](#two-pointers) (4)
+- [two pointers](#two-pointers) (6)
 
 ---
 
@@ -46,10 +46,13 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1419D2 | [Sage's Birthday (hard version)](https://codeforces.com/contest/1419/problem/D2) | 1500 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1419/D2%20-%20Sage's%20Birthday%20(hard%20version)/solution.txt) |
 | 2086B | [Large Array and Segments](https://codeforces.com/contest/2086/problem/B) | 1100 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2086/B%20-%20Large%20Array%20and%20Segments/solution.py) |
 | 2093E | [Min Max MEX](https://codeforces.com/contest/2093/problem/E) | 1500 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2093/E%20-%20Min%20Max%20MEX/solution.py) |
 | 2104D | [Array and GCD](https://codeforces.com/contest/2104/problem/D) | 1400 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2104/D%20-%20Array%20and%20GCD/solution.py) |
 | 2146C | [Wrong Binary Search](https://codeforces.com/contest/2146/problem/C) | 1300 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2146/C%20-%20Wrong%20Binary%20Search/solution.py) |
+| 2184C | [Huge Pile](https://codeforces.com/contest/2184/problem/C) | 1100 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2184/C%20-%20Huge%20Pile/solution.txt) |
+| 2193D | [Monster Game](https://codeforces.com/contest/2193/problem/D) | 1100 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2193/D%20-%20Monster%20Game/solution.txt) |
 
 ### bitmasks
 
@@ -63,7 +66,11 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1419D2 | [Sage's Birthday (hard version)](https://codeforces.com/contest/1419/problem/D2) | 1500 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1419/D2%20-%20Sage's%20Birthday%20(hard%20version)/solution.txt) |
+| 1485A | [Add and Divide](https://codeforces.com/contest/1485/problem/A) | 1000 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1485/A%20-%20Add%20and%20Divide/solution.txt) |
+| 1499C | [Minimum Grid Path](https://codeforces.com/contest/1499/problem/C) | 1500 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1499/C%20-%20Minimum%20Grid%20Path/solution.txt) |
 | 1731C | [Even Subarrays](https://codeforces.com/contest/1731/problem/C) | 1700 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1731/C%20-%20Even%20Subarrays/solution.txt) |
+| 1899B | [250 Thousand Tons of TNT](https://codeforces.com/contest/1899/problem/B) | 1100 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1899/B%20-%20250%20Thousand%20Tons%20of%20TNT/solution.txt) |
 | 2009A | [Minimize!](https://codeforces.com/contest/2009/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2009/A%20-%20Minimize!/solution.py) |
 | 2031B | [Penchick and Satay Sticks](https://codeforces.com/contest/2031/problem/B) | 900 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2031/B%20-%20Penchick%20and%20Satay%20Sticks/solution.py) |
 | 2060A | [Fibonacciness](https://codeforces.com/contest/2060/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2060/A%20-%20Fibonacciness/solution.py) |
@@ -84,11 +91,13 @@
 | 2170A | [Maximum Neighborhood](https://codeforces.com/contest/2170/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2170/A%20-%20Maximum%20Neighborhood/solution.py) |
 | 2182B | [New Year Cake](https://codeforces.com/contest/2182/problem/B) | 800 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2182/B%20-%20New%20Year%20Cake/solution.txt) |
 | 2182C | [Production of Snowmen](https://codeforces.com/contest/2182/problem/C) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2182/C%20-%20Production%20of%20Snowmen/solution.txt) |
+| 2193A | [DBMB and the Array](https://codeforces.com/contest/2193/problem/A) | 800 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2193/A%20-%20DBMB%20and%20the%20Array/solution.txt) |
 
 ### combinatorics
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1985G | [D-Function](https://codeforces.com/contest/1985/problem/G) | 1600 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1985/G%20-%20D-Function/solution.txt) |
 | 2072B | [Having Been a Treasurer in the Past, I Help Goblins Deceive](https://codeforces.com/contest/2072/problem/B) | 900 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2072/B%20-%20Having%20Been%20a%20Treasurer%20in%20the%20Past%2C%20I%20Help%20Goblins%20Deceive/solution.py) |
 | 2144C | [Non-Descending Arrays](https://codeforces.com/contest/2144/problem/C) | 1300 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2144/C%20-%20Non-Descending%20Arrays/solution.py) |
 | 2182C | [Production of Snowmen](https://codeforces.com/contest/2182/problem/C) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2182/C%20-%20Production%20of%20Snowmen/solution.txt) |
@@ -97,6 +106,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1419D2 | [Sage's Birthday (hard version)](https://codeforces.com/contest/1419/problem/D2) | 1500 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1419/D2%20-%20Sage's%20Birthday%20(hard%20version)/solution.txt) |
 | 2030A | [A Gift From Orangutan](https://codeforces.com/contest/2030/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2030/A%20-%20A%20Gift%20From%20Orangutan/solution.py) |
 | 2031A | [Penchick and Modern Monument](https://codeforces.com/contest/2031/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2031/A%20-%20Penchick%20and%20Modern%20Monument/solution.py) |
 | 2031C | [Penchick and BBQ Buns](https://codeforces.com/contest/2031/problem/C) | 1300 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2031/C%20-%20Penchick%20and%20BBQ%20Buns/solution.py) |
@@ -127,14 +137,18 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1349A | [Orac and LCM](https://codeforces.com/contest/1349/problem/A) | 1600 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1349/A%20-%20Orac%20and%20LCM/solution.txt) |
+| 1499C | [Minimum Grid Path](https://codeforces.com/contest/1499/problem/C) | 1500 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1499/C%20-%20Minimum%20Grid%20Path/solution.txt) |
 | 2104B | [Move to the End](https://codeforces.com/contest/2104/problem/B) | 1000 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2104/B%20-%20Move%20to%20the%20End/solution.py) |
 | 2133A | [Redstone?](https://codeforces.com/contest/2133/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2133/A%20-%20Redstone%3F/solution.py) |
+| 2193C | [Replace and Sum](https://codeforces.com/contest/2193/problem/C) | 1000 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2193/C%20-%20Replace%20and%20Sum/solution.txt) |
 
 ### dfs and similar
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 2143C | [Max Tree](https://codeforces.com/contest/2143/problem/C) | 1300 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2143/C%20-%20Max%20Tree/solution.py) |
+| 2184C | [Huge Pile](https://codeforces.com/contest/2184/problem/C) | 1100 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2184/C%20-%20Huge%20Pile/solution.txt) |
 
 ### dp
 
@@ -147,6 +161,8 @@
 | 2178B | [Impost or Sus](https://codeforces.com/contest/2178/problem/B) | 900 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2178/B%20-%20Impost%20or%20Sus/solution.txt) |
 | 2178C | [First or Second](https://codeforces.com/contest/2178/problem/C) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2178/C%20-%20First%20or%20Second/solution.txt) |
 | 2182C | [Production of Snowmen](https://codeforces.com/contest/2182/problem/C) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2182/C%20-%20Production%20of%20Snowmen/solution.txt) |
+| 2184C | [Huge Pile](https://codeforces.com/contest/2184/problem/C) | 1100 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2184/C%20-%20Huge%20Pile/solution.txt) |
+| 2193E | [Product Queries](https://codeforces.com/contest/2193/problem/E) | 1300 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2193/E%20-%20Product%20Queries/solution.txt) |
 
 ### games
 
@@ -168,11 +184,16 @@
 | 2143C | [Max Tree](https://codeforces.com/contest/2143/problem/C) | 1300 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2143/C%20-%20Max%20Tree/solution.py) |
 | 2172F | [Cluster Computing System](https://codeforces.com/contest/2172/problem/F) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2172/F%20-%20Cluster%20Computing%20System/solution.cpp) |
 | 2172M | [Maximum Distance To Port](https://codeforces.com/contest/2172/problem/M) | 1300 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2172/M%20-%20Maximum%20Distance%20To%20Port/solution.txt) |
+| 2184C | [Huge Pile](https://codeforces.com/contest/2184/problem/C) | 1100 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2184/C%20-%20Huge%20Pile/solution.txt) |
 
 ### greedy
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1419D2 | [Sage's Birthday (hard version)](https://codeforces.com/contest/1419/problem/D2) | 1500 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1419/D2%20-%20Sage's%20Birthday%20(hard%20version)/solution.txt) |
+| 1485A | [Add and Divide](https://codeforces.com/contest/1485/problem/A) | 1000 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1485/A%20-%20Add%20and%20Divide/solution.txt) |
+| 1499C | [Minimum Grid Path](https://codeforces.com/contest/1499/problem/C) | 1500 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1499/C%20-%20Minimum%20Grid%20Path/solution.txt) |
+| 1609A | [Divide and Multiply](https://codeforces.com/contest/1609/problem/A) | 900 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1609/A%20-%20Divide%20and%20Multiply/solution.txt) |
 | 2024A | [Profitable Interest Rate](https://codeforces.com/contest/2024/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2024/A%20-%20Profitable%20Interest%20Rate/solution.py) |
 | 2030A | [A Gift From Orangutan](https://codeforces.com/contest/2030/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2030/A%20-%20A%20Gift%20From%20Orangutan/solution.py) |
 | 2031A | [Penchick and Modern Monument](https://codeforces.com/contest/2031/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2031/A%20-%20Penchick%20and%20Modern%20Monument/solution.py) |
@@ -213,6 +234,8 @@
 | 2178B | [Impost or Sus](https://codeforces.com/contest/2178/problem/B) | 900 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2178/B%20-%20Impost%20or%20Sus/solution.txt) |
 | 2178C | [First or Second](https://codeforces.com/contest/2178/problem/C) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2178/C%20-%20First%20or%20Second/solution.txt) |
 | 2182A | [New Year String](https://codeforces.com/contest/2182/problem/A) | 800 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2182/A%20-%20New%20Year%20String/solution.txt) |
+| 2193B | [Reverse a Permutation](https://codeforces.com/contest/2193/problem/B) | 800 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2193/B%20-%20Reverse%20a%20Permutation/solution.txt) |
+| 2193C | [Replace and Sum](https://codeforces.com/contest/2193/problem/C) | 1000 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2193/C%20-%20Replace%20and%20Sum/solution.txt) |
 
 ### hashing
 
@@ -225,7 +248,10 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 450A | [Jzzhu and Children](https://codeforces.com/contest/450/problem/A) | 1000 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/450/A%20-%20Jzzhu%20and%20Children/solution.txt) |
 | 1462A | [Favorite Sequence](https://codeforces.com/contest/1462/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1462/A%20-%20Favorite%20Sequence/solution.py) |
+| 1609A | [Divide and Multiply](https://codeforces.com/contest/1609/problem/A) | 900 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1609/A%20-%20Divide%20and%20Multiply/solution.txt) |
+| 1899B | [250 Thousand Tons of TNT](https://codeforces.com/contest/1899/problem/B) | 1100 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1899/B%20-%20250%20Thousand%20Tons%20of%20TNT/solution.txt) |
 | 2037A | [Twice](https://codeforces.com/contest/2037/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2037/A%20-%20Twice/solution.py) |
 | 2072A | [New World, New Me, New Array](https://codeforces.com/contest/2072/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2072/A%20-%20New%20World%2C%20New%20Me%2C%20New%20Array/solution.py) |
 | 2092B | [Lady Bug](https://codeforces.com/contest/2092/problem/B) | 1000 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2092/B%20-%20Lady%20Bug/solution.py) |
@@ -247,7 +273,12 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1349A | [Orac and LCM](https://codeforces.com/contest/1349/problem/A) | 1600 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1349/A%20-%20Orac%20and%20LCM/solution.txt) |
+| 1485A | [Add and Divide](https://codeforces.com/contest/1485/problem/A) | 1000 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1485/A%20-%20Add%20and%20Divide/solution.txt) |
+| 1499C | [Minimum Grid Path](https://codeforces.com/contest/1499/problem/C) | 1500 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1499/C%20-%20Minimum%20Grid%20Path/solution.txt) |
+| 1609A | [Divide and Multiply](https://codeforces.com/contest/1609/problem/A) | 900 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1609/A%20-%20Divide%20and%20Multiply/solution.txt) |
 | 1731C | [Even Subarrays](https://codeforces.com/contest/1731/problem/C) | 1700 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1731/C%20-%20Even%20Subarrays/solution.txt) |
+| 1985G | [D-Function](https://codeforces.com/contest/1985/problem/G) | 1600 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1985/G%20-%20D-Function/solution.txt) |
 | 2009A | [Minimize!](https://codeforces.com/contest/2009/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2009/A%20-%20Minimize!/solution.py) |
 | 2024A | [Profitable Interest Rate](https://codeforces.com/contest/2024/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2024/A%20-%20Profitable%20Interest%20Rate/solution.py) |
 | 2030A | [A Gift From Orangutan](https://codeforces.com/contest/2030/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2030/A%20-%20A%20Gift%20From%20Orangutan/solution.py) |
@@ -286,12 +317,21 @@
 | 2170A | [Maximum Neighborhood](https://codeforces.com/contest/2170/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2170/A%20-%20Maximum%20Neighborhood/solution.py) |
 | 2170B | [Addition on a Segment](https://codeforces.com/contest/2170/problem/B) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2170/B%20-%20Addition%20on%20a%20Segment/solution.txt) |
 | 2172F | [Cluster Computing System](https://codeforces.com/contest/2172/problem/F) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2172/F%20-%20Cluster%20Computing%20System/solution.cpp) |
+| 2184A | [Social Experiment](https://codeforces.com/contest/2184/problem/A) | 800 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2184/A%20-%20Social%20Experiment/solution.txt) |
+| 2184C | [Huge Pile](https://codeforces.com/contest/2184/problem/C) | 1100 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2184/C%20-%20Huge%20Pile/solution.txt) |
+| 2193A | [DBMB and the Array](https://codeforces.com/contest/2193/problem/A) | 800 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2193/A%20-%20DBMB%20and%20the%20Array/solution.txt) |
+| 2193E | [Product Queries](https://codeforces.com/contest/2193/problem/E) | 1300 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2193/E%20-%20Product%20Queries/solution.txt) |
 
 ### number theory
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1349A | [Orac and LCM](https://codeforces.com/contest/1349/problem/A) | 1600 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1349/A%20-%20Orac%20and%20LCM/solution.txt) |
+| 1485A | [Add and Divide](https://codeforces.com/contest/1485/problem/A) | 1000 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1485/A%20-%20Add%20and%20Divide/solution.txt) |
+| 1609A | [Divide and Multiply](https://codeforces.com/contest/1609/problem/A) | 900 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1609/A%20-%20Divide%20and%20Multiply/solution.txt) |
 | 1731C | [Even Subarrays](https://codeforces.com/contest/1731/problem/C) | 1700 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1731/C%20-%20Even%20Subarrays/solution.txt) |
+| 1899B | [250 Thousand Tons of TNT](https://codeforces.com/contest/1899/problem/B) | 1100 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1899/B%20-%20250%20Thousand%20Tons%20of%20TNT/solution.txt) |
+| 1985G | [D-Function](https://codeforces.com/contest/1985/problem/G) | 1600 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1985/G%20-%20D-Function/solution.txt) |
 | 2031C | [Penchick and BBQ Buns](https://codeforces.com/contest/2031/problem/C) | 1300 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2031/C%20-%20Penchick%20and%20BBQ%20Buns/solution.py) |
 | 2037C | [Superultra's Favorite Permutation](https://codeforces.com/contest/2037/problem/C) | 1000 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2037/C%20-%20Superultra's%20Favorite%20Permutation/solution.py) |
 | 2063A | [Minimal Coprime](https://codeforces.com/contest/2063/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2063/A%20-%20Minimal%20Coprime/solution.py) |
@@ -302,17 +342,20 @@
 | 2104D | [Array and GCD](https://codeforces.com/contest/2104/problem/D) | 1400 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2104/D%20-%20Array%20and%20GCD/solution.py) |
 | 2137B | [Fun Permutation](https://codeforces.com/contest/2137/problem/B) | 900 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2137/B%20-%20Fun%20Permutation/solution.py) |
 | 2144A | [Cut the Array](https://codeforces.com/contest/2144/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2144/A%20-%20Cut%20the%20Array/solution.py) |
+| 2193E | [Product Queries](https://codeforces.com/contest/2193/problem/E) | 1300 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2193/E%20-%20Product%20Queries/solution.txt) |
 
 ### shortest paths
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 2172M | [Maximum Distance To Port](https://codeforces.com/contest/2172/problem/M) | 1300 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2172/M%20-%20Maximum%20Distance%20To%20Port/solution.txt) |
+| 2193E | [Product Queries](https://codeforces.com/contest/2193/problem/E) | 1300 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2193/E%20-%20Product%20Queries/solution.txt) |
 
 ### sortings
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1419D2 | [Sage's Birthday (hard version)](https://codeforces.com/contest/1419/problem/D2) | 1500 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1419/D2%20-%20Sage's%20Birthday%20(hard%20version)/solution.txt) |
 | 2030A | [A Gift From Orangutan](https://codeforces.com/contest/2030/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2030/A%20-%20A%20Gift%20From%20Orangutan/solution.py) |
 | 2031B | [Penchick and Satay Sticks](https://codeforces.com/contest/2031/problem/B) | 900 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2031/B%20-%20Penchick%20and%20Satay%20Sticks/solution.py) |
 | 2060B | [Farmer John's Card Game](https://codeforces.com/contest/2060/problem/B) | 1000 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2060/B%20-%20Farmer%20John's%20Card%20Game/solution.py) |
@@ -322,6 +365,7 @@
 | 2153C | [Symmetrical Polygons](https://codeforces.com/contest/2153/problem/C) | 1500 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2153/C%20-%20Symmetrical%20Polygons/solution.txt) |
 | 2163A | [Souvlaki VS. Kalamaki](https://codeforces.com/contest/2163/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2163/A%20-%20Souvlaki%20VS.%20Kalamaki/solution.py) |
 | 2164A | [Sequence Game](https://codeforces.com/contest/2164/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2164/A%20-%20Sequence%20Game/solution.py) |
+| 2193D | [Monster Game](https://codeforces.com/contest/2193/problem/D) | 1100 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2193/D%20-%20Monster%20Game/solution.txt) |
 
 ### strings
 
@@ -337,10 +381,12 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1419D2 | [Sage's Birthday (hard version)](https://codeforces.com/contest/1419/problem/D2) | 1500 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1419/D2%20-%20Sage's%20Birthday%20(hard%20version)/solution.txt) |
 | 1462A | [Favorite Sequence](https://codeforces.com/contest/1462/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1462/A%20-%20Favorite%20Sequence/solution.py) |
 | 2136B | [Like the Bitset](https://codeforces.com/contest/2136/problem/B) | 900 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2136/B%20-%20Like%20the%20Bitset/solution.py) |
 | 2143A | [All Lengths Subtraction](https://codeforces.com/contest/2143/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2143/A%20-%20All%20Lengths%20Subtraction/solution.py) |
 | 2143B | [Discounts](https://codeforces.com/contest/2143/problem/B) | 1000 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2143/B%20-%20Discounts/solution.py) |
+| 2193D | [Monster Game](https://codeforces.com/contest/2193/problem/D) | 1100 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2193/D%20-%20Monster%20Game/solution.txt) |
 
 ---
 
