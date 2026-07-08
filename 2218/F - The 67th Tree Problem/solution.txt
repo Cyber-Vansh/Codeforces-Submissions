@@ -1,0 +1,24 @@
+t = int(input())
+for _ in range(t):
+    x,y = map(int,input().split())
+ 
+    if (x>y) or (x==0 and y%2==0) or (y==0):
+        print("NO")
+        continue
+    
+    e = x-1 if (x+y)%2==0 else x
+ 
+    even = [i+2 for i in range(e)]
+ 
+    curr = e+2
+ 
+    print("Yes")
+ 
+    for i in range(len(even)):
+        print(1,even[i])
+        print(even[i],curr)
+        curr+=1
+    
+    while curr<=(x+y):
+        print(1,curr)
+        curr+=1
