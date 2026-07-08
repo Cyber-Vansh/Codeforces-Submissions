@@ -6,25 +6,50 @@
 
 | Total Problems | Topics |
 |---|---|
-| 1 | 5 |
+| 16 | 11 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
-- [constructive algorithms](#constructive-algorithms) (1)
+- [brute force](#brute-force) (3)
+- [constructive algorithms](#constructive-algorithms) (6)
+- [dp](#dp) (1)
 - [geometry](#geometry) (1)
-- [greedy](#greedy) (1)
-- [implementation](#implementation) (1)
-- [sortings](#sortings) (1)
+- [greedy](#greedy) (8)
+- [implementation](#implementation) (4)
+- [math](#math) (9)
+- [number theory](#number-theory) (3)
+- [sortings](#sortings) (4)
+- [strings](#strings) (1)
+- [two pointers](#two-pointers) (1)
 
 ---
+
+### brute force
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2009A | [Minimize!](https://codeforces.com/contest/2009/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2009/A%20-%20Minimize!/solution.py) |
+| 2031B | [Penchick and Satay Sticks](https://codeforces.com/contest/2031/problem/B) | 900 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2031/B%20-%20Penchick%20and%20Satay%20Sticks/solution.py) |
+| 2060A | [Fibonacciness](https://codeforces.com/contest/2060/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2060/A%20-%20Fibonacciness/solution.py) |
 
 ### constructive algorithms
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 2030A | [A Gift From Orangutan](https://codeforces.com/contest/2030/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2030/A%20-%20A%20Gift%20From%20Orangutan/solution.py) |
+| 2031A | [Penchick and Modern Monument](https://codeforces.com/contest/2031/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2031/A%20-%20Penchick%20and%20Modern%20Monument/solution.py) |
+| 2031C | [Penchick and BBQ Buns](https://codeforces.com/contest/2031/problem/C) | 1300 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2031/C%20-%20Penchick%20and%20BBQ%20Buns/solution.py) |
+| 2037C | [Superultra's Favorite Permutation](https://codeforces.com/contest/2037/problem/C) | 1000 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2037/C%20-%20Superultra's%20Favorite%20Permutation/solution.py) |
+| 2056A | [Shape Perimeter](https://codeforces.com/contest/2056/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2056/A%20-%20Shape%20Perimeter/solution.py) |
 | 2153C | [Symmetrical Polygons](https://codeforces.com/contest/2153/problem/C) | 1500 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2153/C%20-%20Symmetrical%20Polygons/solution.txt) |
+
+### dp
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2031A | [Penchick and Modern Monument](https://codeforces.com/contest/2031/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2031/A%20-%20Penchick%20and%20Modern%20Monument/solution.py) |
 
 ### geometry
 
@@ -36,19 +61,66 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 2024A | [Profitable Interest Rate](https://codeforces.com/contest/2024/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2024/A%20-%20Profitable%20Interest%20Rate/solution.py) |
+| 2030A | [A Gift From Orangutan](https://codeforces.com/contest/2030/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2030/A%20-%20A%20Gift%20From%20Orangutan/solution.py) |
+| 2031A | [Penchick and Modern Monument](https://codeforces.com/contest/2031/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2031/A%20-%20Penchick%20and%20Modern%20Monument/solution.py) |
+| 2031B | [Penchick and Satay Sticks](https://codeforces.com/contest/2031/problem/B) | 900 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2031/B%20-%20Penchick%20and%20Satay%20Sticks/solution.py) |
+| 2037C | [Superultra's Favorite Permutation](https://codeforces.com/contest/2037/problem/C) | 1000 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2037/C%20-%20Superultra's%20Favorite%20Permutation/solution.py) |
+| 2060B | [Farmer John's Card Game](https://codeforces.com/contest/2060/problem/B) | 1000 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2060/B%20-%20Farmer%20John's%20Card%20Game/solution.py) |
+| 2072A | [New World, New Me, New Array](https://codeforces.com/contest/2072/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2072/A%20-%20New%20World%2C%20New%20Me%2C%20New%20Array/solution.py) |
 | 2153C | [Symmetrical Polygons](https://codeforces.com/contest/2153/problem/C) | 1500 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2153/C%20-%20Symmetrical%20Polygons/solution.txt) |
 
 ### implementation
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1462A | [Favorite Sequence](https://codeforces.com/contest/1462/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1462/A%20-%20Favorite%20Sequence/solution.py) |
+| 2037A | [Twice](https://codeforces.com/contest/2037/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2037/A%20-%20Twice/solution.py) |
+| 2072A | [New World, New Me, New Array](https://codeforces.com/contest/2072/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2072/A%20-%20New%20World%2C%20New%20Me%2C%20New%20Array/solution.py) |
 | 2153C | [Symmetrical Polygons](https://codeforces.com/contest/2153/problem/C) | 1500 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2153/C%20-%20Symmetrical%20Polygons/solution.txt) |
+
+### math
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2009A | [Minimize!](https://codeforces.com/contest/2009/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2009/A%20-%20Minimize!/solution.py) |
+| 2024A | [Profitable Interest Rate](https://codeforces.com/contest/2024/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2024/A%20-%20Profitable%20Interest%20Rate/solution.py) |
+| 2030A | [A Gift From Orangutan](https://codeforces.com/contest/2030/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2030/A%20-%20A%20Gift%20From%20Orangutan/solution.py) |
+| 2031A | [Penchick and Modern Monument](https://codeforces.com/contest/2031/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2031/A%20-%20Penchick%20and%20Modern%20Monument/solution.py) |
+| 2031C | [Penchick and BBQ Buns](https://codeforces.com/contest/2031/problem/C) | 1300 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2031/C%20-%20Penchick%20and%20BBQ%20Buns/solution.py) |
+| 2037C | [Superultra's Favorite Permutation](https://codeforces.com/contest/2037/problem/C) | 1000 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2037/C%20-%20Superultra's%20Favorite%20Permutation/solution.py) |
+| 2056A | [Shape Perimeter](https://codeforces.com/contest/2056/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2056/A%20-%20Shape%20Perimeter/solution.py) |
+| 2063A | [Minimal Coprime](https://codeforces.com/contest/2063/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2063/A%20-%20Minimal%20Coprime/solution.py) |
+| 2072A | [New World, New Me, New Array](https://codeforces.com/contest/2072/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2072/A%20-%20New%20World%2C%20New%20Me%2C%20New%20Array/solution.py) |
+
+### number theory
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2031C | [Penchick and BBQ Buns](https://codeforces.com/contest/2031/problem/C) | 1300 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2031/C%20-%20Penchick%20and%20BBQ%20Buns/solution.py) |
+| 2037C | [Superultra's Favorite Permutation](https://codeforces.com/contest/2037/problem/C) | 1000 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2037/C%20-%20Superultra's%20Favorite%20Permutation/solution.py) |
+| 2063A | [Minimal Coprime](https://codeforces.com/contest/2063/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2063/A%20-%20Minimal%20Coprime/solution.py) |
 
 ### sortings
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 2030A | [A Gift From Orangutan](https://codeforces.com/contest/2030/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2030/A%20-%20A%20Gift%20From%20Orangutan/solution.py) |
+| 2031B | [Penchick and Satay Sticks](https://codeforces.com/contest/2031/problem/B) | 900 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2031/B%20-%20Penchick%20and%20Satay%20Sticks/solution.py) |
+| 2060B | [Farmer John's Card Game](https://codeforces.com/contest/2060/problem/B) | 1000 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2060/B%20-%20Farmer%20John's%20Card%20Game/solution.py) |
 | 2153C | [Symmetrical Polygons](https://codeforces.com/contest/2153/problem/C) | 1500 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2153/C%20-%20Symmetrical%20Polygons/solution.txt) |
+
+### strings
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1654B | [Prefix Removals](https://codeforces.com/contest/1654/problem/B) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1654/B%20-%20Prefix%20Removals/solution.py) |
+
+### two pointers
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1462A | [Favorite Sequence](https://codeforces.com/contest/1462/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1462/A%20-%20Favorite%20Sequence/solution.py) |
 
 ---
 
