@@ -1,0 +1,8 @@
+k,a,b = map(int,input().split())
+ 
+if a==0:
+    print(b//k + 1)
+elif a>0:
+    print((b//k) - (a-1)//k)
+else:
+    print((b//k) + (abs(a))//k + 1)
