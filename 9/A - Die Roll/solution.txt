@@ -1,0 +1,13 @@
+import math
+ 
+y,w = map(int,input().split())
+ 
+n = 6-max(y,w)+1
+d = 6
+ 
+g = math.gcd(n,d)
+ 
+n = n//g
+d = d//g
+ 
+print(f"{n}/{d}")
