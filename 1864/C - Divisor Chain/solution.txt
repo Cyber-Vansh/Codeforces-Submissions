@@ -1,0 +1,34 @@
+t = int(input())
+for _ in range(t):
+    n = int(input())
+ 
+    bits = []
+ 
+    x = n
+    while x>=1:
+        if x%2==0:
+            bits.append(0)
+        else:
+            bits.append(1)
+        
+        x//=2
+    
+    # bits.reverse()
+    # print(bits)
+ 
+    curr = n
+    ans = [curr]
+ 
+    for i in range(len(bits)-1):
+        if bits[i]==0:
+            continue
+        
+        curr -= 2**i
+        ans.append(curr)
+    
+    while curr>1:
+        curr//=2
+        ans.append(curr)
+    
+    print(len(ans))
+    print(*ans)
