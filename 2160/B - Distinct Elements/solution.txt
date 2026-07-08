@@ -1,0 +1,16 @@
+n = int(input())
+for _ in range(n):
+  a = int(input())
+  lst = list(map(int,input().split()))
+  prev = 0
+  res = []
+  for i in range(a):
+    d = lst[i] - prev
+    prev= lst[i]
+    if i- d >= 0:
+      res.append(res[i-d])
+ 
+    else:
+      res.append(i+1)
+ 
+  print(*res)
