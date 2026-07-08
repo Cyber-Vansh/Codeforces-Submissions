@@ -1,0 +1,53 @@
+n,m,k = map(int,input().split())
+arr = list(map(int,input().split()))
+ 
+rules = {}
+for i in range(k):
+    x,y,c = map(int,input().split())
+ 
+    rules[(x,y)] = c
+ 
+adj = [[] for i in range(n+1)]
+ 
+for i in range(1,n+1):
+    for j in range(i+1,n+1):
+        if (i,j) in rules:
+            adj[i].append([j,rules[(i,j)]])
+        else:
+            adj[i].append([j,0])
+        
+        if (j,i) in rules:
+            adj[j].append([i,rules[(j,i)]])
+        else:
+            adj[j].append([i,0])
+ 
+ 
+dp = [[-1 for i in range(1<<n+1)] for j in range(n+1)]
+ 
+def code(curr,i,total):
+    if total==1:
+        return 0
+ 
+ 
+    if dp[i][curr]!=-1:
+        return dp[i][curr]
+    
+    ans = 0
+ 
+    for node,c in adj[i]:
+        if ((curr)&(1<<(node-1))):
+            continue
+        ans = max(ans,code(curr+(1<<(node-1)),node,total-1)+c+arr[node-1])
+    
+    dp[i][curr] = ans
+ 
+    return dp[i][curr]
+ 
+final = 0
+ 
+for i in range(1,n+1):
+    final = max(final,code(1<<(i-1),i,m)+arr[i-1])
+ 
+print(final)
+    
+ 
