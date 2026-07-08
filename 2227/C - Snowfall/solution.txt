@@ -1,0 +1,23 @@
+t = int(input())
+for _ in range(t):
+    n = int(input())
+    arr = list(map(int,input().split()))
+ 
+    six = []
+    two = []
+    three = []
+    nothing = []
+ 
+    for i in range(n):
+        if arr[i]%6==0:
+            six.append(arr[i])
+        elif arr[i]%2==0:
+            two.append(arr[i])
+        elif arr[i]%3==0:
+            three.append(arr[i])
+        else:
+            nothing.append(arr[i])
+    
+    ans = six+two+nothing+three
+ 
+    print(*ans)
