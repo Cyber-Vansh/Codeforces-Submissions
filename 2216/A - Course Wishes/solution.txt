@@ -1,0 +1,31 @@
+t = int(input())
+for _ in range(t):
+    n,k = map(int,input().split())
+    a = list(map(int,input().split()))
+    b = list(map(int,input().split()))
+ 
+    buckets = [[] for _ in range(k+2)]
+    for i in range(n):
+        buckets[b[i]].append(i+1)
+ 
+    ops = []
+ 
+    while True:
+        pos = -1
+        
+        for level in range(k,0,-1):
+            if buckets[level]:
+                pos = level
+                break
+ 
+        if pos==-1:
+            break
+ 
+        idx = buckets[pos].pop()
+        b[idx-1] += 1
+        buckets[pos+1].append(idx)
+        ops.append(idx)
+ 
+    print(len(ops))
+    if ops:
+        print(*ops)
