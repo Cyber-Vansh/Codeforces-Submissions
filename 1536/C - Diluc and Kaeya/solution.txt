@@ -1,0 +1,35 @@
+import math
+ 
+t = int(input())
+for _ in range(t):
+    n = int(input())
+    s = input()
+ 
+    d = {}
+    a = 0
+    b = 0
+ 
+    ans = []
+    
+    for i in range(n):
+        if s[i]=="D":
+            a+=1
+        else:
+            b+=1
+    
+        if a>0 and b>0:
+            g = math.gcd(a,b)
+            curr_a = a//g
+            curr_b = b//g
+ 
+            key = f"{curr_a},{curr_b}"
+            if key in d:
+                d[key] += 1
+            else:
+                d[key] = 1
+            
+            ans.append(d[key])
+        else:
+            ans.append(a+b)
+    
+    print(*ans)
