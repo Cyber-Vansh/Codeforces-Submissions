@@ -1,0 +1,41 @@
+t = int(input())
+for _ in range(t):
+    n = int(input())
+    arr = list(map(int,input().split()))
+ 
+    op = 0
+ 
+    ans = []
+ 
+    Max = max(arr)
+    Min = min(arr)
+ 
+    while Max>0 and op<40:
+        mid = (Max+Min)//2
+ 
+        if mid==0:
+            break
+        
+        ans.append(mid)
+        op += 1
+        
+        curr_max = 0
+        curr_min = float('inf')
+ 
+        for i in range(n):
+            arr[i] = abs(arr[i]-mid)
+ 
+            curr_max = max(curr_max,arr[i])
+            curr_min = min(curr_min,arr[i])
+        
+        Max = curr_max
+        Min = curr_min
+ 
+    if Max!=0:
+        print(-1)
+    else:
+        print(len(ans))
+        print(*ans)
+ 
+ 
+ 
