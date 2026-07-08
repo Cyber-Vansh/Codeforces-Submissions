@@ -1,0 +1,62 @@
+t = int(input())
+for _ in range(t):
+    n = int(input())
+    arr = list(map(int,input().split()))
+ 
+    suff = [1]*n
+    
+    suff[n-1] = arr[n-1]
+    for i in range(n-2,-1,-1):
+        suff[i] = max(suff[i+1],arr[i])
+ 
+    # print(arr)
+    # print(suff)
+ 
+    ans = []
+ 
+    for i in range(n):
+        if i==0:
+            count = 0
+            Max = arr[i]
+ 
+            for j in range(i,n-1):
+                Max = max(Max,arr[j])
+ 
+                s = suff[j+1] if j+1<n else Max
+ 
+                count += min(Max,s)
+ 
+                # print(count,Max,s,j)
+        else:
+            suff_ = [1]*i
+                
+            suff_[i-1] = arr[i-1]
+            for j in range(i-2,-1,-1):
+                suff_[j] = max(suff_[j+1],arr[j])
+                
+            count = 0
+            Max = arr[i]
+ 
+            for j in range(i,n):
+                Max = max(Max,arr[j])
+ 
+                s = suff[j+1] if j+1<n else 1
+                s_ = suff_[0] if i-1>=0 else 1
+ 
+                count += min(Max,max(s,s_))
+                # print(count,Max,s,s_,j)
+            
+            for j in range(i-1):
+                Max = max(Max,arr[j])
+ 
+                s = suff_[j+1] if j+1<i else Max
+ 
+                count += min(Max,s)
+                # print(count,Max,s,j)
+            
+        ans.append(count)
+        # print()
+    
+    print(*ans)
+ 
+ 
