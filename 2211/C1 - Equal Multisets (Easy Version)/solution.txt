@@ -1,0 +1,50 @@
+t = int(input())
+for _ in range(t):
+    n,k = map(int,input().split())
+    a = list(map(int,input().split()))
+    b = list(map(int,input().split()))
+ 
+    d = [-1]*(n+1)
+ 
+    for i in range(n):
+        if b[i]!=-1:
+            d[b[i]]=1
+    
+    toput = []
+ 
+    for i in range(n):
+        if d[a[i]]==-1:
+            toput.append(a[i])
+    
+    idx = 0
+ 
+    for i in range(n):
+        if b[i]==-1:
+            b[i]=toput[idx]
+            idx+=1
+ 
+    if sorted(a[:k])!=sorted(b[:k]):
+        print("NO")
+        continue
+    
+    check = True
+ 
+    i = 0
+    j = i+k
+ 
+    while j<n:
+        if (a[i]==b[i] and a[j]==b[j]) or (a[i]==a[j] and b[i]==b[j]):
+            pass
+        else:
+            check = False
+            break
+        i+=1
+        j+=1
+    
+    if check:
+        print("YES")
+    else:
+        print("NO")
+ 
+ 
+    
