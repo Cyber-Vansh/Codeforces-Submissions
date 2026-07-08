@@ -1,0 +1,88 @@
+from collections import deque
+ 
+n,m,k = map(int,input().split())
+mat = []
+for i in range(n):
+    mat.append(list(input()))
+ 
+if k%2==1:
+    print("IMPOSSIBLE")
+else:
+    startx = None
+    starty = None
+ 
+    for i in range(n):
+        for j in range(m):
+            if mat[i][j]=="X":
+                startx = i
+                starty = j
+                break
+            
+    def is_valid(a,b):
+        if 0<=a<n and 0<=b<m and mat[a][b]!="*":
+            return True
+        return False
+    
+    dis = [[float('inf') for i in range(m)] for j in range(n)]
+    dis[startx][starty]=0
+    
+    de = deque([[startx,starty,0]])
+ 
+    while de:
+        currx,curry,currd = de.popleft()
+ 
+        if is_valid(currx+1,curry) and dis[currx+1][curry]>currd+1:
+            dis[currx+1][curry] = currd+1
+            de.append([currx+1,curry,currd+1])
+ 
+        if is_valid(currx-1,curry) and dis[currx-1][curry]>currd+1:
+            dis[currx-1][curry] = currd+1
+            de.append([currx-1,curry,currd+1])
+ 
+        if is_valid(currx,curry+1) and dis[currx][curry+1]>currd+1:
+            dis[currx][curry+1] = currd+1
+            de.append([currx,curry+1,currd+1])
+ 
+        if is_valid(currx,curry-1) and dis[currx][curry-1]>currd+1:
+            dis[currx][curry-1] = currd+1
+            de.append([currx,curry-1,currd+1])
+    
+    def canGo(a,b,k):
+        if is_valid(a,b) and k>=dis[a][b]:
+            return True
+        return False
+    
+    check = True
+    
+    ans = []
+ 
+    currx,curry,currk = startx,starty,k
+ 
+    while currk>0:
+        if canGo(currx+1,curry,currk-1):
+            ans.append("D")
+            currx,curry,currk = currx+1,curry,currk-1
+            continue
+        
+        if canGo(currx,curry-1,currk-1):
+            ans.append("L")
+            currx,curry,currk = currx,curry-1,currk-1
+            continue
+        
+        if canGo(currx,curry+1,currk-1):
+            ans.append("R")
+            currx,curry,currk = currx,curry+1,currk-1
+            continue
+        
+        if canGo(currx-1,curry,currk-1):
+            ans.append("U")
+            currx,curry,currk = currx-1,curry,currk-1
+            continue
+        
+        check = False
+        break
+    
+    if not check:
+        print("IMPOSSIBLE")
+    else:
+        print("".join(ans))
