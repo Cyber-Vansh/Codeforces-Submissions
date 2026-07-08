@@ -1,0 +1,61 @@
+t = int(input())
+for _ in range(t):
+    n,k = map(int,input().split())
+ 
+    count2 = 0
+    count5 = 0
+ 
+    x = n
+    while x>1 and x%2==0:
+        count2+=1
+        x//=2
+    
+    x = n
+    while x>1 and x%5==0:
+        count5+=1
+        x//=5
+    
+    if count2>count5:
+        diff = count2-count5
+ 
+        curr = 1
+        i = 0
+ 
+        while curr*5<=k and i<diff:
+            i+=1
+            curr*=5
+        
+        while curr*10<=k:
+            curr*=10
+        
+        curr = curr*(k//curr)
+ 
+        if curr==1:
+            if n%10==0:
+                print(n)
+            else:
+                print(n*k)
+        else:
+            print(n*curr)
+    else:
+        diff = count5-count2
+ 
+        curr = 1
+        i = 0
+ 
+        while curr*2<=k and i<diff:
+            i+=1
+            curr*=2
+        
+        while curr*10<=k:
+            curr*=10
+        
+        curr = curr*(k//curr)
+ 
+        if curr==1:
+            if n%10==0:
+                print(n)
+            else:
+                print(n*k)
+        else:
+            print(n*curr)
