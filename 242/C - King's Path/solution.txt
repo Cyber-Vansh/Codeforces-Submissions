@@ -1,0 +1,41 @@
+from collections import deque
+ 
+x0,y0,x1,y1 = map(int,input().split())
+n = int(input())
+allowed = []
+for i in range(n):
+    allowed.append(list(map(int,input().split())))
+ 
+valid = {}
+ 
+for r,a,b in allowed:
+    for i in range(a,b+1):
+        valid[(r,i)] = -1
+ 
+def canPush(a,b):
+    if 0<a<=1000000000 and 0<b<=1000000000 and valid.get((a,b),0)==-1:
+        return True
+    
+    return False
+ 
+de = deque([(x0,y0,0)])
+ 
+ans = float('inf')
+ 
+while de:
+    currx,curry,dis = de.popleft()
+ 
+    for i in range(-1,2):
+        for j in range(-1,2):
+            if i==0 and j==0:
+                continue
+            if canPush(currx+i,curry+j):
+                if currx+i==x1 and curry+j==y1:
+                    ans = min(ans,dis+1)
+                valid[(currx+i,curry+j)] = 1
+                de.append((currx+i,curry+j,dis+1))
+ 
+if ans==float('inf'):
+    print(-1)
+else:
+    print(ans)
