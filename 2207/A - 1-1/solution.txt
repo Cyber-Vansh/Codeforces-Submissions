@@ -1,0 +1,41 @@
+t = int(input())
+for _ in range(t):
+    n = int(input())
+    s = input()
+ 
+    x = -1
+    y = n
+    for i in range(n):
+        if s[i]=="1":
+            break
+        x = i
+    x += 1
+    for i in range(n-1,-1,-1):
+        if s[i]=="1":
+            break
+        y = i
+    
+    s = s[x:y]
+ 
+    Max = 0
+    Min = 0
+ 
+    lis = list(s)
+ 
+    for i in range(len(s)):
+        if lis[i]=="1" or (lis[i-1]=="1" and lis[i+1]=="1"):
+            lis[i]="1"
+            Max += 1
+ 
+    # print(lis)
+    
+    for i in range(1,len(s)-1):
+        if lis[i]=="0" or (lis[i-1]=="1" and lis[i+1]=="1"):
+            lis[i]="0"
+            Min += 1
+    
+    Min = len(s)-Min
+ 
+    # print(lis)
+ 
+    print(Min,Max)
