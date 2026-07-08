@@ -1,0 +1,15 @@
+t = int(input())
+for _ in range(t):
+    n,a,b = map(int,input().split())
+ 
+    if n<3:
+        if n*a>b:
+            print(b)
+        else:
+            print(min(a*(n%3),b))
+    else:
+        if 3*a>b:
+            ans = b*(n//3) + min(a*(n%3),b)
+            print(ans)
+        else:
+            print(n*a)
