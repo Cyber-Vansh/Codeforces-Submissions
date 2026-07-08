@@ -1,0 +1,22 @@
+t = int(input())
+for _ in range(t):
+    n = int(input())
+    arr = list(map(int,input().split()))
+ 
+    extras = arr.count(1)
+    curr = extras
+ 
+    ans = 0
+ 
+    for i in arr:
+        if i!=1:
+            ans += i
+ 
+            if curr>0:
+                ans += min((i//2)-1,curr)
+                curr -= min((i//2)-1,curr)
+ 
+                if n-extras==1 and curr>0:
+                    ans += 1
+    
+    print(ans if ans>2 else 0)
