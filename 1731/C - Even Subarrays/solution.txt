@@ -1,0 +1,38 @@
+all_sqrs = [0]
+ 
+for i in range(1,512):
+    all_sqrs.append(i**2)
+ 
+# print(all_sqrs)
+ 
+t = int(input())
+for _ in range(t):
+    n = int(input())
+    a = list(map(int,input().split()))
+ 
+    pre = [a[0]]
+ 
+    for i in range(1,n):
+        pre.append(pre[-1]^a[i])
+ 
+    # print(pre)
+    
+    d = [0]*((2*n)+1)
+    count = 0
+ 
+    for i in range(n):
+        x = 1 if pre[i] in all_sqrs else 0
+        for j in all_sqrs:
+            if pre[i]^j<len(d) and d[pre[i]^j]!=0:
+                x+=d[pre[i]^j]
+        
+        # print(a[i],x)
+        d[pre[i]] = d[pre[i]]+1
+        
+        count+=x
+        # print(count)
+    
+    ans = (n*(n+1))//2
+    ans-=count
+ 
+    print(ans)
