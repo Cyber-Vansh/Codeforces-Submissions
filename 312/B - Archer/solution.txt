@@ -1,0 +1,5 @@
+a,b,c,d = map(int,input().split())
+ 
+ans = (a/b)/((a/b)+(c/d)-((a*c)/(b*d)))
+ 
+print(ans)
