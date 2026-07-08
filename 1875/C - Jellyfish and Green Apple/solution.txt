@@ -1,0 +1,37 @@
+import math
+ 
+t = int(input())
+for _ in range(t):
+    n,m = map(int,input().split())
+ 
+    if n%m==0:
+        print(0)
+        continue
+    
+    gcd = math.gcd(n,m)
+    curr = m//gcd
+ 
+    check = True
+    while curr>1:
+        if curr%2==1:
+            check = False
+            break
+        curr//=2
+    
+    if not check:
+        print(-1)
+        continue
+    
+    count = 0
+    
+    while True:
+        if n%m==0:
+            break
+        
+        if n > m:
+            n%=m
+        else:
+            count+=n
+            n*=2
+    
+    print(count)
