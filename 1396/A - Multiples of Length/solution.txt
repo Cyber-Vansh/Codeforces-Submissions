@@ -1,0 +1,49 @@
+n = int(input())
+arr = list(map(int,input().split()))
+ 
+if n == 1:
+    print(1,1)
+    print(0)
+    print(1,1)
+    print(0)
+    print(1,1)
+    print(-arr[0])
+else:
+ 
+    mods = {n: 0}
+    for i in range(n):
+        x = (n-1)*i
+        y = x%n
+ 
+        mods[y] = x
+ 
+    ans = []
+ 
+    for i in range(n-1):
+        x = arr[i]%n
+        x = n-x
+ 
+        ans.append(mods[x])
+        arr[i] += mods[x]
+ 
+ 
+    print(1,n-1)
+    print(*ans)
+    # print(arr)
+ 
+    x = arr[-1]%n
+    arr[-1] -= x
+ 
+    print(n,n)
+    print(-x)
+    # print(arr)
+ 
+ 
+    ans = []
+    for i in arr:
+        ans.append(-i)
+ 
+ 
+ 
+    print(1,n)
+    print(*ans)
