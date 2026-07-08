@@ -1,0 +1,22 @@
+t = int(input())
+for _ in range(t):
+    n = int(input())
+    w = list(map(int,input().split()))
+ 
+    ans = 0
+ 
+    for s in range(1,101):
+        freq = {}
+        cnt = 0
+ 
+        for i in range(n):
+            if s-w[i] in freq and freq[s-w[i]]>0:
+                cnt += 1
+                freq[s-w[i]]-=1
+            else:
+                freq[w[i]] = freq.get(w[i],0)+1
+        
+        ans = max(ans,cnt)
+    
+    print(ans)
+                
