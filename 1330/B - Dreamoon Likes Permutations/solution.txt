@@ -1,0 +1,47 @@
+t = int(input())
+for _ in range(t):
+    n = int(input())
+    arr = list(map(int,input().split()))
+ 
+    mark = {}
+    Max = 0
+ 
+    is_permutation1 = [0]*n
+ 
+    for i in range(n):
+        if arr[i] in mark:
+            break
+        
+        mark[arr[i]] = 1
+        Max = max(Max,arr[i])
+ 
+        if Max==i+1:
+            is_permutation1[i] = 1
+    
+    mark = {}
+    Max = 0
+ 
+    is_permutation2 = [0]*n
+ 
+    for i in range(n-1,-1,-1):
+        if arr[i] in mark:
+            break
+        
+        mark[arr[i]] = 1
+        Max = max(Max,arr[i])
+ 
+        if Max==n-i:
+            is_permutation2[i] = 1
+    
+    ans = 0
+    final = []
+ 
+    for i in range(n-1):
+        if is_permutation1[i] and is_permutation2[i+1]:
+            ans += 1
+            final.append([i+1,n-i-1])
+    
+    print(ans)
+    for i,j in final:
+        print(i,j)
+        
