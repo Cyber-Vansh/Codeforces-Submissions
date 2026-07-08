@@ -1,0 +1,17 @@
+def digit_sum(n):
+    s = 0
+    while n>0:
+        s+=n%10
+        n//=10
+    return s
+ 
+t = int(input())
+for _ in range(t):
+    x = int(input())
+    ans = 0
+ 
+    for y in range(x,x+91):
+        if y-digit_sum(y)==x:
+            ans += 1
+ 
+    print(ans)
