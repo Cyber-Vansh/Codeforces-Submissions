@@ -1,0 +1,11 @@
+t = int(input())
+for _ in range(t):
+    n = int(input())
+    a = list(map(int,input().split()))
+    s = set(a)
+    k = len(s)
+ 
+    while k not in s:
+        k+=1
+ 
+    print(k)
