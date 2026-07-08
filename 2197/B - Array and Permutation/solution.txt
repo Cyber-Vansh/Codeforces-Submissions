@@ -1,0 +1,36 @@
+t = int(input())
+for _ in range(t):
+    n = int(input())
+    p = list(map(int,input().split()))
+    a = list(map(int,input().split()))
+ 
+    pos = [0]*(n+1)
+    for i,val in enumerate(p):
+        pos[val] = i
+ 
+    seen = set()
+    last = None
+    ok = True
+    for x in a:
+        if x != last:
+            if x in seen:
+                ok = False
+                break
+            seen.add(x)
+            last = x
+ 
+    if not ok:
+        print("NO")
+        continue
+ 
+    b = []
+    for x in a:
+        if not b or b[-1]!=x:
+            b.append(x)
+ 
+    for i in range(1,len(b)):
+        if pos[b[i]]<=pos[b[i-1]]:
+            ok = False
+            break
+ 
+    print("YES" if ok else "NO")
