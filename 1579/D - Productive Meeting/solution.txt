@@ -1,0 +1,36 @@
+import heapq
+ 
+t = int(input())
+for _ in range(t):
+    n = int(input())
+    arr = list(map(int,input().split()))
+ 
+    heap = []
+ 
+    for i in range(n):
+        heapq.heappush(heap,(-arr[i],i))
+    
+    ans = []
+ 
+    while len(heap)>1:
+        a,idx_a = (heapq.heappop(heap))
+        b,idx_b = (heapq.heappop(heap))
+ 
+        a,b = -a,-b
+ 
+        if a>0 and b>0:
+            ans.append([idx_a,idx_b])
+        
+        a-=1
+        b-=1
+ 
+        if a>0:
+            heapq.heappush(heap,(-a,idx_a))
+        if b>0:
+            heapq.heappush(heap,(-b,idx_b))
+ 
+    print(len(ans))
+    for i,j in ans:
+        print(i+1,j+1)
+ 
+ 
