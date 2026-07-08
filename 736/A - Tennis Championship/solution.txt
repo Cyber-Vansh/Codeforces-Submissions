@@ -1,0 +1,10 @@
+n = int(input())
+ 
+a,b = 2,3
+ans = 0
+ 
+while a<=n:
+    ans += 1
+    a,b = b,a+b
+ 
+print(ans)
