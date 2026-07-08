@@ -1,0 +1,84 @@
+t = int(input())
+for _ in range(t):
+    n,m = map(int,input().split())
+    grid = []
+ 
+    for i in range(n):
+        grid.append(input())
+    
+    if grid[0][0]==grid[n-1][m-1]:
+        print("YES")
+        continue
+    
+    if grid[0][0]=="W":
+        check1 = False
+        check2 = False
+ 
+        for i in range(m):
+            if grid[0][i]=="B":
+                check1 = True
+                break
+        
+        for i in range(n):
+            if grid[i][0]=="B":
+                check2 = True
+                break
+        
+        if check1 and check2:
+            print("YES")
+            continue
+        
+        check1 = False
+        check2 = False
+ 
+        for i in range(m):
+            if grid[n-1][i]=="W":
+                check1 = True
+                break
+        
+        for i in range(n):
+            if grid[i][m-1]=="W":
+                check2 = True
+                break
+        
+        if check1 and check2:
+            print("YES")
+            continue
+    else:
+        check1 = False
+        check2 = False
+ 
+        for i in range(m):
+            if grid[0][i]=="W":
+                check1 = True
+                break
+        
+        for i in range(n):
+            if grid[i][0]=="W":
+                check2 = True
+                break
+        
+        if check1 and check2:
+            print("YES")
+            continue
+        
+        check1 = False
+        check2 = False
+ 
+        for i in range(m):
+            if grid[n-1][i]=="B":
+                check1 = True
+                break
+        
+        for i in range(n):
+            if grid[i][m-1]=="B":
+                check2 = True
+                break
+        
+        if check1 and check2:
+            print("YES")
+            continue
+    
+    print("NO")
+        
+ 
