@@ -1,0 +1,18 @@
+t = int(input())
+for _ in range(t):
+    s,k,m = map(int,input().split())
+ 
+    if k>m:
+        print(max(0,s-m))
+    else:
+        if s<=k:
+            k = (m//k)*k
+            print(max(0,s+k-m))
+        else:
+            if (m//k)%2==0:
+                k = (m//k)*k
+                print(max(0,s+k-m))
+            else:
+                k_ = k
+                k = (m//k)*k
+                print(max(0,k_+k-m))
