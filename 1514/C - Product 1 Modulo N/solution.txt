@@ -1,0 +1,23 @@
+import math
+ 
+n = int(input())
+ 
+nums = []
+ 
+for i in range(2,n):
+    if math.gcd(i,n)==1:
+        nums.append(i)
+ 
+curr = 1
+for i in nums:
+    curr = (curr*i)%n
+ 
+if curr==1:
+    print(1+len(nums))
+    print(1,*list([i for i in nums]))
+else:
+    print(len(nums))
+    print(1, end=" ")
+    for i in nums:
+        if i != curr:
+            print(i, end=" ")
