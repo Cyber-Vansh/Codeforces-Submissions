@@ -1,0 +1,34 @@
+t = int(input())
+for _ in range(t):
+    n = int(input())
+    arr = list(map(int,input().split()))
+    
+    mark = [False]*(n+1)
+ 
+    check = True
+ 
+    for i in range(1,n+1):
+        if not mark[i]:
+            curr = []
+            j = i
+            while j<n+1:
+                mark[j] = True
+                curr.append(arr[j-1])
+                j*=2
+            
+            correct = []
+            j = i
+            while j<n+1:
+                correct.append(j)
+                j*=2
+ 
+            # print(curr,correct)
+            
+            if sorted(curr)!=correct:
+                check = False
+                break
+    
+    if check:
+        print("YES")
+    else:
+        print("NO")
