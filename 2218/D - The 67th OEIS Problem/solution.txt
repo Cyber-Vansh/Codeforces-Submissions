@@ -1,0 +1,22 @@
+primes = []
+ 
+arr = [True]*(2*(10**5)+1)
+for i in range(2,len(arr)):
+    if arr[i]:
+        primes.append(i)
+        for j in range(i*i,len(arr),i):
+            arr[j] = False
+ 
+t = int(input())
+for _ in range(t):
+    n = int(input())
+    
+    ans = [1]
+ 
+    i = 0
+ 
+    while len(ans)<n:
+        ans.append(primes[i]*primes[i+1])
+        i+=1
+    
+    print(*ans)
