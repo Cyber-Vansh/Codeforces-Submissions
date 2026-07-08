@@ -1,0 +1,26 @@
+t = int(input())
+for _ in range(t):
+    a,b = map(int,input().split())
+ 
+    def count(a,b):
+        i = 0
+        count = 0
+ 
+        while True:
+            if a>=2**i:
+                a -= 2**i
+                i += 1
+                count += 1
+            else:
+                break
+ 
+            if b>=2**i:
+                b -= 2**i
+                i += 1
+                count += 1
+            else:
+                break
+        
+        return count
+    
+    print(max(count(a,b),count(b,a)))
