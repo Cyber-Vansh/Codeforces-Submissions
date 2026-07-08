@@ -1,0 +1,22 @@
+<h2><a href="https://codeforces.com/contest/1984/problem/C1" target="_blank" rel="noopener noreferrer">1984C1 — Magnitude (Easy Version)</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 1300 |
+| **Language** | PyPy 3-64 |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 1984C1](https://codeforces.com/contest/1984/problem/C1) |
+
+## Topics
+`dp` `greedy` `math`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">C1. Magnitude (Easy Version)</div><div class="time-limit"><div class="property-title">time limit per test</div>2 seconds</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p><span class="tex-font-style-bf">The two versions of the problem are different. You may want to read both versions. You can make hacks only if both versions are solved.</span></p><p>You are given an array $$$a$$$ of length $$$n$$$. Start with $$$c = 0$$$. Then, for each $$$i$$$ from $$$1$$$ to $$$n$$$ (in increasing order) do <span class="tex-font-style-bf">exactly one</span> of the following: </p><ul> <li> Option $$$1$$$: set $$$c$$$ to $$$c + a_i$$$. </li><li> Option $$$2$$$: set $$$c$$$ to $$$|c + a_i|$$$, where $$$|x|$$$ is the absolute value of $$$x$$$. </li></ul><p>Let the maximum final value of $$$c$$$ after the procedure described above be equal to $$$k$$$. Find $$$k$$$.</p></div><div class="input-specification"><div class="section-title">Input</div><p>The first line contains a single integer $$$t$$$ ($$$1 \leq t \leq 10^4$$$) — the number of test cases.</p><p>The first line of each test case contains a single integer $$$n$$$ ($$$2 \leq n \leq 2 \cdot 10^5$$$).</p><p>The second line of each case contains $$$n$$$ integers $$$a_1$$$, $$$a_2$$$, $$$a_3$$$, $$$\ldots$$$, $$$a_n$$$ ($$$-10^9 \leq a_i \leq 10^9$$$).</p><p>The sum of $$$n$$$ over all test cases does not exceed $$$3 \cdot 10^5$$$.</p></div><div class="output-specification"><div class="section-title">Output</div><p>For each test case, output a single integer — the value of $$$k$$$.</p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id0024122467458903163" id="id0038982083599450956" class="input-output-copier">Copy</div></div><pre id="id0024122467458903163"><div class="test-example-line test-example-line-even test-example-line-0">5</div><div class="test-example-line test-example-line-odd test-example-line-1">4</div><div class="test-example-line test-example-line-odd test-example-line-1">10 -9 -3 4</div><div class="test-example-line test-example-line-even test-example-line-2">8</div><div class="test-example-line test-example-line-even test-example-line-2">1 4 3 4 1 4 3 4</div><div class="test-example-line test-example-line-odd test-example-line-3">3</div><div class="test-example-line test-example-line-odd test-example-line-3">-1 -2 -3</div><div class="test-example-line test-example-line-even test-example-line-4">4</div><div class="test-example-line test-example-line-even test-example-line-4">-1000000000 1000000000 1000000000 1000000000</div><div class="test-example-line test-example-line-odd test-example-line-5">4</div><div class="test-example-line test-example-line-odd test-example-line-5">1 9 8 4</div></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id002133797329507483" id="id0002384368131231518" class="input-output-copier">Copy</div></div><pre id="id002133797329507483">6
+24
+6
+4000000000
+22
+</pre></div></div></div><div class="note"><div class="section-title">Note</div><p>In the first test case, if we set $$$c$$$ to its absolute value every time we add to it, we end up with $$$6$$$. It can be shown that this is the maximum result.</p><p>In the second test case, taking the absolute value will never change anything, so we can just sum the array without doing anything to get $$$24$$$.</p><p>In the third test case, it is optimal to wait until the end to set $$$c$$$ to its absolute value, resulting in an answer of $$$6$$$.</p></div>
