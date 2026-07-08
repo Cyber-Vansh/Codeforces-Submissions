@@ -1,0 +1,32 @@
+t = int(input())
+ 
+for _ in range(t):
+    n,h,l = map(int,input().split())
+    a = list(map(int,input().split()))
+ 
+    row = 0
+    col = 0
+    both = 0
+ 
+    for x in a:
+        if x<=h and x<=l:
+            both+=1
+        elif x<=h:
+            row+=1
+        elif x<=l:
+            col+=1
+ 
+    pairs = min(row,col)
+ 
+    row-=pairs
+    col-=pairs
+ 
+    need = row+col
+    use = min(both,need)
+ 
+    pairs+=use
+    both-=use
+ 
+    pairs += both//2
+ 
+    print(pairs)
