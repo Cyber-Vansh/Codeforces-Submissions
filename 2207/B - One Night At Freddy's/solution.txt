@@ -1,0 +1,35 @@
+t = int(input())
+for _ in range(t):
+    n,m,l = map(int,input().split())
+    a = list(map(int,input().split()))
+ 
+    ani = [0]*m
+ 
+    j = 0
+    for i in range(1,a[n-1]+1):
+        turns = min(n-j+1,m)
+ 
+        ani.sort()
+ 
+        ani[m-turns] += 1
+        
+        ani.sort()
+ 
+        if i==a[j]:
+            # idx = 0
+            # Max = 0
+ 
+            # for x in range(m):
+            #     if ani[x]>Max:
+            #         Max = a[x]
+            #         idx = x
+            
+            # ani[idx] = 0
+ 
+            ani[-1] = 0
+ 
+            j+=1
+        
+        # print(ani)
+    
+    print(max(ani)+l-a[-1])
