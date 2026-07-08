@@ -1,0 +1,50 @@
+t = int(input())
+for _ in range(t):
+    n = int(input())
+    p = list(map(int,input().split()))
+    d = list(map(int,input().split()))
+ 
+    q = [None]*n
+    curr = 1
+ 
+    check = True
+ 
+    big = [0]*n
+    for i in range(n):
+        for j in range(i+1,n):
+            if p[i]<p[j] and q[j] is None:
+                big[i]+=1
+ 
+    while curr<=n and check:
+        
+        # print(big,d,q)
+ 
+        update = False
+        
+        for i in range(n):
+            if q[i] is None:
+                if big[i]==d[i]:
+                    q[i] = curr
+                    curr += 1
+                    update = True
+                    for k in range(i):
+                        if q[k] is None and p[k]<p[i]:
+                            big[k] -= 1
+                    break
+                elif big[i]<d[i]:
+                    check = False
+                    break
+        
+        if not update:
+            for i in range(n):
+                if q[i] is None:
+                    q[i] = curr
+                    curr+=1
+                    break
+        
+        # print(q)
+ 
+    if check:
+        print(*q)
+    else:
+        print(-1)
