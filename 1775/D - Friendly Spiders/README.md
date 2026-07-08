@@ -1,0 +1,29 @@
+<h2><a href="https://codeforces.com/contest/1775/problem/D" target="_blank" rel="noopener noreferrer">1775D — Friendly Spiders</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 1800 |
+| **Language** | PyPy 3-64 |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 1775D](https://codeforces.com/contest/1775/problem/D) |
+
+## Topics
+`dfs and similar` `graphs` `math` `number theory` `shortest paths`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">D. Friendly Spiders</div><div class="time-limit"><div class="property-title">time limit per test</div>2 seconds</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p>Mars is home to an unusual species of spiders — Binary spiders.</p><p>Right now, Martian scientists are observing a colony of $$$n$$$ spiders, the $$$i$$$-th of which has $$$a_i$$$ legs.</p><p>Some of the spiders are friends with each other. Namely, the $$$i$$$-th and $$$j$$$-th spiders are friends if $$$\gcd(a_i, a_j) \ne 1$$$, i. e., there is some integer $$$k \ge 2$$$ such that $$$a_i$$$ and $$$a_j$$$ are simultaneously divided by $$$k$$$ without a remainder. Here $$$\gcd(x, y)$$$ denotes the <a href="https://en.wikipedia.org/wiki/Greatest_common_divisor">greatest common divisor (GCD)</a> of integers $$$x$$$ and $$$y$$$.</p><p>Scientists have discovered that spiders can send messages. If two spiders are friends, then they can transmit a message directly in one second. Otherwise, the spider must pass the message to his friend, who in turn must pass the message to his friend, and so on until the message reaches the recipient.</p><p>Let's look at an example.</p><p>Suppose a spider with eight legs wants to send a message to a spider with $$$15$$$ legs. He can't do it directly, because $$$\gcd(8, 15) = 1$$$. But he can send a message through the spider with six legs because $$$\gcd(8, 6) = 2$$$ and $$$\gcd(6, 15) = 3$$$. Thus, the message will arrive in two seconds.</p><p>Right now, scientists are observing how the $$$s$$$-th spider wants to send a message to the $$$t$$$-th spider. The researchers have a hypothesis that spiders always transmit messages optimally. For this reason, scientists would need a program that could calculate the minimum time to send a message and also deduce one of the optimal routes.</p><center> <img class="tex-graphics" src="https://espresso.codeforces.com/fc0717c0aa9818e770d2cb5049c62d4b9ee6e4d6.png" style="max-width: 100.0%;max-height: 100.0%;"> </center></div><div class="input-specification"><div class="section-title">Input</div><p>The first line of input contains an integer $$$n$$$ ($$$2 \le n \le 3\cdot10^5$$$) — the number of spiders in the colony.</p><p>The second line of input contains $$$n$$$ integers $$$a_1, a_2, \ldots, a_n$$$ ($$$1 \le a_i \le 3\cdot10^5$$$) — the number of legs the spiders have.</p><p>The third line of input contains two integers $$$s$$$ and $$$t$$$ ($$$1 \le s, t \le n$$$) —the spiders between which the message must be sent.</p></div><div class="output-specification"><div class="section-title">Output</div><p>If it is impossible to transmit a message between the given pair of spiders, print $$$-1$$$.</p><p>Otherwise, in the first line of the output print the integer $$$t$$$ ($$$t \ge 1$$$) — the number of spiders that participate in the message transmission (i. e. the minimum time of message delivery in seconds plus one). In the second line, print $$$t$$$ different integers $$$b_1, b_2, \ldots, b_t$$$ ($$$1 \le b_i \le n$$$) — the ids of the spiders through which the message should follow, in order from sender to receiver.</p><p>If there are several optimal routes for the message, output any of them.</p></div><div class="sample-tests"><div class="section-title">Examples</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id006037458864225552" id="id005824793595576587" class="input-output-copier">Copy</div></div><pre id="id006037458864225552">7
+2 14 9 6 8 15 11
+5 6
+</pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id0048325100673540744" id="id005287045686271352" class="input-output-copier">Copy</div></div><pre id="id0048325100673540744">3
+5 4 6 </pre></div><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id007439425276528792" id="id003969107058254374" class="input-output-copier">Copy</div></div><pre id="id007439425276528792">7
+2 14 9 6 8 15 11
+5 7
+</pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id006633417589621529" id="id00307903876786799" class="input-output-copier">Copy</div></div><pre id="id006633417589621529">-1</pre></div><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id005782891451327462" id="id004073254638090368" class="input-output-copier">Copy</div></div><pre id="id005782891451327462">7
+2 14 9 6 8 15 11
+5 5
+</pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id002781824453627766" id="id0012056753035898649" class="input-output-copier">Copy</div></div><pre id="id002781824453627766">1
+5
+</pre></div></div></div><div class="note"><div class="section-title">Note</div><p>The first example is shown above. It shows that the message from the $$$5$$$-th spider (with eight legs) to the $$$6$$$-th spider (with $$$15$$$ legs) is optimal to pass through the $$$4$$$-th spider (with six legs).</p><p>In the second example, the spider number $$$7$$$ (with $$$11$$$ legs) is not friends with anyone, so it is impossible to send him a message.</p></div>
