@@ -1,0 +1,43 @@
+t = int(input())
+for _ in range(t):
+    n = int(input())
+    a = list(map(int,input().split()))
+    b = list(map(int,input().split()))
+ 
+    check = True
+ 
+    extra = 0
+ 
+    for i in range(n):
+        if a[i]==b[i]:
+            extra = 0
+            continue
+        
+        if a[i]<b[i]:
+            extra = b[i]-a[i]
+            if i+1<n:
+                a[i+1] -= extra
+            a[i] = b[i]
+        else:
+            check = False
+        
+        # print(i,extra,a)
+    
+    # print(a)
+    # print(b)
+    
+    # if a[n-1]>b[n-1]:
+    #     if n-2>=0 and carryminus[n-2]>=a[n-1]-b[n-1]:
+    #         a[n-1] = b[n-1]
+    # else:
+    #     a[n-1] = b[n-1]
+    
+    if check and a==b:
+        print("YES")
+    else:
+        print("NO")
+ 
+ 
+ 
+ 
+ 
