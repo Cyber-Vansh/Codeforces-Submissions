@@ -1,0 +1,15 @@
+t = int(input())
+for _ in range(t):
+    n = int(input())
+    arr = list(map(int,input().split()))
+ 
+    def code(i,curr):
+        if i==n:
+            if curr==67:
+                return True
+            else:
+                return False
+        
+        return code(i+1,curr*arr[i]) or code(i+1,curr)
+    
+    print("YES" if code(0,1) else "NO")
