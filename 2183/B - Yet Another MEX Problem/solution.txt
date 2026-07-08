@@ -1,0 +1,12 @@
+t = int(input())
+for _ in range(t):
+    n, k = map(int,input().split())
+    a = list(map(int,input().split()))
+ 
+    s = set(a)
+ 
+    mex = 0
+    while mex in s:
+        mex+=1
+ 
+    print(min(mex,k-1))
