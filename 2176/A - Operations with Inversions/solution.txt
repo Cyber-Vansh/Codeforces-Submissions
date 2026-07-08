@@ -1,0 +1,15 @@
+t = int(input())
+for _ in range(t):
+    n = int(input())
+    a = list(map(int,input().split()))
+    
+    max = 0
+    ans = 0
+    
+    for x in a:
+        if x>=max:
+            max = x
+        else:
+            ans += 1
+    
+    print(ans)
