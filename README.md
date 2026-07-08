@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 61 | 20 |
+| 76 | 21 |
 
 ---
 
@@ -14,23 +14,24 @@
 
 - [Uncategorized](#uncategorized) (1)
 - [binary search](#binary-search) (4)
-- [bitmasks](#bitmasks) (2)
-- [brute force](#brute-force) (16)
-- [combinatorics](#combinatorics) (2)
-- [constructive algorithms](#constructive-algorithms) (23)
+- [bitmasks](#bitmasks) (3)
+- [brute force](#brute-force) (21)
+- [combinatorics](#combinatorics) (3)
+- [constructive algorithms](#constructive-algorithms) (25)
 - [data structures](#data-structures) (2)
 - [dfs and similar](#dfs-and-similar) (1)
-- [dp](#dp) (4)
+- [dp](#dp) (7)
 - [games](#games) (1)
 - [geometry](#geometry) (2)
-- [graphs](#graphs) (1)
-- [greedy](#greedy) (32)
+- [graphs](#graphs) (3)
+- [greedy](#greedy) (40)
 - [hashing](#hashing) (2)
-- [implementation](#implementation) (11)
-- [math](#math) (34)
+- [implementation](#implementation) (17)
+- [math](#math) (39)
 - [number theory](#number-theory) (11)
-- [sortings](#sortings) (7)
-- [strings](#strings) (2)
+- [shortest paths](#shortest-paths) (1)
+- [sortings](#sortings) (9)
+- [strings](#strings) (5)
 - [two pointers](#two-pointers) (4)
 
 ---
@@ -56,6 +57,7 @@
 |---|---------|------------|----------|
 | 1731C | [Even Subarrays](https://codeforces.com/contest/1731/problem/C) | 1700 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1731/C%20-%20Even%20Subarrays/solution.txt) |
 | 2093D | [Skibidi Table](https://codeforces.com/contest/2093/problem/D) | 1400 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2093/D%20-%20Skibidi%20Table/solution.py) |
+| 2170A | [Maximum Neighborhood](https://codeforces.com/contest/2170/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2170/A%20-%20Maximum%20Neighborhood/solution.py) |
 
 ### brute force
 
@@ -77,6 +79,11 @@
 | 2144A | [Cut the Array](https://codeforces.com/contest/2144/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2144/A%20-%20Cut%20the%20Array/solution.py) |
 | 2146A | [Equal Occurrences](https://codeforces.com/contest/2146/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2146/A%20-%20Equal%20Occurrences/solution.py) |
 | 2148A | [Sublime Sequence](https://codeforces.com/contest/2148/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2148/A%20-%20Sublime%20Sequence/solution.py) |
+| 2163A | [Souvlaki VS. Kalamaki](https://codeforces.com/contest/2163/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2163/A%20-%20Souvlaki%20VS.%20Kalamaki/solution.py) |
+| 2164A | [Sequence Game](https://codeforces.com/contest/2164/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2164/A%20-%20Sequence%20Game/solution.py) |
+| 2170A | [Maximum Neighborhood](https://codeforces.com/contest/2170/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2170/A%20-%20Maximum%20Neighborhood/solution.py) |
+| 2182B | [New Year Cake](https://codeforces.com/contest/2182/problem/B) | 800 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2182/B%20-%20New%20Year%20Cake/solution.txt) |
+| 2182C | [Production of Snowmen](https://codeforces.com/contest/2182/problem/C) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2182/C%20-%20Production%20of%20Snowmen/solution.txt) |
 
 ### combinatorics
 
@@ -84,6 +91,7 @@
 |---|---------|------------|----------|
 | 2072B | [Having Been a Treasurer in the Past, I Help Goblins Deceive](https://codeforces.com/contest/2072/problem/B) | 900 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2072/B%20-%20Having%20Been%20a%20Treasurer%20in%20the%20Past%2C%20I%20Help%20Goblins%20Deceive/solution.py) |
 | 2144C | [Non-Descending Arrays](https://codeforces.com/contest/2144/problem/C) | 1300 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2144/C%20-%20Non-Descending%20Arrays/solution.py) |
+| 2182C | [Production of Snowmen](https://codeforces.com/contest/2182/problem/C) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2182/C%20-%20Production%20of%20Snowmen/solution.txt) |
 
 ### constructive algorithms
 
@@ -100,6 +108,7 @@
 | 2092B | [Lady Bug](https://codeforces.com/contest/2092/problem/B) | 1000 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2092/B%20-%20Lady%20Bug/solution.py) |
 | 2092C | [Asuna and the Mosquitoes](https://codeforces.com/contest/2092/problem/C) | 1200 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2092/C%20-%20Asuna%20and%20the%20Mosquitoes/solution.py) |
 | 2104C | [Card Game](https://codeforces.com/contest/2104/problem/C) | 1100 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2104/C%20-%20Card%20Game/solution.py) |
+| 2113B | [Good Start](https://codeforces.com/contest/2113/problem/B) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2113/B%20-%20Good%20Start/solution.txt) |
 | 2136B | [Like the Bitset](https://codeforces.com/contest/2136/problem/B) | 900 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2136/B%20-%20Like%20the%20Bitset/solution.py) |
 | 2137A | [Collatz Conjecture](https://codeforces.com/contest/2137/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2137/A%20-%20Collatz%20Conjecture/solution.py) |
 | 2137B | [Fun Permutation](https://codeforces.com/contest/2137/problem/B) | 900 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2137/B%20-%20Fun%20Permutation/solution.py) |
@@ -112,6 +121,7 @@
 | 2147C | [Rabbits](https://codeforces.com/contest/2147/problem/C) | 1500 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2147/C%20-%20Rabbits/solution.py) |
 | 2148D | [Destruction of the Dandelion Fields](https://codeforces.com/contest/2148/problem/D) | 1000 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2148/D%20-%20Destruction%20of%20the%20Dandelion%20Fields/solution.py) |
 | 2153C | [Symmetrical Polygons](https://codeforces.com/contest/2153/problem/C) | 1500 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2153/C%20-%20Symmetrical%20Polygons/solution.txt) |
+| 2182A | [New Year String](https://codeforces.com/contest/2182/problem/A) | 800 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2182/A%20-%20New%20Year%20String/solution.txt) |
 
 ### data structures
 
@@ -134,6 +144,9 @@
 | 2104B | [Move to the End](https://codeforces.com/contest/2104/problem/B) | 1000 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2104/B%20-%20Move%20to%20the%20End/solution.py) |
 | 2144C | [Non-Descending Arrays](https://codeforces.com/contest/2144/problem/C) | 1300 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2144/C%20-%20Non-Descending%20Arrays/solution.py) |
 | 2147C | [Rabbits](https://codeforces.com/contest/2147/problem/C) | 1500 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2147/C%20-%20Rabbits/solution.py) |
+| 2178B | [Impost or Sus](https://codeforces.com/contest/2178/problem/B) | 900 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2178/B%20-%20Impost%20or%20Sus/solution.txt) |
+| 2178C | [First or Second](https://codeforces.com/contest/2178/problem/C) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2178/C%20-%20First%20or%20Second/solution.txt) |
+| 2182C | [Production of Snowmen](https://codeforces.com/contest/2182/problem/C) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2182/C%20-%20Production%20of%20Snowmen/solution.txt) |
 
 ### games
 
@@ -153,6 +166,8 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 2143C | [Max Tree](https://codeforces.com/contest/2143/problem/C) | 1300 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2143/C%20-%20Max%20Tree/solution.py) |
+| 2172F | [Cluster Computing System](https://codeforces.com/contest/2172/problem/F) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2172/F%20-%20Cluster%20Computing%20System/solution.cpp) |
+| 2172M | [Maximum Distance To Port](https://codeforces.com/contest/2172/problem/M) | 1300 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2172/M%20-%20Maximum%20Distance%20To%20Port/solution.txt) |
 
 ### greedy
 
@@ -190,6 +205,14 @@
 | 2148C | [Pacer](https://codeforces.com/contest/2148/problem/C) | 900 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2148/C%20-%20Pacer/solution.py) |
 | 2148D | [Destruction of the Dandelion Fields](https://codeforces.com/contest/2148/problem/D) | 1000 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2148/D%20-%20Destruction%20of%20the%20Dandelion%20Fields/solution.py) |
 | 2153C | [Symmetrical Polygons](https://codeforces.com/contest/2153/problem/C) | 1500 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2153/C%20-%20Symmetrical%20Polygons/solution.txt) |
+| 2163A | [Souvlaki VS. Kalamaki](https://codeforces.com/contest/2163/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2163/A%20-%20Souvlaki%20VS.%20Kalamaki/solution.py) |
+| 2170A | [Maximum Neighborhood](https://codeforces.com/contest/2170/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2170/A%20-%20Maximum%20Neighborhood/solution.py) |
+| 2170B | [Addition on a Segment](https://codeforces.com/contest/2170/problem/B) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2170/B%20-%20Addition%20on%20a%20Segment/solution.txt) |
+| 2172F | [Cluster Computing System](https://codeforces.com/contest/2172/problem/F) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2172/F%20-%20Cluster%20Computing%20System/solution.cpp) |
+| 2178A | [Yes or Yes](https://codeforces.com/contest/2178/problem/A) | 800 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2178/A%20-%20Yes%20or%20Yes/solution.txt) |
+| 2178B | [Impost or Sus](https://codeforces.com/contest/2178/problem/B) | 900 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2178/B%20-%20Impost%20or%20Sus/solution.txt) |
+| 2178C | [First or Second](https://codeforces.com/contest/2178/problem/C) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2178/C%20-%20First%20or%20Second/solution.txt) |
+| 2182A | [New Year String](https://codeforces.com/contest/2182/problem/A) | 800 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2182/A%20-%20New%20Year%20String/solution.txt) |
 
 ### hashing
 
@@ -213,6 +236,12 @@
 | 2146A | [Equal Occurrences](https://codeforces.com/contest/2146/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2146/A%20-%20Equal%20Occurrences/solution.py) |
 | 2147C | [Rabbits](https://codeforces.com/contest/2147/problem/C) | 1500 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2147/C%20-%20Rabbits/solution.py) |
 | 2153C | [Symmetrical Polygons](https://codeforces.com/contest/2153/problem/C) | 1500 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2153/C%20-%20Symmetrical%20Polygons/solution.txt) |
+| 2170A | [Maximum Neighborhood](https://codeforces.com/contest/2170/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2170/A%20-%20Maximum%20Neighborhood/solution.py) |
+| 2172A | [ASCII Art Contest](https://codeforces.com/contest/2172/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2172/A%20-%20ASCII%20Art%20Contest/solution.cpp) |
+| 2172E | [Number Maze](https://codeforces.com/contest/2172/problem/E) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2172/E%20-%20Number%20Maze/solution.cpp) |
+| 2178B | [Impost or Sus](https://codeforces.com/contest/2178/problem/B) | 900 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2178/B%20-%20Impost%20or%20Sus/solution.txt) |
+| 2178C | [First or Second](https://codeforces.com/contest/2178/problem/C) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2178/C%20-%20First%20or%20Second/solution.txt) |
+| 2182A | [New Year String](https://codeforces.com/contest/2182/problem/A) | 800 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2182/A%20-%20New%20Year%20String/solution.txt) |
 
 ### math
 
@@ -242,6 +271,7 @@
 | 2104A | [Three Decks](https://codeforces.com/contest/2104/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2104/A%20-%20Three%20Decks/solution.py) |
 | 2104C | [Card Game](https://codeforces.com/contest/2104/problem/C) | 1100 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2104/C%20-%20Card%20Game/solution.py) |
 | 2104D | [Array and GCD](https://codeforces.com/contest/2104/problem/D) | 1400 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2104/D%20-%20Array%20and%20GCD/solution.py) |
+| 2113B | [Good Start](https://codeforces.com/contest/2113/problem/B) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2113/B%20-%20Good%20Start/solution.txt) |
 | 2133A | [Redstone?](https://codeforces.com/contest/2133/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2133/A%20-%20Redstone%3F/solution.py) |
 | 2136A | [In the Dream](https://codeforces.com/contest/2136/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2136/A%20-%20In%20the%20Dream/solution.py) |
 | 2137A | [Collatz Conjecture](https://codeforces.com/contest/2137/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2137/A%20-%20Collatz%20Conjecture/solution.py) |
@@ -252,6 +282,10 @@
 | 2144C | [Non-Descending Arrays](https://codeforces.com/contest/2144/problem/C) | 1300 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2144/C%20-%20Non-Descending%20Arrays/solution.py) |
 | 2148A | [Sublime Sequence](https://codeforces.com/contest/2148/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2148/A%20-%20Sublime%20Sequence/solution.py) |
 | 2148C | [Pacer](https://codeforces.com/contest/2148/problem/C) | 900 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2148/C%20-%20Pacer/solution.py) |
+| 2163A | [Souvlaki VS. Kalamaki](https://codeforces.com/contest/2163/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2163/A%20-%20Souvlaki%20VS.%20Kalamaki/solution.py) |
+| 2170A | [Maximum Neighborhood](https://codeforces.com/contest/2170/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2170/A%20-%20Maximum%20Neighborhood/solution.py) |
+| 2170B | [Addition on a Segment](https://codeforces.com/contest/2170/problem/B) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2170/B%20-%20Addition%20on%20a%20Segment/solution.txt) |
+| 2172F | [Cluster Computing System](https://codeforces.com/contest/2172/problem/F) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2172/F%20-%20Cluster%20Computing%20System/solution.cpp) |
 
 ### number theory
 
@@ -269,6 +303,12 @@
 | 2137B | [Fun Permutation](https://codeforces.com/contest/2137/problem/B) | 900 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2137/B%20-%20Fun%20Permutation/solution.py) |
 | 2144A | [Cut the Array](https://codeforces.com/contest/2144/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2144/A%20-%20Cut%20the%20Array/solution.py) |
 
+### shortest paths
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2172M | [Maximum Distance To Port](https://codeforces.com/contest/2172/problem/M) | 1300 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2172/M%20-%20Maximum%20Distance%20To%20Port/solution.txt) |
+
 ### sortings
 
 | # | Problem | Difficulty | Solution |
@@ -280,6 +320,8 @@
 | 2143B | [Discounts](https://codeforces.com/contest/2143/problem/B) | 1000 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2143/B%20-%20Discounts/solution.py) |
 | 2148D | [Destruction of the Dandelion Fields](https://codeforces.com/contest/2148/problem/D) | 1000 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2148/D%20-%20Destruction%20of%20the%20Dandelion%20Fields/solution.py) |
 | 2153C | [Symmetrical Polygons](https://codeforces.com/contest/2153/problem/C) | 1500 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2153/C%20-%20Symmetrical%20Polygons/solution.txt) |
+| 2163A | [Souvlaki VS. Kalamaki](https://codeforces.com/contest/2163/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2163/A%20-%20Souvlaki%20VS.%20Kalamaki/solution.py) |
+| 2164A | [Sequence Game](https://codeforces.com/contest/2164/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2164/A%20-%20Sequence%20Game/solution.py) |
 
 ### strings
 
@@ -287,6 +329,9 @@
 |---|---------|------------|----------|
 | 1654B | [Prefix Removals](https://codeforces.com/contest/1654/problem/B) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1654/B%20-%20Prefix%20Removals/solution.py) |
 | 2072B | [Having Been a Treasurer in the Past, I Help Goblins Deceive](https://codeforces.com/contest/2072/problem/B) | 900 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2072/B%20-%20Having%20Been%20a%20Treasurer%20in%20the%20Past%2C%20I%20Help%20Goblins%20Deceive/solution.py) |
+| 2178A | [Yes or Yes](https://codeforces.com/contest/2178/problem/A) | 800 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2178/A%20-%20Yes%20or%20Yes/solution.txt) |
+| 2178B | [Impost or Sus](https://codeforces.com/contest/2178/problem/B) | 900 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2178/B%20-%20Impost%20or%20Sus/solution.txt) |
+| 2182A | [New Year String](https://codeforces.com/contest/2182/problem/A) | 800 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2182/A%20-%20New%20Year%20String/solution.txt) |
 
 ### two pointers
 
