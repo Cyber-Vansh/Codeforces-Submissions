@@ -1,0 +1,47 @@
+from collections import deque
+ 
+t = int(input())
+for _ in range(t):
+    n,k,p,m = map(int,input().split())
+    arr = list(map(int,input().split()))
+ 
+    lis = deque(arr)
+ 
+    ans = 0
+ 
+    while m>0:
+        if p<=k:
+            if m-lis[p-1]>=0:
+                m-=lis[p-1]
+                x = lis[p-1]
+                arr = list(lis)
+                arr.pop(p-1)
+                arr.append(x)
+                lis = deque(arr)
+                ans+=1
+                p = n
+            else:
+                break
+        else:
+            Min = float('inf')
+            idx = 0
+            for i in range(k):
+                if lis[i]<Min:
+                    Min = lis[i]
+                    idx = i
+            
+            if m-lis[idx]>=0:
+                m-=lis[idx]
+                x = lis[idx]
+                arr = list(lis)
+                arr.pop(idx)
+                arr.append(x)
+                lis = deque(arr)
+                p-=1
+            else:
+                break
+        
+    print(ans)
+ 
+ 
+ 
