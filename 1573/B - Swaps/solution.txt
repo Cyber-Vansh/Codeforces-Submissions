@@ -1,0 +1,27 @@
+t = int(input())
+for _ in range(t):
+    n = int(input())
+    a = list(map(int,input().split()))
+    b = list(map(int,input().split()))
+ 
+    arr = [(a[i],i) for i in range(n)]
+    brr = [(b[i],i) for i in range(n)]
+ 
+    arr.sort()
+    brr.sort()
+ 
+ 
+    pre = [float('inf')]*n
+    pre[n-1] = brr[n-1][1]
+ 
+    for i in range(n-2,-1,-1):
+        pre[i] = min(pre[i+1],brr[i][1])
+    
+    
+    ans = float('inf')
+ 
+    for i in range(n):
+        ans = min(ans,arr[i][1]+pre[i])
+ 
+    
+    print(ans)
