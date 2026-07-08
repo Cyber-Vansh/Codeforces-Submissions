@@ -1,0 +1,20 @@
+t = int(input())
+for _ in range(t):
+    s = input()
+ 
+    ans = []
+    curr = 0
+ 
+    for i in range(len(s)):
+        if s[i]=="?":
+            curr += 1
+        else:
+            for j in range(curr):
+                ans.append(s[i])
+            ans.append(s[i])
+            curr = 0
+    
+    for j in range(curr):
+        ans.append("1")
+ 
+    print("".join(ans))
