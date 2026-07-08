@@ -1,0 +1,11 @@
+t = int(input())
+for _ in range(t):
+    cT, cH, cU = map(int,input().split())
+ 
+    if cT<=cU:
+        ans = 3*cU + cT + 3*cH
+    else:
+        d = cT-cU
+        ans = 4*cU + 2*d + 3*cH + (1 if d>2*cH else 0)
+ 
+    print(ans)
