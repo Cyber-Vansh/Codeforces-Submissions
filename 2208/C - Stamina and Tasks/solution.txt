@@ -1,0 +1,20 @@
+t = int(input())
+for _ in range(t):
+    n = int(input())
+    tasks = []
+ 
+    for i in range(n):
+        tasks.append(list(map(int,input().split())))
+ 
+    curr = 0
+ 
+    tasks.reverse()
+ 
+    for i in range(n):
+        c,p = tasks[i]
+ 
+        x = 1-(p/100)
+ 
+        curr = max(curr,c+curr*x)
+ 
+    print(curr)
