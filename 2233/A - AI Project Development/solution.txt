@@ -1,0 +1,11 @@
+import math
+ 
+t = int(input())
+for _ in range(t):
+    n,x,y,z = map(int,input().split())
+ 
+    case1 = math.ceil(n/(x+y))
+ 
+    case2 = z + math.ceil((n-(x*z))/(x+10*y))
+ 
+    print(min(case1,case2))
