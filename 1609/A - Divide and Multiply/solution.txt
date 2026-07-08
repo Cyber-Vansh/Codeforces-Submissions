@@ -1,0 +1,25 @@
+t = int(input())
+for _ in range(t):
+    n = int(input())
+    arr = list(map(int,input().split()))
+ 
+    arr.sort()
+ 
+    ans = sum(arr)
+ 
+    for j in range(n):
+        curr = sum(arr)
+        Max = arr[j]
+        for i in range(n):
+            if i==j:
+                continue
+            x = arr[i]
+            while x%2==0:
+                curr -= x//2
+                x //= 2
+                curr += Max
+                Max += Max
+        
+        ans = max(ans,curr)
+    
+    print(ans)
