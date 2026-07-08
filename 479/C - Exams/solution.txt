@@ -1,0 +1,17 @@
+n = int(input())
+dates = []
+ 
+for i in range(n):
+    dates.append(list(map(int,input().split())))
+ 
+dates.sort()
+ 
+ans = 0
+ 
+for i in range(n):
+    if dates[i][1]>=ans:
+        ans = dates[i][1]
+    else:
+        ans = dates[i][0]
+ 
+print(ans)
