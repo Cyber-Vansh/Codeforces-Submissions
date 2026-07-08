@@ -1,0 +1,39 @@
+t = int(input())
+for _ in range(t):
+    n,k = map(int,input().split())
+    arr = list(map(int,input().split()))
+    idx = int(input())-1
+ 
+    to_make = arr[idx]
+    curr = arr[idx]
+ 
+    i,j = idx,idx
+ 
+    ans = 0
+ 
+    while True:
+        while 0<=i and arr[i]==curr:
+            i -= 1
+        while j<n and arr[j]==curr:
+            j += 1
+ 
+        check = False
+        
+        while 0<=i and arr[i]!=curr:
+            check = True
+            i -= 1
+        
+        while j<n and arr[j]!=curr:
+            check = True
+            j += 1
+        
+        if check:
+            ans += 1
+            curr = curr^1
+        else:
+            break
+ 
+    if curr!=to_make:
+        ans+=1
+    
+    print(ans)
