@@ -1,0 +1,49 @@
+t = int(input())
+for _ in range(t):
+    n = int(input())
+    arr = list(map(int,input().split()))
+ 
+    fa = 0
+    for i in range(n):
+        if i%2==0:
+            fa += arr[i]
+        else:
+            fa -= arr[i]
+    
+    ans = fa
+    
+    if n%2==0:
+        ans += n-2
+    else:
+        ans += n-1
+    
+    # print(fa,ans)
+ 
+    pos = None
+    neg = None
+ 
+    for i in range(n):
+        if i%2==0:
+            if pos is None:
+                pos = -2*arr[i]
+            else:
+                pos = max(pos+1,-2*arr[i])
+            
+            if neg is not None:
+                neg += 1
+                ans = max(ans,fa+neg-2*arr[i])
+        else:
+            if neg is None:
+                neg = 2*arr[i]
+            else:
+                neg = max(neg+1,2*arr[i])
+            
+            if pos is not None:
+                pos += 1
+                ans = max(ans,fa+pos+2*arr[i])
+    
+    print(ans)
+ 
+ 
+ 
+ 
