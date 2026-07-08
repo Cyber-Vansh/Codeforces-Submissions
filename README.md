@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 235 | 32 |
+| 246 | 32 |
 
 ---
 
@@ -14,36 +14,36 @@
 
 - [*special](#special) (3)
 - [Uncategorized](#uncategorized) (4)
-- [binary search](#binary-search) (18)
+- [binary search](#binary-search) (20)
 - [bitmasks](#bitmasks) (13)
-- [brute force](#brute-force) (49)
+- [brute force](#brute-force) (54)
 - [chinese remainder theorem](#chinese-remainder-theorem) (1)
 - [combinatorics](#combinatorics) (7)
-- [constructive algorithms](#constructive-algorithms) (58)
-- [data structures](#data-structures) (15)
-- [dfs and similar](#dfs-and-similar) (7)
+- [constructive algorithms](#constructive-algorithms) (60)
+- [data structures](#data-structures) (16)
+- [dfs and similar](#dfs-and-similar) (8)
 - [divide and conquer](#divide-and-conquer) (1)
-- [dp](#dp) (27)
-- [dsu](#dsu) (1)
+- [dp](#dp) (30)
+- [dsu](#dsu) (2)
 - [expression parsing](#expression-parsing) (1)
 - [fft](#fft) (1)
-- [games](#games) (6)
+- [games](#games) (7)
 - [geometry](#geometry) (3)
 - [graph matchings](#graph-matchings) (1)
 - [graphs](#graphs) (12)
-- [greedy](#greedy) (104)
+- [greedy](#greedy) (110)
 - [hashing](#hashing) (4)
-- [implementation](#implementation) (53)
+- [implementation](#implementation) (56)
 - [interactive](#interactive) (1)
-- [math](#math) (111)
+- [math](#math) (115)
 - [matrices](#matrices) (1)
 - [number theory](#number-theory) (47)
 - [schedules](#schedules) (2)
 - [shortest paths](#shortest-paths) (8)
-- [sortings](#sortings) (23)
-- [strings](#strings) (11)
+- [sortings](#sortings) (24)
+- [strings](#strings) (12)
 - [trees](#trees) (3)
-- [two pointers](#two-pointers) (12)
+- [two pointers](#two-pointers) (16)
 
 ---
 
@@ -68,6 +68,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 279B | [Books](https://codeforces.com/contest/279/problem/B) | 1400 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/279/B%20-%20Books/solution.txt) |
 | 1217A | [Creating a Character](https://codeforces.com/contest/1217/problem/A) | 1300 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1217/A%20-%20Creating%20a%20Character/solution.txt) |
 | 1419D2 | [Sage's Birthday (hard version)](https://codeforces.com/contest/1419/problem/D2) | 1500 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1419/D2%20-%20Sage's%20Birthday%20(hard%20version)/solution.txt) |
 | 1476A | [K-divisible Sum](https://codeforces.com/contest/1476/problem/A) | 1000 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1476/A%20-%20K-divisible%20Sum/solution.txt) |
@@ -86,6 +87,7 @@
 | 2218E | [The 67th XOR Problem](https://codeforces.com/contest/2218/problem/E) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2218/E%20-%20The%2067th%20XOR%20Problem/solution.txt) |
 | 2227D | [Palindromex](https://codeforces.com/contest/2227/problem/D) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2227/D%20-%20Palindromex/solution.txt) |
 | 2227E | [It All Went Sideways](https://codeforces.com/contest/2227/problem/E) | 1400 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2227/E%20-%20It%20All%20Went%20Sideways/solution.txt) |
+| 2236D | [Brand New Tatar TV Show](https://codeforces.com/contest/2236/problem/D) | 1300 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2236/D%20-%20Brand%20New%20Tatar%20TV%20Show/solution.txt) |
 
 ### bitmasks
 
@@ -111,6 +113,8 @@
 |---|---------|------------|----------|
 | 17A | [Noldbach problem](https://codeforces.com/contest/17/problem/A) | 1000 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/17/A%20-%20Noldbach%20problem/solution.txt) |
 | 35C | [Fire Again](https://codeforces.com/contest/35/problem/C) | 1500 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/35/C%20-%20Fire%20Again/solution.txt) |
+| 279B | [Books](https://codeforces.com/contest/279/problem/B) | 1400 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/279/B%20-%20Books/solution.txt) |
+| 363B | [Fence](https://codeforces.com/contest/363/problem/B) | 1100 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/363/B%20-%20Fence/solution.txt) |
 | 453B | [Little Pony and Harmony Chest](https://codeforces.com/contest/453/problem/B) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/453/B%20-%20Little%20Pony%20and%20Harmony%20Chest/solution.cpp) |
 | 1305C | [Kuroni and Impossible Calculation](https://codeforces.com/contest/1305/problem/C) | 1600 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1305/C%20-%20Kuroni%20and%20Impossible%20Calculation/solution.txt) |
 | 1399C | [Boats Competition](https://codeforces.com/contest/1399/problem/C) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1399/C%20-%20Boats%20Competition/solution.txt) |
@@ -158,6 +162,9 @@
 | 2225D | [Exceptional Segments](https://codeforces.com/contest/2225/problem/D) | 1500 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2225/D%20-%20Exceptional%20Segments/solution.txt) |
 | 2227D | [Palindromex](https://codeforces.com/contest/2227/problem/D) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2227/D%20-%20Palindromex/solution.txt) |
 | 2233A | [AI Project Development](https://codeforces.com/contest/2233/problem/A) | 800 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2233/A%20-%20AI%20Project%20Development/solution.txt) |
+| 2233C | [Cost of a Bracket Sequence](https://codeforces.com/contest/2233/problem/C) | 1400 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2233/C%20-%20Cost%20of%20a%20Bracket%20Sequence/solution.txt) |
+| 2233D | [Goods on the Shelf](https://codeforces.com/contest/2233/problem/D) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2233/D%20-%20Goods%20on%20the%20Shelf/solution.cpp) |
+| 2236C | [Omsk Programmers](https://codeforces.com/contest/2236/problem/C) | 1000 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2236/C%20-%20Omsk%20Programmers/solution.txt) |
 
 ### chinese remainder theorem
 
@@ -207,6 +214,7 @@
 | 2102A | [Dinner Time](https://codeforces.com/contest/2102/problem/A) | 900 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2102/A%20-%20Dinner%20Time/solution.txt) |
 | 2104C | [Card Game](https://codeforces.com/contest/2104/problem/C) | 1100 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2104/C%20-%20Card%20Game/solution.py) |
 | 2113B | [Good Start](https://codeforces.com/contest/2113/problem/B) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2113/B%20-%20Good%20Start/solution.txt) |
+| 2118A | [Equal Subsequences](https://codeforces.com/contest/2118/problem/A) | 800 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2118/A%20-%20Equal%20Subsequences/solution.txt) |
 | 2136B | [Like the Bitset](https://codeforces.com/contest/2136/problem/B) | 900 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2136/B%20-%20Like%20the%20Bitset/solution.py) |
 | 2137A | [Collatz Conjecture](https://codeforces.com/contest/2137/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2137/A%20-%20Collatz%20Conjecture/solution.py) |
 | 2137B | [Fun Permutation](https://codeforces.com/contest/2137/problem/B) | 900 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2137/B%20-%20Fun%20Permutation/solution.py) |
@@ -239,6 +247,7 @@
 | 2227D | [Palindromex](https://codeforces.com/contest/2227/problem/D) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2227/D%20-%20Palindromex/solution.txt) |
 | 2230C | [Arrange the Numbers in a Circle](https://codeforces.com/contest/2230/problem/C) | 1300 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2230/C%20-%20Arrange%20the%20Numbers%20in%20a%20Circle/solution.txt) |
 | 2233B | [Different Distances](https://codeforces.com/contest/2233/problem/B) | 900 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2233/B%20-%20Different%20Distances/solution.txt) |
+| 2236D | [Brand New Tatar TV Show](https://codeforces.com/contest/2236/problem/D) | 1300 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2236/D%20-%20Brand%20New%20Tatar%20TV%20Show/solution.txt) |
 
 ### data structures
 
@@ -259,6 +268,7 @@
 | 2217E | [Definitely Larger](https://codeforces.com/contest/2217/problem/E) | 2000 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2217/E%20-%20Definitely%20Larger/solution.txt) |
 | 2227D | [Palindromex](https://codeforces.com/contest/2227/problem/D) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2227/D%20-%20Palindromex/solution.txt) |
 | 2227E | [It All Went Sideways](https://codeforces.com/contest/2227/problem/E) | 1400 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2227/E%20-%20It%20All%20Went%20Sideways/solution.txt) |
+| 2233D | [Goods on the Shelf](https://codeforces.com/contest/2233/problem/D) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2233/D%20-%20Goods%20on%20the%20Shelf/solution.cpp) |
 
 ### dfs and similar
 
@@ -271,6 +281,7 @@
 | 1775D | [Friendly Spiders](https://codeforces.com/contest/1775/problem/D) | 1800 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1775/D%20-%20Friendly%20Spiders/solution.txt) |
 | 2143C | [Max Tree](https://codeforces.com/contest/2143/problem/C) | 1300 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2143/C%20-%20Max%20Tree/solution.py) |
 | 2184C | [Huge Pile](https://codeforces.com/contest/2184/problem/C) | 1100 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2184/C%20-%20Huge%20Pile/solution.txt) |
+| 2234C | [Vessels, Heights and Two Versions (Easy Version)](https://codeforces.com/contest/2234/problem/C) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2234/C%20-%20Vessels%2C%20Heights%20and%20Two%20Versions%20(Easy%20Version)/solution.txt) |
 
 ### divide and conquer
 
@@ -284,6 +295,7 @@
 |---|---------|------------|----------|
 | 11D | [A Simple Task](https://codeforces.com/contest/11/problem/D) | 2200 | [C++23 (GCC 14-64, msys2)](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/11/D%20-%20A%20Simple%20Task/solution.cpp) |
 | 166E | [Tetrahedron](https://codeforces.com/contest/166/problem/E) | 1500 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/166/E%20-%20Tetrahedron/solution.txt) |
+| 363B | [Fence](https://codeforces.com/contest/363/problem/B) | 1100 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/363/B%20-%20Fence/solution.txt) |
 | 453B | [Little Pony and Harmony Chest](https://codeforces.com/contest/453/problem/B) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/453/B%20-%20Little%20Pony%20and%20Harmony%20Chest/solution.cpp) |
 | 546D | [Soldier and Number Game](https://codeforces.com/contest/546/problem/D) | 1700 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/546/D%20-%20Soldier%20and%20Number%20Game/solution.txt) |
 | 580D | [Kefa and Dishes](https://codeforces.com/contest/580/problem/D) | 1800 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/580/D%20-%20Kefa%20and%20Dishes/solution.txt) |
@@ -309,12 +321,15 @@
 | 2211B | [Mickey Mouse Constructive](https://codeforces.com/contest/2211/problem/B) | 1100 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2211/B%20-%20Mickey%20Mouse%20Constructive/solution.txt) |
 | 2225C | [Red-Black Pairs](https://codeforces.com/contest/2225/problem/C) | 1100 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2225/C%20-%20Red-Black%20Pairs/solution.py) |
 | 2227E | [It All Went Sideways](https://codeforces.com/contest/2227/problem/E) | 1400 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2227/E%20-%20It%20All%20Went%20Sideways/solution.txt) |
+| 2233C | [Cost of a Bracket Sequence](https://codeforces.com/contest/2233/problem/C) | 1400 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2233/C%20-%20Cost%20of%20a%20Bracket%20Sequence/solution.txt) |
+| 2236D | [Brand New Tatar TV Show](https://codeforces.com/contest/2236/problem/D) | 1300 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2236/D%20-%20Brand%20New%20Tatar%20TV%20Show/solution.txt) |
 
 ### dsu
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 886C | [Petya and Catacombs](https://codeforces.com/contest/886/problem/C) | 1300 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/886/C%20-%20Petya%20and%20Catacombs/solution.txt) |
+| 2234C | [Vessels, Heights and Two Versions (Easy Version)](https://codeforces.com/contest/2234/problem/C) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2234/C%20-%20Vessels%2C%20Heights%20and%20Two%20Versions%20(Easy%20Version)/solution.txt) |
 
 ### expression parsing
 
@@ -338,6 +353,7 @@
 | 2207B | [One Night At Freddy's](https://codeforces.com/contest/2207/problem/B) | 1600 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2207/B%20-%20One%20Night%20At%20Freddy's/solution.txt) |
 | 2208B | [Cyclists](https://codeforces.com/contest/2208/problem/B) | 1100 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2208/B%20-%20Cyclists/solution.txt) |
 | 2218A | [The 67th Integer Problem](https://codeforces.com/contest/2218/problem/A) | 800 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2218/A%20-%20The%2067th%20Integer%20Problem/solution.txt) |
+| 2236D | [Brand New Tatar TV Show](https://codeforces.com/contest/2236/problem/D) | 1300 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2236/D%20-%20Brand%20New%20Tatar%20TV%20Show/solution.txt) |
 
 ### geometry
 
@@ -410,6 +426,7 @@
 | 2104B | [Move to the End](https://codeforces.com/contest/2104/problem/B) | 1000 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2104/B%20-%20Move%20to%20the%20End/solution.py) |
 | 2104C | [Card Game](https://codeforces.com/contest/2104/problem/C) | 1100 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2104/C%20-%20Card%20Game/solution.py) |
 | 2104D | [Array and GCD](https://codeforces.com/contest/2104/problem/D) | 1400 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2104/D%20-%20Array%20and%20GCD/solution.py) |
+| 2118A | [Equal Subsequences](https://codeforces.com/contest/2118/problem/A) | 800 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2118/A%20-%20Equal%20Subsequences/solution.txt) |
 | 2133B | [Villagers](https://codeforces.com/contest/2133/problem/B) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2133/B%20-%20Villagers/solution.py) |
 | 2136A | [In the Dream](https://codeforces.com/contest/2136/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2136/A%20-%20In%20the%20Dream/solution.py) |
 | 2136B | [Like the Bitset](https://codeforces.com/contest/2136/problem/B) | 900 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2136/B%20-%20Like%20the%20Bitset/solution.py) |
@@ -478,6 +495,11 @@
 | 2227D | [Palindromex](https://codeforces.com/contest/2227/problem/D) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2227/D%20-%20Palindromex/solution.txt) |
 | 2227E | [It All Went Sideways](https://codeforces.com/contest/2227/problem/E) | 1400 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2227/E%20-%20It%20All%20Went%20Sideways/solution.txt) |
 | 2230B | [Digit String](https://codeforces.com/contest/2230/problem/B) | 1000 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2230/B%20-%20Digit%20String/solution.txt) |
+| 2233C | [Cost of a Bracket Sequence](https://codeforces.com/contest/2233/problem/C) | 1400 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2233/C%20-%20Cost%20of%20a%20Bracket%20Sequence/solution.txt) |
+| 2234C | [Vessels, Heights and Two Versions (Easy Version)](https://codeforces.com/contest/2234/problem/C) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2234/C%20-%20Vessels%2C%20Heights%20and%20Two%20Versions%20(Easy%20Version)/solution.txt) |
+| 2236A | [Games on the Train](https://codeforces.com/contest/2236/problem/A) | 800 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2236/A%20-%20Games%20on%20the%20Train/solution.txt) |
+| 2236B | [Tatar TV Show](https://codeforces.com/contest/2236/problem/B) | 800 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2236/B%20-%20Tatar%20TV%20Show/solution.txt) |
+| 2236C | [Omsk Programmers](https://codeforces.com/contest/2236/problem/C) | 1000 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2236/C%20-%20Omsk%20Programmers/solution.txt) |
 
 ### hashing
 
@@ -492,6 +514,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 279B | [Books](https://codeforces.com/contest/279/problem/B) | 1400 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/279/B%20-%20Books/solution.txt) |
 | 284A | [Cows and Primitive Roots](https://codeforces.com/contest/284/problem/A) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/284/A%20-%20Cows%20and%20Primitive%20Roots/solution.cpp) |
 | 450A | [Jzzhu and Children](https://codeforces.com/contest/450/problem/A) | 1000 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/450/A%20-%20Jzzhu%20and%20Children/solution.txt) |
 | 467A | [George and Accommodation](https://codeforces.com/contest/467/problem/A) | 800 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/467/A%20-%20George%20and%20Accommodation/solution.txt) |
@@ -545,6 +568,8 @@
 | 2230A | [Optimal Purchase](https://codeforces.com/contest/2230/problem/A) | 800 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2230/A%20-%20Optimal%20Purchase/solution.txt) |
 | 2230B | [Digit String](https://codeforces.com/contest/2230/problem/B) | 1000 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2230/B%20-%20Digit%20String/solution.txt) |
 | 2230C | [Arrange the Numbers in a Circle](https://codeforces.com/contest/2230/problem/C) | 1300 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2230/C%20-%20Arrange%20the%20Numbers%20in%20a%20Circle/solution.txt) |
+| 2233D | [Goods on the Shelf](https://codeforces.com/contest/2233/problem/D) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2233/D%20-%20Goods%20on%20the%20Shelf/solution.cpp) |
+| 2234C | [Vessels, Heights and Two Versions (Easy Version)](https://codeforces.com/contest/2234/problem/C) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2234/C%20-%20Vessels%2C%20Heights%20and%20Two%20Versions%20(Easy%20Version)/solution.txt) |
 
 ### interactive
 
@@ -667,6 +692,10 @@
 | 2230B | [Digit String](https://codeforces.com/contest/2230/problem/B) | 1000 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2230/B%20-%20Digit%20String/solution.txt) |
 | 2230C | [Arrange the Numbers in a Circle](https://codeforces.com/contest/2230/problem/C) | 1300 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2230/C%20-%20Arrange%20the%20Numbers%20in%20a%20Circle/solution.txt) |
 | 2233A | [AI Project Development](https://codeforces.com/contest/2233/problem/A) | 800 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2233/A%20-%20AI%20Project%20Development/solution.txt) |
+| 2236A | [Games on the Train](https://codeforces.com/contest/2236/problem/A) | 800 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2236/A%20-%20Games%20on%20the%20Train/solution.txt) |
+| 2236B | [Tatar TV Show](https://codeforces.com/contest/2236/problem/B) | 800 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2236/B%20-%20Tatar%20TV%20Show/solution.txt) |
+| 2236C | [Omsk Programmers](https://codeforces.com/contest/2236/problem/C) | 1000 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2236/C%20-%20Omsk%20Programmers/solution.txt) |
+| 2236D | [Brand New Tatar TV Show](https://codeforces.com/contest/2236/problem/D) | 1300 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2236/D%20-%20Brand%20New%20Tatar%20TV%20Show/solution.txt) |
 
 ### matrices
 
@@ -751,6 +780,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 479C | [Exams](https://codeforces.com/contest/479/problem/C) | 1400 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/479/C%20-%20Exams/solution.txt) |
+| 1133C | [Balanced Team](https://codeforces.com/contest/1133/problem/C) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1133/C%20-%20Balanced%20Team/solution.txt) |
 | 1344A | [Hilbert's Hotel](https://codeforces.com/contest/1344/problem/A) | 1600 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1344/A%20-%20Hilbert's%20Hotel/solution.txt) |
 | 1401C | [Mere Array](https://codeforces.com/contest/1401/problem/C) | 1300 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1401/C%20-%20Mere%20Array/solution.txt) |
 | 1419D2 | [Sage's Birthday (hard version)](https://codeforces.com/contest/1419/problem/D2) | 1500 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1419/D2%20-%20Sage's%20Birthday%20(hard%20version)/solution.txt) |
@@ -789,6 +819,7 @@
 | 2192B | [Flipping Binary String](https://codeforces.com/contest/2192/problem/B) | 1000 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2192/B%20-%20Flipping%20Binary%20String/solution.txt) |
 | 2207A | [1-1](https://codeforces.com/contest/2207/problem/A) | 800 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2207/A%20-%201-1/solution.txt) |
 | 2214B | [Are You Smiling?](https://codeforces.com/contest/2214/problem/B) | Unrated | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2214/B%20-%20Are%20You%20Smiling%3F/solution.txt) |
+| 2236B | [Tatar TV Show](https://codeforces.com/contest/2236/problem/B) | 800 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2236/B%20-%20Tatar%20TV%20Show/solution.txt) |
 
 ### trees
 
@@ -802,6 +833,8 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 279B | [Books](https://codeforces.com/contest/279/problem/B) | 1400 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/279/B%20-%20Books/solution.txt) |
+| 1133C | [Balanced Team](https://codeforces.com/contest/1133/problem/C) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1133/C%20-%20Balanced%20Team/solution.txt) |
 | 1399C | [Boats Competition](https://codeforces.com/contest/1399/problem/C) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1399/C%20-%20Boats%20Competition/solution.txt) |
 | 1419D2 | [Sage's Birthday (hard version)](https://codeforces.com/contest/1419/problem/D2) | 1500 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1419/D2%20-%20Sage's%20Birthday%20(hard%20version)/solution.txt) |
 | 1462A | [Favorite Sequence](https://codeforces.com/contest/1462/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1462/A%20-%20Favorite%20Sequence/solution.py) |
@@ -814,6 +847,8 @@
 | 2197B | [Array and Permutation](https://codeforces.com/contest/2197/problem/B) | 1100 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2197/B%20-%20Array%20and%20Permutation/solution.txt) |
 | 2211C1 | [Equal Multisets (Easy Version)](https://codeforces.com/contest/2211/problem/C1) | 1300 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2211/C1%20-%20Equal%20Multisets%20(Easy%20Version)/solution.txt) |
 | 2227D | [Palindromex](https://codeforces.com/contest/2227/problem/D) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2227/D%20-%20Palindromex/solution.txt) |
+| 2233D | [Goods on the Shelf](https://codeforces.com/contest/2233/problem/D) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2233/D%20-%20Goods%20on%20the%20Shelf/solution.cpp) |
+| 2234C | [Vessels, Heights and Two Versions (Easy Version)](https://codeforces.com/contest/2234/problem/C) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2234/C%20-%20Vessels%2C%20Heights%20and%20Two%20Versions%20(Easy%20Version)/solution.txt) |
 
 ---
 
