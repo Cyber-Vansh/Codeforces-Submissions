@@ -1,0 +1,19 @@
+import math
+ 
+n,m = map(int,input().split())
+arr = list(map(int,input().split()))
+ 
+ans = n
+ 
+Max = math.ceil(arr[n-1]/m)
+# print(Max)
+ 
+ 
+for i in range(n):
+    x = math.ceil(arr[i]/m)
+ 
+    if x>=Max:
+        ans = i+1
+        Max = x
+ 
+print(ans)
