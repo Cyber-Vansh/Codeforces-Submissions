@@ -1,0 +1,28 @@
+t = int(input())
+for _ in range(t):
+    n = int(input())
+    arr = list(map(int,input().split()))
+ 
+    ans = 0
+ 
+    max_len = 0
+    count = 0
+ 
+    prev = arr[n-1]
+ 
+    for i in range(n-2,-1,-1):
+        if arr[i]-prev>=0:
+            count += 1
+            ans += arr[i]-prev
+            prev = prev
+            # print(1,ans,arr[i],prev)
+        else:
+            max_len = max(max_len,count)
+            prev = arr[i]
+            count = 0
+            # print(2,ans,arr[i],prev)
+    
+    max_len = max(max_len,count)
+    # print(ans,max_len,prev)
+ 
+    print(ans+max_len)
