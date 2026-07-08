@@ -1,0 +1,14 @@
+import math
+ 
+t = int(input())
+ 
+for _ in range(t):
+    l,a,b = map(int,input().split())
+    
+    g = math.gcd(l,b)
+    
+    k = (l-1-a)//g
+    
+    ans = a + k*g
+    
+    print(ans)
