@@ -1,0 +1,37 @@
+t = int(input())
+for _ in range(t):
+    n,m = map(int,input().split())
+ 
+    grid = []
+    for _ in range(n):
+        grid.append(input())
+    
+    check = True
+    
+    for i in range(n-1,0,-1):
+        for j in range(m-1,0,-1):
+            if grid[i][j]=="0":
+                continue
+ 
+            ans1 = True
+            for k in range(i,-1,-1):
+                if grid[k][j]=="0":
+                    ans1 = False
+                    break
+                
+            ans2 = True
+            for k in range(j,-1,-1):
+                if grid[i][k]=="0":
+                    ans2 = False
+                    break
+            
+            if ans1 or ans2:
+                continue
+            
+            check = False
+            break
+    
+    if check:
+        print("Yes")
+    else:
+        print("NO")
