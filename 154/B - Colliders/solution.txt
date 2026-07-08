@@ -1,0 +1,86 @@
+n,m = map(int,input().split())
+ 
+arr = [True]*(int(n**0.5)+1)
+arr[0] = False
+arr[1] = False
+ 
+primes = []
+ 
+for i in range(2,len(arr)):
+    if arr[i]:
+        primes.append(i)
+        for j in range(i*i,len(arr),i):
+            arr[j] = False
+ 
+d = {}
+for i in primes:
+    d[i]=0
+ 
+on = [0]*n
+ 
+for _ in range(m):
+    op,item = input().split()
+    item = int(item)
+ 
+    possible = True
+    conflict = None
+    curr = item
+ 
+    if op=="+":
+        if on[item-1]:
+            print("Already on")
+            continue
+ 
+        for i in primes:
+            if i**2>curr:
+                break
+            if curr%i==0:
+                if d[i]!=0:
+                    possible = False
+                    conflict = d[i]
+                    break
+                while curr%i==0:
+                    curr//=i
+        
+        if possible and curr>1:
+            if curr in d and d[curr]!=0:
+                possible = False
+                conflict = d[curr]
+            
+        if possible:
+            curr = item
+            for i in primes:
+                if i**2>curr:
+                    break
+                if curr%i==0:
+                    d[i]=item
+                while curr%i==0:
+                    curr//=i
+            
+            if curr>1:
+                d[curr] = item
+            
+            on[item-1] = 1
+ 
+            print("Success")
+        else:
+            print(f"Conflict with {conflict}")
+    else:
+        if not on[item-1]:
+            print("Already off")
+            continue
+        
+        for i in primes:
+            if i**2>curr:
+                break
+            if curr%i==0:
+                d[i]=0
+            while curr%i==0:
+                curr//=i
+        
+        if curr>1 and curr in d and d[curr]==item:
+            d[curr] = 0
+        
+        on[item-1] = 0
+        
+        print("Success")
