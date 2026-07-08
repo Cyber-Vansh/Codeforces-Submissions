@@ -1,0 +1,42 @@
+t = int(input())
+for _ in range(t):
+    n = int(input())
+    arr = list(map(int,input().split()))
+ 
+    pre = [arr[0]]
+    for i in range(1,n):
+        pre.append(pre[i-1]+arr[i])
+ 
+    ans = float('inf')
+    
+    for i in range(n):
+        curr = 0
+        count = 1
+        check = True
+ 
+        for j in range(n):
+            if arr[j]>pre[i]:
+                check = False
+                break
+            
+ 
+            if curr+arr[j]>pre[i]:
+                if curr<pre[i]:
+                    check = False
+                    break
+                count += 1
+                curr = arr[j]
+            else:
+                curr += arr[j]
+        
+        if curr!=pre[i]:
+            check = False
+        
+        
+        # print(pre[i],count,check)
+        
+        if check:
+            ans = min(ans,n-count)
+    
+    print(ans)
+            
