@@ -1,0 +1,27 @@
+import sys
+sys.stdin = open('input.txt', 'r')
+sys.stdout = open('output.txt', 'w')
+ 
+ 
+n,m = map(int,input().split())
+k = int(input())
+burning = list(map(int,input().split()))
+ 
+burning = [(burning[i],burning[i+1]) for i in range(0,k*2,2)]
+ 
+Max = -float('inf')
+ans = None
+ 
+for i in range(1,n+1):
+    for j in range(1,m+1):
+        curr = float('inf')
+ 
+        for a,b in burning:
+            x = abs(a-i)+abs(b-j)
+            curr = min(curr,x)
+    
+        if curr>=Max:
+            Max = curr
+            ans = [i,j]
+ 
+print(*ans)
