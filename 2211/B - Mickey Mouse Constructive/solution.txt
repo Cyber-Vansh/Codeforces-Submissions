@@ -1,0 +1,28 @@
+import math
+ 
+mod = 676767677
+ 
+t = int(input())
+for _ in range(t):
+    x,y = map(int,input().split())
+ 
+    same = min(x,y)
+    diff = abs(x-y)
+ 
+    arr = [1]*x+[-1]*y
+ 
+    if diff==0:
+        print(1)
+        print(*arr)
+        continue
+ 
+    c = 0
+ 
+    for i in range(1,int(diff**0.5)+1):
+        if diff%i==0:
+            c+=1
+            if diff//i!=i:
+                c+=1
+    
+    print(c%mod)
+    print(*arr)
