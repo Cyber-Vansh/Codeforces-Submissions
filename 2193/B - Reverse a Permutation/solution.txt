@@ -1,0 +1,37 @@
+t = int(input())
+for _ in range(t):
+    n = int(input())
+    arr = list(map(int,input().split()))
+ 
+    ans = []
+ 
+    curr = []
+ 
+    valid = sorted(arr)
+    valid.reverse()
+ 
+    # print(valid)
+    pos = 0
+ 
+    j = 0
+ 
+    for i in range(n):
+        pos+=1
+        if arr[i]==valid[i] and len(curr)==0:
+            ans.append(arr[i])
+            j+=1
+        elif arr[i]==valid[j]:
+            curr.append(arr[i])
+            break
+        else:
+            curr.append(arr[i])
+        
+        # print(ans,curr)
+        
+    
+    ans.extend(curr[::-1])
+ 
+    for i in range(pos,n):
+        ans.append(arr[i])
+ 
+    print(*ans)
