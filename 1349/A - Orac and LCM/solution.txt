@@ -1,0 +1,57 @@
+n = int(input())
+arr = list(map(int,input().split()))
+ 
+spf = []
+for i in range(200001):
+    spf.append(i)
+ 
+for i in range(2,int(200001**0.5)+1):
+    if spf[i]==i:
+        for j in range(i,len(spf),i):
+            if spf[j]==j:
+                spf[j]=i
+ 
+powers = {}
+ 
+for i in arr:
+    curr = i
+    last = spf[curr]
+    cnt = 1
+    while curr>1:
+        curr = curr//spf[curr]
+        if spf[curr]==last:
+            cnt += 1
+        else:
+            if last in powers:
+                powers[last].append(cnt)
+            else:
+                powers[last] = [cnt]
+            cnt = 1
+        
+        last = spf[curr]
+    
+    if spf[curr]!=last:
+        if last in powers:
+            powers[last].append(cnt)
+        else:
+            powers[last] = [cnt]
+ 
+ans = 1
+ 
+for i,j in powers.items():
+    # print(i,j)
+    if len(j)<n-1:
+        continue
+    elif len(j)==n-1:
+        curr = j.copy()
+        curr.sort()
+        ans *= i**curr[0]
+    else:
+        curr = j.copy()
+        curr.sort()
+        if len(curr)==1:
+            ans *= i**curr[0]
+        else:
+            ans *= i**curr[1]
+ 
+print(ans)
