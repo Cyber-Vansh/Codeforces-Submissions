@@ -1,0 +1,28 @@
+t = int(input())
+for _ in range(t):
+    n = int(input())
+    arr = list(map(int,input().split()))
+ 
+    Min = min(arr)
+ 
+    can_swap = [0]*n
+    to_sort = []
+ 
+    for i in range(n):
+        if arr[i]%Min==0:
+            can_swap[i]=1
+            to_sort.append(arr[i])
+    
+    to_sort.sort()
+ 
+    idx = 0
+ 
+    for i in range(n):
+        if can_swap[i]:
+            arr[i] = to_sort[idx]
+            idx += 1
+ 
+    if arr==sorted(arr):
+        print("YES")
+    else:
+        print("NO")
