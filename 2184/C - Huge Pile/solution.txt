@@ -1,0 +1,25 @@
+def myCode(x,y,target):
+    if x==0:
+        return float('inf')
+ 
+    if x==target or y==target:
+        return 0
+ 
+    if x%2==1:
+        return 1 + myCode(x//2,x//2+1,target)
+    elif y%2==1:
+        return 1 + myCode(x//2,x//2+1,target)
+    else:
+        return 1 + myCode(x//2,x//2,target)
+ 
+ 
+t = int(input())
+for _ in range(t):
+    a,b = map(int,input().split())
+ 
+    ans = myCode(a,a,b)
+ 
+    if ans==float('inf'):
+        print(-1)
+    else:
+        print(ans)
