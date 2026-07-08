@@ -1,0 +1,27 @@
+t = int(input())
+for _ in range(t):
+    a,b = map(int,input().split())
+ 
+    ans = float('inf')
+ 
+    step = 0
+ 
+    for i in range(50):
+        bb = b+step
+ 
+        if bb==1:
+            step+=1
+            continue
+ 
+        temp = a
+        cnt = 0
+        while temp>0:
+            temp //= bb
+            cnt += 1
+ 
+        x = cnt+step
+        ans = min(x,ans)
+ 
+        step+=1
+    
+    print(ans)
