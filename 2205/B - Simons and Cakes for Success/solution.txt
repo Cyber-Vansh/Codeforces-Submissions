@@ -1,0 +1,18 @@
+t = int(input())
+for _ in range(t):
+    n = int(input())
+    ans = 1
+    x = n
+ 
+    i = 2
+    while i*i<=x:
+        if x%i==0:
+            ans *= i
+            while x%i==0:
+                x //= i
+        i += 1 if i==2 else 2
+ 
+    if x>1:
+        ans *= x
+ 
+    print(ans)
