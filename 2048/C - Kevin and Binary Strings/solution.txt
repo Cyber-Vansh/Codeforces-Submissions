@@ -1,0 +1,28 @@
+t = int(input())
+for _ in range(t):
+    s = input()
+ 
+    ans = 0
+ 
+    s1 = int(s,2)
+ 
+    a,b = 0,len(s)-1
+    c,d = 0,0
+ 
+    zero = s.find('0')
+    l = len(s)-zero if zero!=-1 else 1
+ 
+    for i in range(len(s)):
+        s2 = 0
+        for j in range(i,len(s)):
+            if j-i+1==l:
+                s2 = int(s[i:j+1],2)
+            
+                # print(s1,s2,i,j)
+                
+                if s1^s2>=ans:
+                    ans = s1^s2
+                    c,d = i,j
+    
+    # print(ans)
+    print(a+1,b+1,c+1,d+1)
