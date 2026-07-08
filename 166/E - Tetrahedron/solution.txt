@@ -1,0 +1,16 @@
+n = int(input())
+ 
+mod = 10**9+7
+ 
+if n==1:
+    print(0)
+else:
+    a = 2
+    b = 2
+    c = 2
+    d = 3
+ 
+    for i in range(2,n):
+        a,b,c,d = (b+c+d)%mod,(a+c+d)%mod,(a+b+d)%mod,(a+b+c)%mod
+ 
+    print(d)
