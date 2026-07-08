@@ -1,0 +1,32 @@
+import sys
+ 
+input = sys.stdin.buffer.readline
+ 
+t = int(input())
+out = []
+ 
+for _ in range(t):
+    n = int(input())
+    arr = list(map(int, input().split()))
+ 
+    arr.sort()
+ 
+    uniq = []
+    prev = None
+    for x in arr:
+        if x != prev:
+            uniq.append(x)
+            prev = x
+ 
+    i = 0
+    ans = 0
+ 
+    for j in range(len(uniq)):
+        while uniq[j] - uniq[i] >= n:
+            i += 1
+        ans = max(ans, j - i + 1)
+ 
+    out.append(str(ans))
+ 
+sys.stdout.write("
+".join(out))
