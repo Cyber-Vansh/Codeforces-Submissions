@@ -1,0 +1,36 @@
+f1 = [1,0]
+f2 = [0,1]
+ 
+for i in range(2,2*10**5+1):
+    f1.append(f1[i-1]+f1[i-2])
+    f2.append(f2[i-1]+f2[i-2])
+ 
+    if f1[i]>=2*10**5:
+        break
+ 
+# print(f1)
+ 
+t = int(input())
+for _ in range(t):
+    n,k = map(int,input().split())
+ 
+    if k-1>=len(f1):
+        print(0)
+        continue
+    
+    ans = 0
+    
+    for i in range(n+1):
+        # print(i,f1[k-1],f2[k-1])
+        first = i
+        need = n-f1[k-1]*first
+ 
+        if need<0:
+            break
+ 
+        if need%f2[k-1]==0:
+            second = need//f2[k-1]
+            if second>=first:
+                ans += 1
+    
+    print(ans)
