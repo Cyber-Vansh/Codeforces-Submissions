@@ -1,0 +1,23 @@
+t = int(input())
+for _ in range(t):
+    n = int(input())
+    
+    ans = [0]*(3*n)
+ 
+    curr = 1
+ 
+    for i in range(n):
+        ans[i*3] = curr
+        curr += 1
+    
+    for i in range(n):
+        ans[i*3+1] = curr
+        curr += 1
+        ans[i*3+2] = curr
+        curr += 1
+    
+    # for i in range(n):
+    #     ans[i*3+2] = curr
+    #     curr += 1
+    
+    print(*ans)
