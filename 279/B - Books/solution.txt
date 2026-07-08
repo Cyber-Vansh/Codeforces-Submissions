@@ -1,0 +1,37 @@
+n,t = map(int,input().split())
+books = list(map(int,input().split()))
+ 
+ans = 0
+ 
+left = 0
+right = n
+ 
+while left<=right:
+    mid = (left+right)//2
+ 
+    check = False
+ 
+    i = 0
+    j = mid-1
+ 
+    curr = sum(books[:mid])
+    
+    while j<n:
+        if curr<=t:
+            check = True
+            break
+        else:
+            curr -= books[i]
+            i += 1
+            j += 1
+            if j<n:
+                curr += books[j]
+    
+    if check:
+        left = mid+1
+        ans = max(ans,mid)
+    else:
+        right = mid-1
+ 
+print(ans)
+        
