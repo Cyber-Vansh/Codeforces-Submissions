@@ -1,0 +1,12 @@
+t = int(input())
+for _ in range(t):
+    n = int(input())
+    arr = list(map(int,input().split()))
+ 
+    Min = arr[0]
+    Max = abs(arr[0])
+ 
+    for i in range(1,n):
+        Min,Max = min(Min+arr[i],abs(Min+arr[i]),Max+arr[i],abs(Max+arr[i])),max(Min+arr[i],abs(Min+arr[i]),Max+arr[i],abs(Max+arr[i]))
+    
+    print(Max)
