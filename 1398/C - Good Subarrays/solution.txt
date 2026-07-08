@@ -1,0 +1,20 @@
+t = int(input())
+for _ in range(t):
+    n = int(input())
+    s = input()
+ 
+    d = {}
+ 
+    ans = 0
+    curr = 0
+ 
+    for i in range(n):
+        curr += int(s[i])
+ 
+        if curr-i==1:
+            ans += 1
+        
+        ans += d.get(curr-i,0)
+        d[curr-i] = d.get(curr-i,0)+1
+    
+    print(ans)
