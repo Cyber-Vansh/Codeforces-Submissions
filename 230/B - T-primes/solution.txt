@@ -1,0 +1,16 @@
+primes = [True]*(10**6+1)
+primes[0] = primes[1] = False
+ 
+for i in range(len(primes)):
+    if primes[i]:
+        for j in range(i*i,len(primes),i):
+            primes[j] = False
+ 
+n = int(input())
+arr = list(map(int,input().split()))
+ 
+for i in arr:
+    if i**0.5==int(i**0.5) and primes[int(i**0.5)]:
+        print("YES")
+    else:
+        print("NO")
