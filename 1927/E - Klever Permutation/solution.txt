@@ -1,0 +1,23 @@
+t = int(input())
+for _ in range(t):
+    n,k = map(int,input().split())
+ 
+    arr = [0]*n
+ 
+    curr = 1
+ 
+    for i in range(0,k,2):
+        for j in range(i,n,k):
+            arr[j] = curr
+            curr += 1
+    
+    curr = n
+ 
+    for i in range(1,k,2):
+        for j in range(i,n,k):
+            arr[j] = curr
+            curr -= 1
+    
+    # print(n,k)
+    print(*arr)
+    # print()
