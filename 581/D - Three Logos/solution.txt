@@ -1,0 +1,77 @@
+x1,y1,x2,y2,x3,y3 = map(int,input().split())
+ 
+n = x1*y1+x2*y2+x3*y3
+ 
+if n**0.5!=int(n**0.5):
+    print(-1)
+else:
+    n = int(n**0.5)
+ 
+    mat = [[-1 for i in range(n)] for j in range(n)]
+ 
+    def code(fill,turn):
+        if turn==1:
+            x,y = x1,y1
+        elif turn==2:
+            x,y = x2,y2
+        elif turn==3:
+            x,y = x3,y3
+        else:
+            print(n)
+            for row in mat:
+                print("".join(row))
+            exit()
+ 
+        case1 = True
+        case2 = True
+ 
+        for i in range(n):
+            for j in range(n):
+                if mat[i][j]==-1:
+                    for a in range(i,i+x):
+                        for b in range(j,j+y):
+                            if a>=n or b>=n or mat[a][b]!=-1:
+                                case1 = False
+                                break
+                            mat[a][b] = fill
+                        
+                        if not case1:
+                            break
+                    
+                    # for row in mat:
+                    #     print(*row,case1)
+                    
+                    if case1:
+                        case1 = code(chr(ord(fill)+1),turn+1)
+ 
+                    for a in range(i,i+x):
+                        for b in range(j,j+y):
+                            if a>=n or b>=n or mat[a][b]!=fill:
+                                break
+                            mat[a][b] = -1
+ 
+                    for a in range(i,i+y):
+                        for b in range(j,j+x):
+                            if a>=n or b>=n or mat[a][b]!=-1:
+                                case2 = False
+                                break
+                            mat[a][b] = fill
+ 
+                    if case2:
+                        case2 = code(chr(ord(fill)+1),turn+1)
+ 
+                    for a in range(i,i+y):
+                        for b in range(j,j+x):
+                            if a>=n or b>=n or mat[a][b]!=fill:
+                                break
+                            mat[a][b] = -1
+                    
+                    break
+            
+        return case1 or case2
+    
+    code("A",1)
+    
+    print(-1)
+                        
+ 
