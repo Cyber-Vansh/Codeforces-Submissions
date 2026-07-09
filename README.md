@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 311 | 33 |
+| 312 | 33 |
 
 ---
 
@@ -15,7 +15,7 @@
 - [*special](#special) (3)
 - [Uncategorized](#uncategorized) (8)
 - [binary search](#binary-search) (33)
-- [bitmasks](#bitmasks) (15)
+- [bitmasks](#bitmasks) (16)
 - [brute force](#brute-force) (67)
 - [chinese remainder theorem](#chinese-remainder-theorem) (1)
 - [combinatorics](#combinatorics) (11)
@@ -31,7 +31,7 @@
 - [geometry](#geometry) (3)
 - [graph matchings](#graph-matchings) (1)
 - [graphs](#graphs) (14)
-- [greedy](#greedy) (138)
+- [greedy](#greedy) (139)
 - [hashing](#hashing) (4)
 - [implementation](#implementation) (77)
 - [interactive](#interactive) (1)
@@ -44,7 +44,7 @@
 - [sortings](#sortings) (34)
 - [strings](#strings) (18)
 - [trees](#trees) (7)
-- [two pointers](#two-pointers) (22)
+- [two pointers](#two-pointers) (23)
 
 ---
 
@@ -116,6 +116,7 @@
 | 476B | [Dreamoon and WiFi](https://codeforces.com/contest/476/problem/B) | 1300 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/476/B%20-%20Dreamoon%20and%20WiFi/solution.txt) |
 | 580D | [Kefa and Dishes](https://codeforces.com/contest/580/problem/D) | 1800 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/580/D%20-%20Kefa%20and%20Dishes/solution.txt) |
 | 1731C | [Even Subarrays](https://codeforces.com/contest/1731/problem/C) | 1700 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1731/C%20-%20Even%20Subarrays/solution.txt) |
+| 1847B | [Hamon Odyssey](https://codeforces.com/contest/1847/problem/B) | 1000 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1847/B%20-%20Hamon%20Odyssey/solution.txt) |
 | 1864C | [Divisor Chain](https://codeforces.com/contest/1864/problem/C) | 1300 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1864/C%20-%20Divisor%20Chain/solution.txt) |
 | 1875C | [Jellyfish and Green Apple](https://codeforces.com/contest/1875/problem/C) | 1400 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1875/C%20-%20Jellyfish%20and%20Green%20Apple/solution.txt) |
 | 2039C1 | [Shohag Loves XOR (Easy Version)](https://codeforces.com/contest/2039/problem/C1) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2039/C1%20-%20Shohag%20Loves%20XOR%20(Easy%20Version)/solution.txt) |
@@ -487,6 +488,7 @@
 | 1780B | [GCD Partition](https://codeforces.com/contest/1780/problem/B) | 1100 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1780/B%20-%20GCD%20Partition/solution.txt) |
 | 1837C | [Best Binary String](https://codeforces.com/contest/1837/problem/C) | 1000 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1837/C%20-%20Best%20Binary%20String/solution.txt) |
 | 1845C | [Strong Password](https://codeforces.com/contest/1845/problem/C) | 1400 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1845/C%20-%20Strong%20Password/solution.txt) |
+| 1847B | [Hamon Odyssey](https://codeforces.com/contest/1847/problem/B) | 1000 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1847/B%20-%20Hamon%20Odyssey/solution.txt) |
 | 1875C | [Jellyfish and Green Apple](https://codeforces.com/contest/1875/problem/C) | 1400 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1875/C%20-%20Jellyfish%20and%20Green%20Apple/solution.txt) |
 | 1884B | [Haunted House](https://codeforces.com/contest/1884/problem/B) | 1100 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1884/B%20-%20Haunted%20House/solution.txt) |
 | 1915G | [Bicycles](https://codeforces.com/contest/1915/problem/G) | 1800 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1915/G%20-%20Bicycles/solution.txt) |
@@ -1024,6 +1026,7 @@
 | 1419D2 | [Sage's Birthday (hard version)](https://codeforces.com/contest/1419/problem/D2) | 1500 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1419/D2%20-%20Sage's%20Birthday%20(hard%20version)/solution.txt) |
 | 1462A | [Favorite Sequence](https://codeforces.com/contest/1462/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1462/A%20-%20Favorite%20Sequence/solution.py) |
 | 1771B | [Hossam and Friends](https://codeforces.com/contest/1771/problem/B) | 1400 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1771/B%20-%20Hossam%20and%20Friends/solution.txt) |
+| 1847B | [Hamon Odyssey](https://codeforces.com/contest/1847/problem/B) | 1000 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1847/B%20-%20Hamon%20Odyssey/solution.txt) |
 | 1884B | [Haunted House](https://codeforces.com/contest/1884/problem/B) | 1100 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1884/B%20-%20Haunted%20House/solution.txt) |
 | 1928B | [Equalize](https://codeforces.com/contest/1928/problem/B) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1928/B%20-%20Equalize/solution.txt) |
 | 1995B1 | [Bouquet (Easy Version)](https://codeforces.com/contest/1995/problem/B1) | 1100 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1995/B1%20-%20Bouquet%20(Easy%20Version)/solution.txt) |
