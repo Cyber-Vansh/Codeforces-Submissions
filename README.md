@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 315 | 33 |
+| 316 | 33 |
 
 ---
 
@@ -16,14 +16,14 @@
 - [Uncategorized](#uncategorized) (8)
 - [binary search](#binary-search) (34)
 - [bitmasks](#bitmasks) (16)
-- [brute force](#brute-force) (68)
+- [brute force](#brute-force) (69)
 - [chinese remainder theorem](#chinese-remainder-theorem) (1)
 - [combinatorics](#combinatorics) (11)
 - [constructive algorithms](#constructive-algorithms) (68)
 - [data structures](#data-structures) (26)
 - [dfs and similar](#dfs-and-similar) (12)
 - [divide and conquer](#divide-and-conquer) (1)
-- [dp](#dp) (45)
+- [dp](#dp) (46)
 - [dsu](#dsu) (2)
 - [expression parsing](#expression-parsing) (1)
 - [fft](#fft) (1)
@@ -31,7 +31,7 @@
 - [geometry](#geometry) (3)
 - [graph matchings](#graph-matchings) (1)
 - [graphs](#graphs) (14)
-- [greedy](#greedy) (141)
+- [greedy](#greedy) (142)
 - [hashing](#hashing) (4)
 - [implementation](#implementation) (77)
 - [interactive](#interactive) (1)
@@ -149,6 +149,7 @@
 | 1731C | [Even Subarrays](https://codeforces.com/contest/1731/problem/C) | 1700 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1731/C%20-%20Even%20Subarrays/solution.txt) |
 | 1759D | [Make It Round](https://codeforces.com/contest/1759/problem/D) | 1400 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1759/D%20-%20Make%20It%20Round/solution.txt) |
 | 1780B | [GCD Partition](https://codeforces.com/contest/1780/problem/B) | 1100 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1780/B%20-%20GCD%20Partition/solution.txt) |
+| 1826D | [Running Miles](https://codeforces.com/contest/1826/problem/D) | 1700 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1826/D%20-%20Running%20Miles/solution.txt) |
 | 1853B | [Fibonaccharsis](https://codeforces.com/contest/1853/problem/B) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1853/B%20-%20Fibonaccharsis/solution.txt) |
 | 1893A | [Anonymous Informant](https://codeforces.com/contest/1893/problem/A) | 1400 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1893/A%20-%20Anonymous%20Informant/solution.txt) |
 | 1899B | [250 Thousand Tons of TNT](https://codeforces.com/contest/1899/problem/B) | 1100 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1899/B%20-%20250%20Thousand%20Tons%20of%20TNT/solution.txt) |
@@ -370,6 +371,7 @@
 | 1536C | [Diluc and Kaeya](https://codeforces.com/contest/1536/problem/C) | 1500 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1536/C%20-%20Diluc%20and%20Kaeya/solution.txt) |
 | 1555C | [Coin Rows](https://codeforces.com/contest/1555/problem/C) | 1300 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1555/C%20-%20Coin%20Rows/solution.txt) |
 | 1771B | [Hossam and Friends](https://codeforces.com/contest/1771/problem/B) | 1400 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1771/B%20-%20Hossam%20and%20Friends/solution.txt) |
+| 1826D | [Running Miles](https://codeforces.com/contest/1826/problem/D) | 1700 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1826/D%20-%20Running%20Miles/solution.txt) |
 | 1843D | [Apple Tree](https://codeforces.com/contest/1843/problem/D) | 1200 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1843/D%20-%20Apple%20Tree/solution.py) |
 | 1845C | [Strong Password](https://codeforces.com/contest/1845/problem/C) | 1400 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1845/C%20-%20Strong%20Password/solution.txt) |
 | 1900C | [Anji's Binary Tree](https://codeforces.com/contest/1900/problem/C) | 1300 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1900/C%20-%20Anji's%20Binary%20Tree/solution.py) |
@@ -491,6 +493,7 @@
 | 1579D | [Productive Meeting](https://codeforces.com/contest/1579/problem/D) | 1400 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1579/D%20-%20Productive%20Meeting/solution.txt) |
 | 1609A | [Divide and Multiply](https://codeforces.com/contest/1609/problem/A) | 900 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1609/A%20-%20Divide%20and%20Multiply/solution.txt) |
 | 1780B | [GCD Partition](https://codeforces.com/contest/1780/problem/B) | 1100 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1780/B%20-%20GCD%20Partition/solution.txt) |
+| 1826D | [Running Miles](https://codeforces.com/contest/1826/problem/D) | 1700 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1826/D%20-%20Running%20Miles/solution.txt) |
 | 1837C | [Best Binary String](https://codeforces.com/contest/1837/problem/C) | 1000 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1837/C%20-%20Best%20Binary%20String/solution.txt) |
 | 1845C | [Strong Password](https://codeforces.com/contest/1845/problem/C) | 1400 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1845/C%20-%20Strong%20Password/solution.txt) |
 | 1847B | [Hamon Odyssey](https://codeforces.com/contest/1847/problem/B) | 1000 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1847/B%20-%20Hamon%20Odyssey/solution.txt) |
