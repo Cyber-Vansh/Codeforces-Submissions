@@ -1,0 +1,22 @@
+t = int(input())
+for _ in range(t):
+    n = int(input())
+    arr = list(map(int,input().split()))
+ 
+    suff = [arr[n-1]]
+    for i in range(n-2,-1,-1):
+        suff.append(suff[-1]&arr[i])
+    
+    suff.reverse()
+ 
+    ans = 1
+    curr = arr[0]
+ 
+    for i in range(1,n):
+        if curr&suff[i]<curr+suff[i]:
+            curr = curr&arr[i]
+        else:
+            ans += 1
+            curr = arr[i]
+    
+    print(ans)
