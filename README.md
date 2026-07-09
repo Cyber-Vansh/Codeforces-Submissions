@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 316 | 33 |
+| 317 | 33 |
 
 ---
 
@@ -15,11 +15,11 @@
 - [*special](#special) (3)
 - [Uncategorized](#uncategorized) (8)
 - [binary search](#binary-search) (34)
-- [bitmasks](#bitmasks) (16)
-- [brute force](#brute-force) (69)
+- [bitmasks](#bitmasks) (17)
+- [brute force](#brute-force) (70)
 - [chinese remainder theorem](#chinese-remainder-theorem) (1)
 - [combinatorics](#combinatorics) (11)
-- [constructive algorithms](#constructive-algorithms) (68)
+- [constructive algorithms](#constructive-algorithms) (69)
 - [data structures](#data-structures) (26)
 - [dfs and similar](#dfs-and-similar) (12)
 - [divide and conquer](#divide-and-conquer) (1)
@@ -28,14 +28,14 @@
 - [expression parsing](#expression-parsing) (1)
 - [fft](#fft) (1)
 - [games](#games) (10)
-- [geometry](#geometry) (3)
+- [geometry](#geometry) (4)
 - [graph matchings](#graph-matchings) (1)
 - [graphs](#graphs) (14)
 - [greedy](#greedy) (142)
 - [hashing](#hashing) (4)
-- [implementation](#implementation) (77)
+- [implementation](#implementation) (78)
 - [interactive](#interactive) (1)
-- [math](#math) (143)
+- [math](#math) (144)
 - [matrices](#matrices) (1)
 - [number theory](#number-theory) (50)
 - [probabilities](#probabilities) (4)
@@ -116,6 +116,7 @@
 | 453B | [Little Pony and Harmony Chest](https://codeforces.com/contest/453/problem/B) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/453/B%20-%20Little%20Pony%20and%20Harmony%20Chest/solution.cpp) |
 | 476B | [Dreamoon and WiFi](https://codeforces.com/contest/476/problem/B) | 1300 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/476/B%20-%20Dreamoon%20and%20WiFi/solution.txt) |
 | 580D | [Kefa and Dishes](https://codeforces.com/contest/580/problem/D) | 1800 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/580/D%20-%20Kefa%20and%20Dishes/solution.txt) |
+| 581D | [Three Logos](https://codeforces.com/contest/581/problem/D) | 1700 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/581/D%20-%20Three%20Logos/solution.txt) |
 | 1731C | [Even Subarrays](https://codeforces.com/contest/1731/problem/C) | 1700 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1731/C%20-%20Even%20Subarrays/solution.txt) |
 | 1847B | [Hamon Odyssey](https://codeforces.com/contest/1847/problem/B) | 1000 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1847/B%20-%20Hamon%20Odyssey/solution.txt) |
 | 1864C | [Divisor Chain](https://codeforces.com/contest/1864/problem/C) | 1300 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1864/C%20-%20Divisor%20Chain/solution.txt) |
@@ -140,6 +141,7 @@
 | 363B | [Fence](https://codeforces.com/contest/363/problem/B) | 1100 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/363/B%20-%20Fence/solution.txt) |
 | 453B | [Little Pony and Harmony Chest](https://codeforces.com/contest/453/problem/B) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/453/B%20-%20Little%20Pony%20and%20Harmony%20Chest/solution.cpp) |
 | 476B | [Dreamoon and WiFi](https://codeforces.com/contest/476/problem/B) | 1300 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/476/B%20-%20Dreamoon%20and%20WiFi/solution.txt) |
+| 581D | [Three Logos](https://codeforces.com/contest/581/problem/D) | 1700 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/581/D%20-%20Three%20Logos/solution.txt) |
 | 1305C | [Kuroni and Impossible Calculation](https://codeforces.com/contest/1305/problem/C) | 1600 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1305/C%20-%20Kuroni%20and%20Impossible%20Calculation/solution.txt) |
 | 1399C | [Boats Competition](https://codeforces.com/contest/1399/problem/C) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1399/C%20-%20Boats%20Competition/solution.txt) |
 | 1419D2 | [Sage's Birthday (hard version)](https://codeforces.com/contest/1419/problem/D2) | 1500 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1419/D2%20-%20Sage's%20Birthday%20(hard%20version)/solution.txt) |
@@ -231,6 +233,7 @@
 |---|---------|------------|----------|
 | 401C | [Team](https://codeforces.com/contest/401/problem/C) | 1400 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/401/C%20-%20Team/solution.txt) |
 | 546D | [Soldier and Number Game](https://codeforces.com/contest/546/problem/D) | 1700 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/546/D%20-%20Soldier%20and%20Number%20Game/solution.txt) |
+| 581D | [Three Logos](https://codeforces.com/contest/581/problem/D) | 1700 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/581/D%20-%20Three%20Logos/solution.txt) |
 | 803A | [Maximal Binary Matrix](https://codeforces.com/contest/803/problem/A) | 1400 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/803/A%20-%20Maximal%20Binary%20Matrix/solution.txt) |
 | 1396A | [Multiples of Length](https://codeforces.com/contest/1396/problem/A) | 1600 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1396/A%20-%20Multiples%20of%20Length/solution.txt) |
 | 1401C | [Mere Array](https://codeforces.com/contest/1401/problem/C) | 1300 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1401/C%20-%20Mere%20Array/solution.txt) |
@@ -441,6 +444,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 581D | [Three Logos](https://codeforces.com/contest/581/problem/D) | 1700 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/581/D%20-%20Three%20Logos/solution.txt) |
 | 2074A | [Draw a Square](https://codeforces.com/contest/2074/problem/A) | 800 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2074/A%20-%20Draw%20a%20Square/solution.txt) |
 | 2148B | [Lasers](https://codeforces.com/contest/2148/problem/B) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2148/B%20-%20Lasers/solution.py) |
 | 2153C | [Symmetrical Polygons](https://codeforces.com/contest/2153/problem/C) | 1500 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2153/C%20-%20Symmetrical%20Polygons/solution.txt) |
@@ -639,6 +643,7 @@
 | 433B | [Kuriyama Mirai's Stones](https://codeforces.com/contest/433/problem/B) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/433/B%20-%20Kuriyama%20Mirai's%20Stones/solution.cpp) |
 | 450A | [Jzzhu and Children](https://codeforces.com/contest/450/problem/A) | 1000 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/450/A%20-%20Jzzhu%20and%20Children/solution.txt) |
 | 467A | [George and Accommodation](https://codeforces.com/contest/467/problem/A) | 800 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/467/A%20-%20George%20and%20Accommodation/solution.txt) |
+| 581D | [Three Logos](https://codeforces.com/contest/581/problem/D) | 1700 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/581/D%20-%20Three%20Logos/solution.txt) |
 | 677A | [Vanya and Fence](https://codeforces.com/contest/677/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/677/A%20-%20Vanya%20and%20Fence/solution.cpp) |
 | 702C | [Cellular Network](https://codeforces.com/contest/702/problem/C) | 1500 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/702/C%20-%20Cellular%20Network/solution.txt) |
 | 886C | [Petya and Catacombs](https://codeforces.com/contest/886/problem/C) | 1300 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/886/C%20-%20Petya%20and%20Catacombs/solution.txt) |
@@ -728,6 +733,7 @@
 | 312B | [Archer](https://codeforces.com/contest/312/problem/B) | 1300 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/312/B%20-%20Archer/solution.txt) |
 | 476B | [Dreamoon and WiFi](https://codeforces.com/contest/476/problem/B) | 1300 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/476/B%20-%20Dreamoon%20and%20WiFi/solution.txt) |
 | 546D | [Soldier and Number Game](https://codeforces.com/contest/546/problem/D) | 1700 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/546/D%20-%20Soldier%20and%20Number%20Game/solution.txt) |
+| 581D | [Three Logos](https://codeforces.com/contest/581/problem/D) | 1700 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/581/D%20-%20Three%20Logos/solution.txt) |
 | 597A | [Divisibility](https://codeforces.com/contest/597/problem/A) | 1600 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/597/A%20-%20Divisibility/solution.txt) |
 | 630E | [A rectangle](https://codeforces.com/contest/630/problem/E) | 1900 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/630/E%20-%20A%20rectangle/solution.txt) |
 | 630J | [Divisibility](https://codeforces.com/contest/630/problem/J) | 1100 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/630/J%20-%20Divisibility/solution.txt) |
