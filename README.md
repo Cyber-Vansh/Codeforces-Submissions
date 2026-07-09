@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 313 | 33 |
+| 314 | 33 |
 
 ---
 
@@ -19,7 +19,7 @@
 - [brute force](#brute-force) (67)
 - [chinese remainder theorem](#chinese-remainder-theorem) (1)
 - [combinatorics](#combinatorics) (11)
-- [constructive algorithms](#constructive-algorithms) (67)
+- [constructive algorithms](#constructive-algorithms) (68)
 - [data structures](#data-structures) (25)
 - [dfs and similar](#dfs-and-similar) (12)
 - [divide and conquer](#divide-and-conquer) (1)
@@ -35,7 +35,7 @@
 - [hashing](#hashing) (4)
 - [implementation](#implementation) (77)
 - [interactive](#interactive) (1)
-- [math](#math) (142)
+- [math](#math) (143)
 - [matrices](#matrices) (1)
 - [number theory](#number-theory) (50)
 - [probabilities](#probabilities) (4)
@@ -44,7 +44,7 @@
 - [sortings](#sortings) (34)
 - [strings](#strings) (18)
 - [trees](#trees) (7)
-- [two pointers](#two-pointers) (23)
+- [two pointers](#two-pointers) (24)
 
 ---
 
@@ -240,6 +240,7 @@
 | 1771B | [Hossam and Friends](https://codeforces.com/contest/1771/problem/B) | 1400 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1771/B%20-%20Hossam%20and%20Friends/solution.txt) |
 | 1837C | [Best Binary String](https://codeforces.com/contest/1837/problem/C) | 1000 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1837/C%20-%20Best%20Binary%20String/solution.txt) |
 | 1864C | [Divisor Chain](https://codeforces.com/contest/1864/problem/C) | 1300 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1864/C%20-%20Divisor%20Chain/solution.txt) |
+| 1927E | [Klever Permutation](https://codeforces.com/contest/1927/problem/E) | 1400 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1927/E%20-%20Klever%20Permutation/solution.txt) |
 | 1966B | [Rectangle Filling](https://codeforces.com/contest/1966/problem/B) | 1100 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1966/B%20-%20Rectangle%20Filling/solution.txt) |
 | 1991C | [Absolute Zero](https://codeforces.com/contest/1991/problem/C) | 1300 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1991/C%20-%20Absolute%20Zero/solution.txt) |
 | 2030A | [A Gift From Orangutan](https://codeforces.com/contest/2030/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2030/A%20-%20A%20Gift%20From%20Orangutan/solution.py) |
@@ -751,6 +752,7 @@
 | 1864C | [Divisor Chain](https://codeforces.com/contest/1864/problem/C) | 1300 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1864/C%20-%20Divisor%20Chain/solution.txt) |
 | 1875C | [Jellyfish and Green Apple](https://codeforces.com/contest/1875/problem/C) | 1400 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1875/C%20-%20Jellyfish%20and%20Green%20Apple/solution.txt) |
 | 1884B | [Haunted House](https://codeforces.com/contest/1884/problem/B) | 1100 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1884/B%20-%20Haunted%20House/solution.txt) |
+| 1927E | [Klever Permutation](https://codeforces.com/contest/1927/problem/E) | 1400 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1927/E%20-%20Klever%20Permutation/solution.txt) |
 | 1954B | [Make It Ugly](https://codeforces.com/contest/1954/problem/B) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1954/B%20-%20Make%20It%20Ugly/solution.txt) |
 | 1981A | [Turtle and Piggy Are Playing a Game](https://codeforces.com/contest/1981/problem/A) | 800 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1981/A%20-%20Turtle%20and%20Piggy%20Are%20Playing%20a%20Game/solution.txt) |
 | 1984C1 | [Magnitude (Easy Version)](https://codeforces.com/contest/1984/problem/C1) | 1300 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1984/C1%20-%20Magnitude%20(Easy%20Version)/solution.txt) |
@@ -1031,6 +1033,7 @@
 | 1771B | [Hossam and Friends](https://codeforces.com/contest/1771/problem/B) | 1400 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1771/B%20-%20Hossam%20and%20Friends/solution.txt) |
 | 1847B | [Hamon Odyssey](https://codeforces.com/contest/1847/problem/B) | 1000 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1847/B%20-%20Hamon%20Odyssey/solution.txt) |
 | 1884B | [Haunted House](https://codeforces.com/contest/1884/problem/B) | 1100 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1884/B%20-%20Haunted%20House/solution.txt) |
+| 1927E | [Klever Permutation](https://codeforces.com/contest/1927/problem/E) | 1400 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1927/E%20-%20Klever%20Permutation/solution.txt) |
 | 1928B | [Equalize](https://codeforces.com/contest/1928/problem/B) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1928/B%20-%20Equalize/solution.txt) |
 | 1995B1 | [Bouquet (Easy Version)](https://codeforces.com/contest/1995/problem/B1) | 1100 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1995/B1%20-%20Bouquet%20(Easy%20Version)/solution.txt) |
 | 2136B | [Like the Bitset](https://codeforces.com/contest/2136/problem/B) | 900 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2136/B%20-%20Like%20the%20Bitset/solution.py) |
