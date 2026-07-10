@@ -1,0 +1,48 @@
+t = int(input())
+for _ in range(t):
+    n = int(input())
+    s = input()
+ 
+    zero = 0
+ 
+    for i in range(n):
+        if s[i]=="1":
+            for j in range(i+1,n+1):
+                if j==n:
+                    if zero==1:
+                        new = []
+                        for x in range(i):
+                            new.append(s[x])
+                        for x in range(j-1,i-1,-1):
+                            new.append(s[x])
+                        s = "".join(new)
+                    break
+                if s[j]=="0":
+                    zero = 1
+                else:
+                    if zero==1:
+                        new = []
+                        for x in range(i):
+                            new.append(s[x])
+                        for x in range(j-1,i-1,-1):
+                            new.append(s[x])
+                        for x in range(j,n):
+                            new.append(s[x])
+                        s = "".join(new)
+                        break
+            break
+    
+    ans = 0
+    prev = "0"
+ 
+    for i in range(n):
+        if s[i]==prev:
+            ans += 1
+        else:
+            prev = s[i]
+            ans += 2
+    
+    print(ans)
+ 
+ 
+ 
