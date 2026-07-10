@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 318 | 33 |
+| 319 | 33 |
 
 ---
 
@@ -16,7 +16,7 @@
 - [Uncategorized](#uncategorized) (8)
 - [binary search](#binary-search) (34)
 - [bitmasks](#bitmasks) (17)
-- [brute force](#brute-force) (70)
+- [brute force](#brute-force) (71)
 - [chinese remainder theorem](#chinese-remainder-theorem) (1)
 - [combinatorics](#combinatorics) (11)
 - [constructive algorithms](#constructive-algorithms) (69)
@@ -31,7 +31,7 @@
 - [geometry](#geometry) (4)
 - [graph matchings](#graph-matchings) (1)
 - [graphs](#graphs) (14)
-- [greedy](#greedy) (143)
+- [greedy](#greedy) (144)
 - [hashing](#hashing) (4)
 - [implementation](#implementation) (78)
 - [interactive](#interactive) (1)
@@ -42,7 +42,7 @@
 - [schedules](#schedules) (3)
 - [shortest paths](#shortest-paths) (8)
 - [sortings](#sortings) (35)
-- [strings](#strings) (18)
+- [strings](#strings) (19)
 - [trees](#trees) (7)
 - [two pointers](#two-pointers) (25)
 
@@ -158,6 +158,7 @@
 | 1904A | [Forked!](https://codeforces.com/contest/1904/problem/A) | 900 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1904/A%20-%20Forked!/solution.txt) |
 | 1981A | [Turtle and Piggy Are Playing a Game](https://codeforces.com/contest/1981/problem/A) | 800 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1981/A%20-%20Turtle%20and%20Piggy%20Are%20Playing%20a%20Game/solution.txt) |
 | 1985E | [Secret Box](https://codeforces.com/contest/1985/problem/E) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1985/E%20-%20Secret%20Box/solution.txt) |
+| 1989B | [Substring and Subsequence](https://codeforces.com/contest/1989/problem/B) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1989/B%20-%20Substring%20and%20Subsequence/solution.txt) |
 | 1995B1 | [Bouquet (Easy Version)](https://codeforces.com/contest/1995/problem/B1) | 1100 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1995/B1%20-%20Bouquet%20(Easy%20Version)/solution.txt) |
 | 2009A | [Minimize!](https://codeforces.com/contest/2009/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2009/A%20-%20Minimize!/solution.py) |
 | 2031B | [Penchick and Satay Sticks](https://codeforces.com/contest/2031/problem/B) | 900 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2031/B%20-%20Penchick%20and%20Satay%20Sticks/solution.py) |
@@ -508,6 +509,7 @@
 | 1928B | [Equalize](https://codeforces.com/contest/1928/problem/B) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1928/B%20-%20Equalize/solution.txt) |
 | 1981A | [Turtle and Piggy Are Playing a Game](https://codeforces.com/contest/1981/problem/A) | 800 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1981/A%20-%20Turtle%20and%20Piggy%20Are%20Playing%20a%20Game/solution.txt) |
 | 1984C1 | [Magnitude (Easy Version)](https://codeforces.com/contest/1984/problem/C1) | 1300 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1984/C1%20-%20Magnitude%20(Easy%20Version)/solution.txt) |
+| 1989B | [Substring and Subsequence](https://codeforces.com/contest/1989/problem/B) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1989/B%20-%20Substring%20and%20Subsequence/solution.txt) |
 | 1991C | [Absolute Zero](https://codeforces.com/contest/1991/problem/C) | 1300 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1991/C%20-%20Absolute%20Zero/solution.txt) |
 | 1995B1 | [Bouquet (Easy Version)](https://codeforces.com/contest/1995/problem/B1) | 1100 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1995/B1%20-%20Bouquet%20(Easy%20Version)/solution.txt) |
 | 2005B2 | [The Strict Teacher (Hard Version)](https://codeforces.com/contest/2005/problem/B2) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2005/B2%20-%20The%20Strict%20Teacher%20(Hard%20Version)/solution.txt) |
@@ -1011,6 +1013,7 @@
 | 1462B | [Last Year's Substring](https://codeforces.com/contest/1462/problem/B) | 800 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1462/B%20-%20Last%20Year's%20Substring/solution.txt) |
 | 1654B | [Prefix Removals](https://codeforces.com/contest/1654/problem/B) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1654/B%20-%20Prefix%20Removals/solution.py) |
 | 1845C | [Strong Password](https://codeforces.com/contest/1845/problem/C) | 1400 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1845/C%20-%20Strong%20Password/solution.txt) |
+| 1989B | [Substring and Subsequence](https://codeforces.com/contest/1989/problem/B) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1989/B%20-%20Substring%20and%20Subsequence/solution.txt) |
 | 2048C | [Kevin and Binary Strings](https://codeforces.com/contest/2048/problem/C) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2048/C%20-%20Kevin%20and%20Binary%20Strings/solution.txt) |
 | 2072B | [Having Been a Treasurer in the Past, I Help Goblins Deceive](https://codeforces.com/contest/2072/problem/B) | 900 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2072/B%20-%20Having%20Been%20a%20Treasurer%20in%20the%20Past%2C%20I%20Help%20Goblins%20Deceive/solution.py) |
 | 2178A | [Yes or Yes](https://codeforces.com/contest/2178/problem/A) | 800 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2178/A%20-%20Yes%20or%20Yes/solution.txt) |
