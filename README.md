@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 321 | 33 |
+| 322 | 33 |
 
 ---
 
@@ -16,14 +16,14 @@
 - [Uncategorized](#uncategorized) (8)
 - [binary search](#binary-search) (34)
 - [bitmasks](#bitmasks) (17)
-- [brute force](#brute-force) (72)
+- [brute force](#brute-force) (73)
 - [chinese remainder theorem](#chinese-remainder-theorem) (1)
 - [combinatorics](#combinatorics) (12)
 - [constructive algorithms](#constructive-algorithms) (70)
 - [data structures](#data-structures) (26)
 - [dfs and similar](#dfs-and-similar) (12)
 - [divide and conquer](#divide-and-conquer) (1)
-- [dp](#dp) (46)
+- [dp](#dp) (47)
 - [dsu](#dsu) (2)
 - [expression parsing](#expression-parsing) (1)
 - [fft](#fft) (1)
@@ -33,9 +33,9 @@
 - [graphs](#graphs) (14)
 - [greedy](#greedy) (145)
 - [hashing](#hashing) (4)
-- [implementation](#implementation) (78)
+- [implementation](#implementation) (79)
 - [interactive](#interactive) (1)
-- [math](#math) (145)
+- [math](#math) (146)
 - [matrices](#matrices) (1)
 - [number theory](#number-theory) (51)
 - [probabilities](#probabilities) (4)
@@ -143,6 +143,7 @@
 | 476B | [Dreamoon and WiFi](https://codeforces.com/contest/476/problem/B) | 1300 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/476/B%20-%20Dreamoon%20and%20WiFi/solution.txt) |
 | 581D | [Three Logos](https://codeforces.com/contest/581/problem/D) | 1700 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/581/D%20-%20Three%20Logos/solution.txt) |
 | 1305C | [Kuroni and Impossible Calculation](https://codeforces.com/contest/1305/problem/C) | 1600 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1305/C%20-%20Kuroni%20and%20Impossible%20Calculation/solution.txt) |
+| 1339A | [Filling Diamonds](https://codeforces.com/contest/1339/problem/A) | 900 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1339/A%20-%20Filling%20Diamonds/solution.txt) |
 | 1399C | [Boats Competition](https://codeforces.com/contest/1399/problem/C) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1399/C%20-%20Boats%20Competition/solution.txt) |
 | 1419D2 | [Sage's Birthday (hard version)](https://codeforces.com/contest/1419/problem/D2) | 1500 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1419/D2%20-%20Sage's%20Birthday%20(hard%20version)/solution.txt) |
 | 1485A | [Add and Divide](https://codeforces.com/contest/1485/problem/A) | 1000 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1485/A%20-%20Add%20and%20Divide/solution.txt) |
@@ -373,6 +374,7 @@
 | 546D | [Soldier and Number Game](https://codeforces.com/contest/546/problem/D) | 1700 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/546/D%20-%20Soldier%20and%20Number%20Game/solution.txt) |
 | 580D | [Kefa and Dishes](https://codeforces.com/contest/580/problem/D) | 1800 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/580/D%20-%20Kefa%20and%20Dishes/solution.txt) |
 | 597C | [Subsequences](https://codeforces.com/contest/597/problem/C) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/597/C%20-%20Subsequences/solution.cpp) |
+| 1339A | [Filling Diamonds](https://codeforces.com/contest/1339/problem/A) | 900 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1339/A%20-%20Filling%20Diamonds/solution.txt) |
 | 1398C | [Good Subarrays](https://codeforces.com/contest/1398/problem/C) | 1600 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1398/C%20-%20Good%20Subarrays/solution.txt) |
 | 1462B | [Last Year's Substring](https://codeforces.com/contest/1462/problem/B) | 800 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1462/B%20-%20Last%20Year's%20Substring/solution.txt) |
 | 1536C | [Diluc and Kaeya](https://codeforces.com/contest/1536/problem/C) | 1500 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1536/C%20-%20Diluc%20and%20Kaeya/solution.txt) |
@@ -656,6 +658,7 @@
 | 886C | [Petya and Catacombs](https://codeforces.com/contest/886/problem/C) | 1300 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/886/C%20-%20Petya%20and%20Catacombs/solution.txt) |
 | 911A | [Nearest Minimums](https://codeforces.com/contest/911/problem/A) | 1100 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/911/A%20-%20Nearest%20Minimums/solution.txt) |
 | 1330B | [Dreamoon Likes Permutations](https://codeforces.com/contest/1330/problem/B) | 1400 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1330/B%20-%20Dreamoon%20Likes%20Permutations/solution.txt) |
+| 1339A | [Filling Diamonds](https://codeforces.com/contest/1339/problem/A) | 900 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1339/A%20-%20Filling%20Diamonds/solution.txt) |
 | 1462A | [Favorite Sequence](https://codeforces.com/contest/1462/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1462/A%20-%20Favorite%20Sequence/solution.py) |
 | 1462B | [Last Year's Substring](https://codeforces.com/contest/1462/problem/B) | 800 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1462/B%20-%20Last%20Year's%20Substring/solution.txt) |
 | 1555C | [Coin Rows](https://codeforces.com/contest/1555/problem/C) | 1300 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1555/C%20-%20Coin%20Rows/solution.txt) |
@@ -750,6 +753,7 @@
 | 1217A | [Creating a Character](https://codeforces.com/contest/1217/problem/A) | 1300 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1217/A%20-%20Creating%20a%20Character/solution.txt) |
 | 1305C | [Kuroni and Impossible Calculation](https://codeforces.com/contest/1305/problem/C) | 1600 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1305/C%20-%20Kuroni%20and%20Impossible%20Calculation/solution.txt) |
 | 1330B | [Dreamoon Likes Permutations](https://codeforces.com/contest/1330/problem/B) | 1400 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1330/B%20-%20Dreamoon%20Likes%20Permutations/solution.txt) |
+| 1339A | [Filling Diamonds](https://codeforces.com/contest/1339/problem/A) | 900 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1339/A%20-%20Filling%20Diamonds/solution.txt) |
 | 1342C | [Yet Another Counting Problem](https://codeforces.com/contest/1342/problem/C) | 1600 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1342/C%20-%20Yet%20Another%20Counting%20Problem/solution.txt) |
 | 1344A | [Hilbert's Hotel](https://codeforces.com/contest/1344/problem/A) | 1600 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1344/A%20-%20Hilbert's%20Hotel/solution.txt) |
 | 1349A | [Orac and LCM](https://codeforces.com/contest/1349/problem/A) | 1600 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1349/A%20-%20Orac%20and%20LCM/solution.txt) |
