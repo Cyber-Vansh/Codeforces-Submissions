@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 317 | 33 |
+| 318 | 33 |
 
 ---
 
@@ -31,11 +31,11 @@
 - [geometry](#geometry) (4)
 - [graph matchings](#graph-matchings) (1)
 - [graphs](#graphs) (14)
-- [greedy](#greedy) (142)
+- [greedy](#greedy) (143)
 - [hashing](#hashing) (4)
 - [implementation](#implementation) (78)
 - [interactive](#interactive) (1)
-- [math](#math) (144)
+- [math](#math) (145)
 - [matrices](#matrices) (1)
 - [number theory](#number-theory) (50)
 - [probabilities](#probabilities) (4)
@@ -530,6 +530,7 @@
 | 2093B | [Expensive Number](https://codeforces.com/contest/2093/problem/B) | 900 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2093/B%20-%20Expensive%20Number/solution.py) |
 | 2093E | [Min Max MEX](https://codeforces.com/contest/2093/problem/E) | 1500 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2093/E%20-%20Min%20Max%20MEX/solution.py) |
 | 2096B | [Wonderful Gloves](https://codeforces.com/contest/2096/problem/B) | 1100 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2096/B%20-%20Wonderful%20Gloves/solution.txt) |
+| 2103B | [Binary Typewriter](https://codeforces.com/contest/2103/problem/B) | 1100 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2103/B%20-%20Binary%20Typewriter/solution.txt) |
 | 2104B | [Move to the End](https://codeforces.com/contest/2104/problem/B) | 1000 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2104/B%20-%20Move%20to%20the%20End/solution.py) |
 | 2104C | [Card Game](https://codeforces.com/contest/2104/problem/C) | 1100 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2104/C%20-%20Card%20Game/solution.py) |
 | 2104D | [Array and GCD](https://codeforces.com/contest/2104/problem/D) | 1400 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2104/D%20-%20Array%20and%20GCD/solution.py) |
@@ -799,6 +800,7 @@
 | 2093C | [Simple Repetition](https://codeforces.com/contest/2093/problem/C) | 1000 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2093/C%20-%20Simple%20Repetition/solution.py) |
 | 2096B | [Wonderful Gloves](https://codeforces.com/contest/2096/problem/B) | 1100 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2096/B%20-%20Wonderful%20Gloves/solution.txt) |
 | 2102A | [Dinner Time](https://codeforces.com/contest/2102/problem/A) | 900 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2102/A%20-%20Dinner%20Time/solution.txt) |
+| 2103B | [Binary Typewriter](https://codeforces.com/contest/2103/problem/B) | 1100 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2103/B%20-%20Binary%20Typewriter/solution.txt) |
 | 2104A | [Three Decks](https://codeforces.com/contest/2104/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2104/A%20-%20Three%20Decks/solution.py) |
 | 2104C | [Card Game](https://codeforces.com/contest/2104/problem/C) | 1100 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2104/C%20-%20Card%20Game/solution.py) |
 | 2104D | [Array and GCD](https://codeforces.com/contest/2104/problem/D) | 1400 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2104/D%20-%20Array%20and%20GCD/solution.py) |
