@@ -1,0 +1,27 @@
+t = int(input())
+for _ in range(t):
+    a = input()
+    b = input()
+ 
+    dp = [[-1]*len(b) for i in range(len(a))]
+ 
+    def code(i,j):
+        if i==len(a) or j==len(b):
+            return 0
+ 
+        if dp[i][j]!=-1:
+            return dp[i][j]
+        
+        if a[i]==b[j]:
+            dp[i][j] = 1 + code(i+1,j+1)
+            return dp[i][j]
+        
+        dp[i][j] = code(i+1,j)
+        return dp[i][j]
+ 
+    Max = 0
+ 
+    for i in range(len(b)):
+        Max = max(Max,code(0,i))
+    
+    print(len(a)+len(b)-Max)
