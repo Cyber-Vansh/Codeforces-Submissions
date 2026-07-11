@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 322 | 33 |
+| 323 | 33 |
 
 ---
 
@@ -16,7 +16,7 @@
 - [Uncategorized](#uncategorized) (8)
 - [binary search](#binary-search) (34)
 - [bitmasks](#bitmasks) (17)
-- [brute force](#brute-force) (73)
+- [brute force](#brute-force) (74)
 - [chinese remainder theorem](#chinese-remainder-theorem) (1)
 - [combinatorics](#combinatorics) (12)
 - [constructive algorithms](#constructive-algorithms) (70)
@@ -33,7 +33,7 @@
 - [graphs](#graphs) (14)
 - [greedy](#greedy) (145)
 - [hashing](#hashing) (4)
-- [implementation](#implementation) (79)
+- [implementation](#implementation) (80)
 - [interactive](#interactive) (1)
 - [math](#math) (146)
 - [matrices](#matrices) (1)
@@ -164,6 +164,7 @@
 | 1995B1 | [Bouquet (Easy Version)](https://codeforces.com/contest/1995/problem/B1) | 1100 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1995/B1%20-%20Bouquet%20(Easy%20Version)/solution.txt) |
 | 2009A | [Minimize!](https://codeforces.com/contest/2009/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2009/A%20-%20Minimize!/solution.py) |
 | 2031B | [Penchick and Satay Sticks](https://codeforces.com/contest/2031/problem/B) | 900 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2031/B%20-%20Penchick%20and%20Satay%20Sticks/solution.py) |
+| 2036C | [Anya and 1100](https://codeforces.com/contest/2036/problem/C) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2036/C%20-%20Anya%20and%201100/solution.cpp) |
 | 2039C1 | [Shohag Loves XOR (Easy Version)](https://codeforces.com/contest/2039/problem/C1) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2039/C1%20-%20Shohag%20Loves%20XOR%20(Easy%20Version)/solution.txt) |
 | 2048C | [Kevin and Binary Strings](https://codeforces.com/contest/2048/problem/C) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2048/C%20-%20Kevin%20and%20Binary%20Strings/solution.txt) |
 | 2048D | [Kevin and Competition Memories](https://codeforces.com/contest/2048/problem/D) | 1600 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2048/D%20-%20Kevin%20and%20Competition%20Memories/solution.txt) |
@@ -672,6 +673,7 @@
 | 1954B | [Make It Ugly](https://codeforces.com/contest/1954/problem/B) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1954/B%20-%20Make%20It%20Ugly/solution.txt) |
 | 1966B | [Rectangle Filling](https://codeforces.com/contest/1966/problem/B) | 1100 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1966/B%20-%20Rectangle%20Filling/solution.txt) |
 | 2028B | [Alice's Adventures in Permuting](https://codeforces.com/contest/2028/problem/B) | 1400 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2028/B%20-%20Alice's%20Adventures%20in%20Permuting/solution.txt) |
+| 2036C | [Anya and 1100](https://codeforces.com/contest/2036/problem/C) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2036/C%20-%20Anya%20and%201100/solution.cpp) |
 | 2037A | [Twice](https://codeforces.com/contest/2037/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2037/A%20-%20Twice/solution.py) |
 | 2048C | [Kevin and Binary Strings](https://codeforces.com/contest/2048/problem/C) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2048/C%20-%20Kevin%20and%20Binary%20Strings/solution.txt) |
 | 2051C | [Preparing for the Exam](https://codeforces.com/contest/2051/problem/C) | 1000 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2051/C%20-%20Preparing%20for%20the%20Exam/solution.txt) |
