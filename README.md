@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 324 | 33 |
+| 325 | 33 |
 
 ---
 
@@ -16,10 +16,10 @@
 - [Uncategorized](#uncategorized) (8)
 - [binary search](#binary-search) (34)
 - [bitmasks](#bitmasks) (17)
-- [brute force](#brute-force) (74)
+- [brute force](#brute-force) (75)
 - [chinese remainder theorem](#chinese-remainder-theorem) (1)
 - [combinatorics](#combinatorics) (12)
-- [constructive algorithms](#constructive-algorithms) (71)
+- [constructive algorithms](#constructive-algorithms) (72)
 - [data structures](#data-structures) (26)
 - [dfs and similar](#dfs-and-similar) (12)
 - [divide and conquer](#divide-and-conquer) (1)
@@ -31,11 +31,11 @@
 - [geometry](#geometry) (4)
 - [graph matchings](#graph-matchings) (1)
 - [graphs](#graphs) (14)
-- [greedy](#greedy) (146)
+- [greedy](#greedy) (147)
 - [hashing](#hashing) (4)
 - [implementation](#implementation) (80)
 - [interactive](#interactive) (1)
-- [math](#math) (147)
+- [math](#math) (148)
 - [matrices](#matrices) (1)
 - [number theory](#number-theory) (51)
 - [probabilities](#probabilities) (4)
@@ -44,7 +44,7 @@
 - [sortings](#sortings) (35)
 - [strings](#strings) (19)
 - [trees](#trees) (7)
-- [two pointers](#two-pointers) (25)
+- [two pointers](#two-pointers) (26)
 
 ---
 
@@ -168,6 +168,7 @@
 | 2039C1 | [Shohag Loves XOR (Easy Version)](https://codeforces.com/contest/2039/problem/C1) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2039/C1%20-%20Shohag%20Loves%20XOR%20(Easy%20Version)/solution.txt) |
 | 2048C | [Kevin and Binary Strings](https://codeforces.com/contest/2048/problem/C) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2048/C%20-%20Kevin%20and%20Binary%20Strings/solution.txt) |
 | 2048D | [Kevin and Competition Memories](https://codeforces.com/contest/2048/problem/D) | 1600 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2048/D%20-%20Kevin%20and%20Competition%20Memories/solution.txt) |
+| 2055C | [The Trail](https://codeforces.com/contest/2055/problem/C) | 1400 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2055/C%20-%20The%20Trail/solution.txt) |
 | 2060A | [Fibonacciness](https://codeforces.com/contest/2060/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2060/A%20-%20Fibonacciness/solution.py) |
 | 2071B | [Perfecto](https://codeforces.com/contest/2071/problem/B) | 1100 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2071/B%20-%20Perfecto/solution.py) |
 | 2086B | [Large Array and Segments](https://codeforces.com/contest/2086/problem/B) | 1100 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2086/B%20-%20Large%20Array%20and%20Segments/solution.py) |
@@ -261,6 +262,7 @@
 | 2031C | [Penchick and BBQ Buns](https://codeforces.com/contest/2031/problem/C) | 1300 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2031/C%20-%20Penchick%20and%20BBQ%20Buns/solution.py) |
 | 2037C | [Superultra's Favorite Permutation](https://codeforces.com/contest/2037/problem/C) | 1000 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2037/C%20-%20Superultra's%20Favorite%20Permutation/solution.py) |
 | 2051C | [Preparing for the Exam](https://codeforces.com/contest/2051/problem/C) | 1000 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2051/C%20-%20Preparing%20for%20the%20Exam/solution.txt) |
+| 2055C | [The Trail](https://codeforces.com/contest/2055/problem/C) | 1400 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2055/C%20-%20The%20Trail/solution.txt) |
 | 2056A | [Shape Perimeter](https://codeforces.com/contest/2056/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2056/A%20-%20Shape%20Perimeter/solution.py) |
 | 2071B | [Perfecto](https://codeforces.com/contest/2071/problem/B) | 1100 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2071/B%20-%20Perfecto/solution.py) |
 | 2072B | [Having Been a Treasurer in the Past, I Help Goblins Deceive](https://codeforces.com/contest/2072/problem/B) | 900 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2072/B%20-%20Having%20Been%20a%20Treasurer%20in%20the%20Past%2C%20I%20Help%20Goblins%20Deceive/solution.py) |
@@ -531,6 +533,7 @@
 | 2046A | [Swap Columns and Find a Path](https://codeforces.com/contest/2046/problem/A) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2046/A%20-%20Swap%20Columns%20and%20Find%20a%20Path/solution.txt) |
 | 2048C | [Kevin and Binary Strings](https://codeforces.com/contest/2048/problem/C) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2048/C%20-%20Kevin%20and%20Binary%20Strings/solution.txt) |
 | 2048D | [Kevin and Competition Memories](https://codeforces.com/contest/2048/problem/D) | 1600 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2048/D%20-%20Kevin%20and%20Competition%20Memories/solution.txt) |
+| 2055C | [The Trail](https://codeforces.com/contest/2055/problem/C) | 1400 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2055/C%20-%20The%20Trail/solution.txt) |
 | 2060B | [Farmer John's Card Game](https://codeforces.com/contest/2060/problem/B) | 1000 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2060/B%20-%20Farmer%20John's%20Card%20Game/solution.py) |
 | 2071B | [Perfecto](https://codeforces.com/contest/2071/problem/B) | 1100 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2071/B%20-%20Perfecto/solution.py) |
 | 2072A | [New World, New Me, New Array](https://codeforces.com/contest/2072/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2072/A%20-%20New%20World%2C%20New%20Me%2C%20New%20Array/solution.py) |
@@ -799,6 +802,7 @@
 | 2031C | [Penchick and BBQ Buns](https://codeforces.com/contest/2031/problem/C) | 1300 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2031/C%20-%20Penchick%20and%20BBQ%20Buns/solution.py) |
 | 2037C | [Superultra's Favorite Permutation](https://codeforces.com/contest/2037/problem/C) | 1000 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2037/C%20-%20Superultra's%20Favorite%20Permutation/solution.py) |
 | 2039C1 | [Shohag Loves XOR (Easy Version)](https://codeforces.com/contest/2039/problem/C1) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2039/C1%20-%20Shohag%20Loves%20XOR%20(Easy%20Version)/solution.txt) |
+| 2055C | [The Trail](https://codeforces.com/contest/2055/problem/C) | 1400 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2055/C%20-%20The%20Trail/solution.txt) |
 | 2056A | [Shape Perimeter](https://codeforces.com/contest/2056/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2056/A%20-%20Shape%20Perimeter/solution.py) |
 | 2063A | [Minimal Coprime](https://codeforces.com/contest/2063/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2063/A%20-%20Minimal%20Coprime/solution.py) |
 | 2071A | [The Play Never Ends](https://codeforces.com/contest/2071/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2071/A%20-%20The%20Play%20Never%20Ends/solution.py) |
@@ -1071,6 +1075,7 @@
 | 1928B | [Equalize](https://codeforces.com/contest/1928/problem/B) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1928/B%20-%20Equalize/solution.txt) |
 | 1995B1 | [Bouquet (Easy Version)](https://codeforces.com/contest/1995/problem/B1) | 1100 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1995/B1%20-%20Bouquet%20(Easy%20Version)/solution.txt) |
 | 2048D | [Kevin and Competition Memories](https://codeforces.com/contest/2048/problem/D) | 1600 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2048/D%20-%20Kevin%20and%20Competition%20Memories/solution.txt) |
+| 2055C | [The Trail](https://codeforces.com/contest/2055/problem/C) | 1400 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2055/C%20-%20The%20Trail/solution.txt) |
 | 2136B | [Like the Bitset](https://codeforces.com/contest/2136/problem/B) | 900 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2136/B%20-%20Like%20the%20Bitset/solution.py) |
 | 2143A | [All Lengths Subtraction](https://codeforces.com/contest/2143/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2143/A%20-%20All%20Lengths%20Subtraction/solution.py) |
 | 2143B | [Discounts](https://codeforces.com/contest/2143/problem/B) | 1000 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2143/B%20-%20Discounts/solution.py) |
