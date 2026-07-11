@@ -1,0 +1,52 @@
+t = int(input())
+for _ in range(t):
+    n = int(input())
+    arr = list(map(int,input().split()))
+ 
+    if n==1:
+        print(0)
+        continue
+ 
+    xor = 0
+    for i in arr:
+        xor ^= i
+    
+    if xor==0:
+        print(1)
+        continue
+    
+    # arr.sort()
+ 
+    # if n%2==0:
+    #     if arr.count(arr[0])==n-1:
+    #         print(1)
+    #         continue
+    
+    # ans = 0
+ 
+    # for i in arr:
+    #     if i&xor==xor:
+    #         ans += 1
+    
+    # print(ans)
+ 
+    ans = 0
+ 
+    pre = [0]
+    suff = [0]
+ 
+    for i in range(n-1):
+        pre.append(pre[-1]^arr[i])
+    
+    for i in range(n-1,0,-1):
+        suff.append(suff[-1]^arr[i])
+    suff.reverse()
+ 
+    for i in range(n):
+        if arr[i]>=pre[i]^suff[i]:
+            ans += 1
+    
+    print(ans)
+ 
+ 
+ 
