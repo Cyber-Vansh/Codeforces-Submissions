@@ -1,0 +1,34 @@
+mod = 10**9+7
+ 
+t = int(input())
+for _ in range(t):
+    s = input()
+ 
+    ans = 0
+ 
+    d = {}
+ 
+    zero = 0
+    one = 0
+ 
+    for i in range(len(s)):
+        if s[i]=="0":
+            zero += 1
+        else:
+            one += 1
+        
+        if zero-one==0:
+            ans += len(s)-i
+        
+        diff = zero-one
+ 
+        if diff in d:
+            ans += d[diff]*(len(s)-i)
+            ans %= mod
+        
+        d[diff] = d.get(diff,0) + i+2
+    
+    print(ans)
+ 
+ 
+ 
