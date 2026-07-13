@@ -1,0 +1,78 @@
+t = int(input())
+for _ in range(t):
+    n = int(input())
+    arr = list(map(int,input().split()))
+ 
+    check = True
+ 
+    big = []
+    freq = [0]*(n+1)
+ 
+    if arr[0]>n:
+        big.append(arr[0])
+    else:
+        freq[arr[0]] += 1
+    
+    for i in range(1,n-1):
+        x = arr[i]-arr[i-1]
+ 
+        if x>n:
+            big.append(x)
+        else:
+            freq[x] += 1
+    
+    if len(big)>1:
+        print("NO")
+        continue
+    
+    missing = None
+ 
+    for i in range(1,n+1):
+        if freq[i]==0:
+            missing = i
+            break
+    
+    if missing:
+        freq[missing] = 1
+    
+    if len(big)>0:
+        x = missing
+        y = big[0]-x
+ 
+        if 0<y<=n and freq[y]==0:
+            freq[x] = 1
+            freq[y] = 1
+        else:
+            print("NO")
+            continue
+    else:
+        for i in range(1,n+1):
+            if freq[i]>1:
+                x = missing
+                y = i-x
+ 
+                if 0<y<=n and freq[y]==0:
+                    freq[i] -= 1
+                    freq[x] = 1
+                    freq[y] = 1
+                else:
+                    check = False
+                
+                break
+    
+    for i in range(1,n+1):
+        if freq[i]!=1:
+            check = False
+            break
+    
+    if check:
+        print("YES")
+    else:
+        print("NO")
+ 
+ 
+ 
+ 
+ 
+ 
+ 
