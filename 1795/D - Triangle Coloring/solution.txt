@@ -1,0 +1,25 @@
+import math
+ 
+mod = 998244353
+ 
+n = int(input())
+edges = list(map(int,input().split()))
+ 
+ans = 1
+ 
+for i in range(0,n,3):
+    x,y,z = edges[i],edges[i+1],edges[i+2]
+ 
+    Min = min(x,y,z)
+ 
+    if x==y==z:
+        ans *= 3
+    elif [x,y,z].count(Min)==2:
+        ans *= 2
+    
+    ans %= mod
+ 
+ans *= math.comb(n//3,n//6)
+ans %= mod
+ 
+print(ans)
