@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 329 | 33 |
+| 330 | 33 |
 
 ---
 
@@ -18,7 +18,7 @@
 - [bitmasks](#bitmasks) (17)
 - [brute force](#brute-force) (75)
 - [chinese remainder theorem](#chinese-remainder-theorem) (1)
-- [combinatorics](#combinatorics) (14)
+- [combinatorics](#combinatorics) (15)
 - [constructive algorithms](#constructive-algorithms) (72)
 - [data structures](#data-structures) (28)
 - [dfs and similar](#dfs-and-similar) (12)
@@ -35,7 +35,7 @@
 - [hashing](#hashing) (4)
 - [implementation](#implementation) (84)
 - [interactive](#interactive) (1)
-- [math](#math) (151)
+- [math](#math) (152)
 - [matrices](#matrices) (1)
 - [number theory](#number-theory) (51)
 - [probabilities](#probabilities) (4)
@@ -222,6 +222,7 @@
 |---|---------|------------|----------|
 | 476B | [Dreamoon and WiFi](https://codeforces.com/contest/476/problem/B) | 1300 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/476/B%20-%20Dreamoon%20and%20WiFi/solution.txt) |
 | 1305C | [Kuroni and Impossible Calculation](https://codeforces.com/contest/1305/problem/C) | 1600 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1305/C%20-%20Kuroni%20and%20Impossible%20Calculation/solution.txt) |
+| 1795D | [Triangle Coloring](https://codeforces.com/contest/1795/problem/D) | 1600 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1795/D%20-%20Triangle%20Coloring/solution.txt) |
 | 1843D | [Apple Tree](https://codeforces.com/contest/1843/problem/D) | 1200 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1843/D%20-%20Apple%20Tree/solution.py) |
 | 1850G | [The Morning Star](https://codeforces.com/contest/1850/problem/G) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1850/G%20-%20The%20Morning%20Star/solution.cpp) |
 | 1907E | [Good Triples](https://codeforces.com/contest/1907/problem/E) | 1600 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1907/E%20-%20Good%20Triples/solution.txt) |
@@ -788,6 +789,7 @@
 | 1753B | [Factorial Divisibility](https://codeforces.com/contest/1753/problem/B) | 1600 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1753/B%20-%20Factorial%20Divisibility/solution.txt) |
 | 1775D | [Friendly Spiders](https://codeforces.com/contest/1775/problem/D) | 1800 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1775/D%20-%20Friendly%20Spiders/solution.txt) |
 | 1780B | [GCD Partition](https://codeforces.com/contest/1780/problem/B) | 1100 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1780/B%20-%20GCD%20Partition/solution.txt) |
+| 1795D | [Triangle Coloring](https://codeforces.com/contest/1795/problem/D) | 1600 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1795/D%20-%20Triangle%20Coloring/solution.txt) |
 | 1811B | [Conveyor Belts](https://codeforces.com/contest/1811/problem/B) | 1000 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1811/B%20-%20Conveyor%20Belts/solution.txt) |
 | 1842A | [Tenzing and Tsondu](https://codeforces.com/contest/1842/problem/A) | 800 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1842/A%20-%20Tenzing%20and%20Tsondu/solution.txt) |
 | 1843D | [Apple Tree](https://codeforces.com/contest/1843/problem/D) | 1200 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1843/D%20-%20Apple%20Tree/solution.py) |
