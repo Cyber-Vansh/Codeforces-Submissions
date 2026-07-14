@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 331 | 33 |
+| 332 | 33 |
 
 ---
 
@@ -16,7 +16,7 @@
 - [Uncategorized](#uncategorized) (8)
 - [binary search](#binary-search) (34)
 - [bitmasks](#bitmasks) (17)
-- [brute force](#brute-force) (75)
+- [brute force](#brute-force) (76)
 - [chinese remainder theorem](#chinese-remainder-theorem) (1)
 - [combinatorics](#combinatorics) (15)
 - [constructive algorithms](#constructive-algorithms) (72)
@@ -33,10 +33,10 @@
 - [graphs](#graphs) (14)
 - [greedy](#greedy) (149)
 - [hashing](#hashing) (4)
-- [implementation](#implementation) (84)
+- [implementation](#implementation) (85)
 - [interactive](#interactive) (1)
 - [math](#math) (152)
-- [matrices](#matrices) (1)
+- [matrices](#matrices) (2)
 - [number theory](#number-theory) (51)
 - [probabilities](#probabilities) (4)
 - [schedules](#schedules) (3)
@@ -165,6 +165,7 @@
 | 2009A | [Minimize!](https://codeforces.com/contest/2009/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2009/A%20-%20Minimize!/solution.py) |
 | 2031B | [Penchick and Satay Sticks](https://codeforces.com/contest/2031/problem/B) | 900 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2031/B%20-%20Penchick%20and%20Satay%20Sticks/solution.py) |
 | 2036C | [Anya and 1100](https://codeforces.com/contest/2036/problem/C) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2036/C%20-%20Anya%20and%201100/solution.cpp) |
+| 2036D | [I Love 1543](https://codeforces.com/contest/2036/problem/D) | 1300 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2036/D%20-%20I%20Love%201543/solution.txt) |
 | 2039C1 | [Shohag Loves XOR (Easy Version)](https://codeforces.com/contest/2039/problem/C1) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2039/C1%20-%20Shohag%20Loves%20XOR%20(Easy%20Version)/solution.txt) |
 | 2048C | [Kevin and Binary Strings](https://codeforces.com/contest/2048/problem/C) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2048/C%20-%20Kevin%20and%20Binary%20Strings/solution.txt) |
 | 2048D | [Kevin and Competition Memories](https://codeforces.com/contest/2048/problem/D) | 1600 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2048/D%20-%20Kevin%20and%20Competition%20Memories/solution.txt) |
@@ -694,6 +695,7 @@
 | 1996E | [Decode](https://codeforces.com/contest/1996/problem/E) | 1600 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1996/E%20-%20Decode/solution.txt) |
 | 2028B | [Alice's Adventures in Permuting](https://codeforces.com/contest/2028/problem/B) | 1400 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2028/B%20-%20Alice's%20Adventures%20in%20Permuting/solution.txt) |
 | 2036C | [Anya and 1100](https://codeforces.com/contest/2036/problem/C) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2036/C%20-%20Anya%20and%201100/solution.cpp) |
+| 2036D | [I Love 1543](https://codeforces.com/contest/2036/problem/D) | 1300 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2036/D%20-%20I%20Love%201543/solution.txt) |
 | 2037A | [Twice](https://codeforces.com/contest/2037/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2037/A%20-%20Twice/solution.py) |
 | 2048C | [Kevin and Binary Strings](https://codeforces.com/contest/2048/problem/C) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2048/C%20-%20Kevin%20and%20Binary%20Strings/solution.txt) |
 | 2051C | [Preparing for the Exam](https://codeforces.com/contest/2051/problem/C) | 1000 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2051/C%20-%20Preparing%20for%20the%20Exam/solution.txt) |
@@ -913,6 +915,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 166E | [Tetrahedron](https://codeforces.com/contest/166/problem/E) | 1500 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/166/E%20-%20Tetrahedron/solution.txt) |
+| 2036D | [I Love 1543](https://codeforces.com/contest/2036/problem/D) | 1300 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2036/D%20-%20I%20Love%201543/solution.txt) |
 
 ### number theory
 
