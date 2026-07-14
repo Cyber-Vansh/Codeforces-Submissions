@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 330 | 33 |
+| 331 | 33 |
 
 ---
 
@@ -20,7 +20,7 @@
 - [chinese remainder theorem](#chinese-remainder-theorem) (1)
 - [combinatorics](#combinatorics) (15)
 - [constructive algorithms](#constructive-algorithms) (72)
-- [data structures](#data-structures) (28)
+- [data structures](#data-structures) (29)
 - [dfs and similar](#dfs-and-similar) (12)
 - [divide and conquer](#divide-and-conquer) (1)
 - [dp](#dp) (48)
@@ -31,7 +31,7 @@
 - [geometry](#geometry) (5)
 - [graph matchings](#graph-matchings) (1)
 - [graphs](#graphs) (14)
-- [greedy](#greedy) (148)
+- [greedy](#greedy) (149)
 - [hashing](#hashing) (4)
 - [implementation](#implementation) (84)
 - [interactive](#interactive) (1)
@@ -41,7 +41,7 @@
 - [probabilities](#probabilities) (4)
 - [schedules](#schedules) (3)
 - [shortest paths](#shortest-paths) (8)
-- [sortings](#sortings) (37)
+- [sortings](#sortings) (38)
 - [strings](#strings) (20)
 - [trees](#trees) (7)
 - [two pointers](#two-pointers) (26)
@@ -328,6 +328,7 @@
 | 1536C | [Diluc and Kaeya](https://codeforces.com/contest/1536/problem/C) | 1500 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1536/C%20-%20Diluc%20and%20Kaeya/solution.txt) |
 | 1850G | [The Morning Star](https://codeforces.com/contest/1850/problem/G) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1850/G%20-%20The%20Morning%20Star/solution.cpp) |
 | 1974C | [Beautiful Triple Pairs](https://codeforces.com/contest/1974/problem/C) | 1400 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1974/C%20-%20Beautiful%20Triple%20Pairs/solution.txt) |
+| 1986C | [Update Queries](https://codeforces.com/contest/1986/problem/C) | 1100 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1986/C%20-%20Update%20Queries/solution.txt) |
 | 1996E | [Decode](https://codeforces.com/contest/1996/problem/E) | 1600 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1996/E%20-%20Decode/solution.txt) |
 | 2048D | [Kevin and Competition Memories](https://codeforces.com/contest/2048/problem/D) | 1600 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2048/D%20-%20Kevin%20and%20Competition%20Memories/solution.txt) |
 | 2104B | [Move to the End](https://codeforces.com/contest/2104/problem/B) | 1000 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2104/B%20-%20Move%20to%20the%20End/solution.py) |
@@ -528,6 +529,7 @@
 | 1971D | [Binary Cut](https://codeforces.com/contest/1971/problem/D) | 1100 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1971/D%20-%20Binary%20Cut/solution.txt) |
 | 1981A | [Turtle and Piggy Are Playing a Game](https://codeforces.com/contest/1981/problem/A) | 800 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1981/A%20-%20Turtle%20and%20Piggy%20Are%20Playing%20a%20Game/solution.txt) |
 | 1984C1 | [Magnitude (Easy Version)](https://codeforces.com/contest/1984/problem/C1) | 1300 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1984/C1%20-%20Magnitude%20(Easy%20Version)/solution.txt) |
+| 1986C | [Update Queries](https://codeforces.com/contest/1986/problem/C) | 1100 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1986/C%20-%20Update%20Queries/solution.txt) |
 | 1989B | [Substring and Subsequence](https://codeforces.com/contest/1989/problem/B) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1989/B%20-%20Substring%20and%20Subsequence/solution.txt) |
 | 1991C | [Absolute Zero](https://codeforces.com/contest/1991/problem/C) | 1300 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1991/C%20-%20Absolute%20Zero/solution.txt) |
 | 1995B1 | [Bouquet (Easy Version)](https://codeforces.com/contest/1995/problem/B1) | 1100 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1995/B1%20-%20Bouquet%20(Easy%20Version)/solution.txt) |
@@ -1014,6 +1016,7 @@
 | 1915G | [Bicycles](https://codeforces.com/contest/1915/problem/G) | 1800 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1915/G%20-%20Bicycles/solution.txt) |
 | 1928B | [Equalize](https://codeforces.com/contest/1928/problem/B) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1928/B%20-%20Equalize/solution.txt) |
 | 1971D | [Binary Cut](https://codeforces.com/contest/1971/problem/D) | 1100 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1971/D%20-%20Binary%20Cut/solution.txt) |
+| 1986C | [Update Queries](https://codeforces.com/contest/1986/problem/C) | 1100 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1986/C%20-%20Update%20Queries/solution.txt) |
 | 1995B1 | [Bouquet (Easy Version)](https://codeforces.com/contest/1995/problem/B1) | 1100 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1995/B1%20-%20Bouquet%20(Easy%20Version)/solution.txt) |
 | 2005B2 | [The Strict Teacher (Hard Version)](https://codeforces.com/contest/2005/problem/B2) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2005/B2%20-%20The%20Strict%20Teacher%20(Hard%20Version)/solution.txt) |
 | 2030A | [A Gift From Orangutan](https://codeforces.com/contest/2030/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2030/A%20-%20A%20Gift%20From%20Orangutan/solution.py) |
