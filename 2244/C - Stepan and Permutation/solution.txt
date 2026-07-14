@@ -1,0 +1,32 @@
+import math
+ 
+t = int(input())
+for _ in range(t):
+    n,x,y = map(int,input().split())
+    arr = list(map(int,input().split()))
+ 
+    check = True
+ 
+    indexes = [-1]*(n+1)
+    for i in range(n):
+        indexes[arr[i]] = i
+    
+    for i in range(n):
+        if arr[i]==i+1:
+            continue
+        
+        idx = indexes[i+1]
+        diff = abs(idx-i)
+ 
+        if diff%x==0 or diff%y==0 or (x!=y and diff%math.gcd(x,y)==0):
+            arr[i],arr[idx] = arr[idx],arr[i]
+            indexes[arr[i]] = i
+            indexes[arr[idx]] = idx
+        else:
+            check = False
+            break
+    
+    if check:
+        print("YES")
+    else:
+        print("NO")
