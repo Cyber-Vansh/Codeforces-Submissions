@@ -1,0 +1,43 @@
+import math
+ 
+t = int(input())
+for _ in range(t):
+    n,m = map(int,input().split())
+    arr = list(map(int,input().split()))
+    b = list(map(int,input().split()))
+ 
+    b.sort()
+ 
+    ans = 0
+ 
+    idx = 0
+ 
+    for i in range(m):
+        plus = 0
+        minus = 0
+ 
+        while idx<b[i]:
+            if arr[idx]<0:
+                minus += abs(arr[idx])
+            else:
+                plus += arr[idx]
+            idx += 1
+        
+        # print(plus,minus,ans,b[i])
+        
+        if plus>=minus:
+            ans += plus
+            ans -= minus
+        else:
+            ans += minus
+            ans -= plus
+    
+    while idx<n:
+        ans += arr[idx]
+        idx += 1
+    
+    print(ans)
+ 
+ 
+ 
+ 
