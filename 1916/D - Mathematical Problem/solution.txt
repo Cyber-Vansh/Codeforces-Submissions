@@ -1,0 +1,63 @@
+import math
+import sys
+ 
+def solve():
+    # Fast I/O for competitive programming
+    input_data = sys.stdin.read().split()
+    if not input_data:
+        return
+        
+    t = int(input_data[0])
+    idx = 1
+    
+    for _ in range(t):
+        n = int(input_data[idx])
+        idx += 1
+ 
+        if n == 1:
+            print(1)
+            continue
+ 
+        count = 0
+ 
+        # We wrap your loops in a function so we can 'return' and instantly
+        # break out of all 3 nested loops at once.
+        def find_squares():
+            nonlocal count
+            
+            for i in range(n):
+                for j in range(n):
+                    for k in range(n):
+                        
+                        # Your original condition
+                        if i == j or i == k or j == k:
+                            continue
+ 
+                        # OPTIMIZATION: Enforce s[0] != '0' instantly.
+                        # The first digit MUST be 1, 6, or 9. 
+                        # So if i, j, and k are all NOT 0, skip immediately!
+                        if i != 0 and j != 0 and k != 0:
+                            continue
+ 
+                        # Your original string building logic
+                        s = ['0'] * n
+                        s[i] = '1'
+                        s[j] = '6'
+                        s[k] = '9'
+ 
+                        num = int(''.join(s))
+                        root = math.isqrt(num)
+ 
+                        if root * root == num:
+                            count += 1
+                            print(num)
+                            
+                            # THE MISSING BRAKE PEDAL:
+                            # The moment we find 'n' answers, kill the loops entirely!
+                            if count == n:
+                                return 
+ 
+        find_squares()
+ 
+if __name__ == '__main__':
+    solve()
