@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 339 | 33 |
+| 340 | 33 |
 
 ---
 
@@ -31,7 +31,7 @@
 - [geometry](#geometry) (5)
 - [graph matchings](#graph-matchings) (1)
 - [graphs](#graphs) (14)
-- [greedy](#greedy) (150)
+- [greedy](#greedy) (151)
 - [hashing](#hashing) (4)
 - [implementation](#implementation) (87)
 - [interactive](#interactive) (1)
@@ -41,7 +41,7 @@
 - [probabilities](#probabilities) (4)
 - [schedules](#schedules) (3)
 - [shortest paths](#shortest-paths) (8)
-- [sortings](#sortings) (38)
+- [sortings](#sortings) (39)
 - [strings](#strings) (20)
 - [trees](#trees) (7)
 - [two pointers](#two-pointers) (27)
@@ -532,6 +532,7 @@
 | 1826D | [Running Miles](https://codeforces.com/contest/1826/problem/D) | 1700 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1826/D%20-%20Running%20Miles/solution.txt) |
 | 1837C | [Best Binary String](https://codeforces.com/contest/1837/problem/C) | 1000 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1837/C%20-%20Best%20Binary%20String/solution.txt) |
 | 1837D | [Bracket Coloring](https://codeforces.com/contest/1837/problem/D) | 1400 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1837/D%20-%20Bracket%20Coloring/solution.txt) |
+| 1839B | [Lamps](https://codeforces.com/contest/1839/problem/B) | 1100 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1839/B%20-%20Lamps/solution.txt) |
 | 1845C | [Strong Password](https://codeforces.com/contest/1845/problem/C) | 1400 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1845/C%20-%20Strong%20Password/solution.txt) |
 | 1847B | [Hamon Odyssey](https://codeforces.com/contest/1847/problem/B) | 1000 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1847/B%20-%20Hamon%20Odyssey/solution.txt) |
 | 1875C | [Jellyfish and Green Apple](https://codeforces.com/contest/1875/problem/C) | 1400 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1875/C%20-%20Jellyfish%20and%20Green%20Apple/solution.txt) |
@@ -1030,6 +1031,7 @@
 | 1401C | [Mere Array](https://codeforces.com/contest/1401/problem/C) | 1300 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1401/C%20-%20Mere%20Array/solution.txt) |
 | 1419D2 | [Sage's Birthday (hard version)](https://codeforces.com/contest/1419/problem/D2) | 1500 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1419/D2%20-%20Sage's%20Birthday%20(hard%20version)/solution.txt) |
 | 1573B | [Swaps](https://codeforces.com/contest/1573/problem/B) | 1400 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1573/B%20-%20Swaps/solution.txt) |
+| 1839B | [Lamps](https://codeforces.com/contest/1839/problem/B) | 1100 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1839/B%20-%20Lamps/solution.txt) |
 | 1850G | [The Morning Star](https://codeforces.com/contest/1850/problem/G) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1850/G%20-%20The%20Morning%20Star/solution.cpp) |
 | 1915G | [Bicycles](https://codeforces.com/contest/1915/problem/G) | 1800 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1915/G%20-%20Bicycles/solution.txt) |
 | 1928B | [Equalize](https://codeforces.com/contest/1928/problem/B) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1928/B%20-%20Equalize/solution.txt) |
