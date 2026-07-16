@@ -1,0 +1,24 @@
+t = int(input())
+for _ in range(t):
+    n,k = map(int,input().split())
+ 
+    x = n^k
+ 
+    if x.bit_length()>(n-1).bit_length():
+        print("NO")
+    else:
+        print("YES")
+ 
+        ans = []
+        last = []
+ 
+        for i in range(n):
+            if i&x==i:
+                last.append(i)
+                x = x^i
+            else:
+                ans.append(i)
+        
+        ans.extend(last)
+ 
+        print(*ans)
