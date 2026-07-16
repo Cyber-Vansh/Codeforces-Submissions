@@ -1,0 +1,24 @@
+t = int(input())
+for _ in range(t):
+    n,c = map(int,input().split())
+    arr = list(map(int,input().split()))
+ 
+    arr.sort(reverse = True)
+ 
+    ans = 0
+ 
+    i = 0
+    j = n-1
+ 
+    # print(arr)
+ 
+    while i<=j:
+        if arr[j]>=c:
+            ans += arr[i]-c
+            i += 1
+        else:
+            ans += arr[i]-c
+            i += 1
+            j -= 1
+    
+    print(ans)
