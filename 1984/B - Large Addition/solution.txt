@@ -1,0 +1,8 @@
+t = int(input())
+for _ in range(t):
+    x = input()
+ 
+    if x[-1]=="9" or x[0]!="1" or "0" in x[1:len(x)-1]:
+        print("NO")
+    else:
+        print("YES")
