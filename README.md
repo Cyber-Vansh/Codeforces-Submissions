@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 349 | 33 |
+| 350 | 33 |
 
 ---
 
@@ -33,9 +33,9 @@
 - [graphs](#graphs) (16)
 - [greedy](#greedy) (153)
 - [hashing](#hashing) (4)
-- [implementation](#implementation) (88)
+- [implementation](#implementation) (89)
 - [interactive](#interactive) (1)
-- [math](#math) (154)
+- [math](#math) (155)
 - [matrices](#matrices) (2)
 - [number theory](#number-theory) (51)
 - [probabilities](#probabilities) (4)
@@ -729,6 +729,7 @@
 | 1954B | [Make It Ugly](https://codeforces.com/contest/1954/problem/B) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1954/B%20-%20Make%20It%20Ugly/solution.txt) |
 | 1966B | [Rectangle Filling](https://codeforces.com/contest/1966/problem/B) | 1100 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1966/B%20-%20Rectangle%20Filling/solution.txt) |
 | 1971D | [Binary Cut](https://codeforces.com/contest/1971/problem/D) | 1100 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1971/D%20-%20Binary%20Cut/solution.txt) |
+| 1984B | [Large Addition](https://codeforces.com/contest/1984/problem/B) | 1100 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1984/B%20-%20Large%20Addition/solution.txt) |
 | 1996E | [Decode](https://codeforces.com/contest/1996/problem/E) | 1600 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1996/E%20-%20Decode/solution.txt) |
 | 2028B | [Alice's Adventures in Permuting](https://codeforces.com/contest/2028/problem/B) | 1400 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2028/B%20-%20Alice's%20Adventures%20in%20Permuting/solution.txt) |
 | 2031D | [Penchick and Desert Rabbit](https://codeforces.com/contest/2031/problem/D) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2031/D%20-%20Penchick%20and%20Desert%20Rabbit/solution.cpp) |
@@ -847,6 +848,7 @@
 | 1954B | [Make It Ugly](https://codeforces.com/contest/1954/problem/B) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1954/B%20-%20Make%20It%20Ugly/solution.txt) |
 | 1977B | [Binary Colouring](https://codeforces.com/contest/1977/problem/B) | 1100 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1977/B%20-%20Binary%20Colouring/solution.txt) |
 | 1981A | [Turtle and Piggy Are Playing a Game](https://codeforces.com/contest/1981/problem/A) | 800 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1981/A%20-%20Turtle%20and%20Piggy%20Are%20Playing%20a%20Game/solution.txt) |
+| 1984B | [Large Addition](https://codeforces.com/contest/1984/problem/B) | 1100 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1984/B%20-%20Large%20Addition/solution.txt) |
 | 1984C1 | [Magnitude (Easy Version)](https://codeforces.com/contest/1984/problem/C1) | 1300 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1984/C1%20-%20Magnitude%20(Easy%20Version)/solution.txt) |
 | 1985E | [Secret Box](https://codeforces.com/contest/1985/problem/E) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1985/E%20-%20Secret%20Box/solution.txt) |
 | 1985G | [D-Function](https://codeforces.com/contest/1985/problem/G) | 1600 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1985/G%20-%20D-Function/solution.txt) |
