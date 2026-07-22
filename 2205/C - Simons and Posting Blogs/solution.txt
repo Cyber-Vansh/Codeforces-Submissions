@@ -1,0 +1,43 @@
+t = int(input())
+for _ in range(t):
+    n = int(input())
+ 
+    l = []
+    for i in range(n):
+        arr = list(map(int,input().split()))[1:]
+        arr = arr[::-1]
+ 
+        st = set()
+        x = []
+        for j in range(len(arr)):
+            if arr[j] not in st:
+                x.append(arr[j])
+                st.add(arr[j])
+        
+        l.append(x)
+    
+    l.sort()
+ 
+    st = set()
+ 
+    ans = []
+ 
+    while l:
+        for i in range(len(l[0])):
+            if l[0][i] not in st:
+                ans.append(l[0][i])
+                st.add(l[0][i])
+        
+        new = []
+        for i in range(len(l)):
+            x = []
+            for j in range(len(l[i])):
+                if l[i][j] not in st:
+                    x.append(l[i][j])
+            if len(x)>0:
+                new.append(x)
+        
+        new.sort()
+        l = new[::]
+    
+    print(*ans)
