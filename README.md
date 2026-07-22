@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 355 | 33 |
+| 356 | 33 |
 
 ---
 
@@ -31,7 +31,7 @@
 - [geometry](#geometry) (6)
 - [graph matchings](#graph-matchings) (2)
 - [graphs](#graphs) (17)
-- [greedy](#greedy) (155)
+- [greedy](#greedy) (156)
 - [hashing](#hashing) (4)
 - [implementation](#implementation) (91)
 - [interactive](#interactive) (1)
@@ -41,7 +41,7 @@
 - [probabilities](#probabilities) (4)
 - [schedules](#schedules) (3)
 - [shortest paths](#shortest-paths) (9)
-- [sortings](#sortings) (42)
+- [sortings](#sortings) (43)
 - [strings](#strings) (20)
 - [trees](#trees) (8)
 - [two pointers](#two-pointers) (28)
@@ -649,6 +649,7 @@
 | 2202B | [ABAB Construction](https://codeforces.com/contest/2202/problem/B) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2202/B%20-%20ABAB%20Construction/solution.txt) |
 | 2203B | [Beautiful Numbers](https://codeforces.com/contest/2203/problem/B) | 1000 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2203/B%20-%20Beautiful%20Numbers/solution.txt) |
 | 2204B | [Right Maximum](https://codeforces.com/contest/2204/problem/B) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2204/B%20-%20Right%20Maximum/solution.py) |
+| 2205C | [Simons and Posting Blogs](https://codeforces.com/contest/2205/problem/C) | 1500 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2205/C%20-%20Simons%20and%20Posting%20Blogs/solution.txt) |
 | 2207A | [1-1](https://codeforces.com/contest/2207/problem/A) | 800 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2207/A%20-%201-1/solution.txt) |
 | 2207B | [One Night At Freddy's](https://codeforces.com/contest/2207/problem/B) | 1600 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2207/B%20-%20One%20Night%20At%20Freddy's/solution.txt) |
 | 2208B | [Cyclists](https://codeforces.com/contest/2208/problem/B) | 1100 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2208/B%20-%20Cyclists/solution.txt) |
@@ -1100,6 +1101,7 @@
 | 2195B | [Heapify 1](https://codeforces.com/contest/2195/problem/B) | 900 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2195/B%20-%20Heapify%201/solution.txt) |
 | 2197B | [Array and Permutation](https://codeforces.com/contest/2197/problem/B) | 1100 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2197/B%20-%20Array%20and%20Permutation/solution.txt) |
 | 2200B | [Deletion Sort](https://codeforces.com/contest/2200/problem/B) | 800 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2200/B%20-%20Deletion%20Sort/solution.txt) |
+| 2205C | [Simons and Posting Blogs](https://codeforces.com/contest/2205/problem/C) | 1500 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2205/C%20-%20Simons%20and%20Posting%20Blogs/solution.txt) |
 | 2207B | [One Night At Freddy's](https://codeforces.com/contest/2207/problem/B) | 1600 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2207/B%20-%20One%20Night%20At%20Freddy's/solution.txt) |
 | 2208B | [Cyclists](https://codeforces.com/contest/2208/problem/B) | 1100 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2208/B%20-%20Cyclists/solution.txt) |
 | 2217E | [Definitely Larger](https://codeforces.com/contest/2217/problem/E) | 2000 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2217/E%20-%20Definitely%20Larger/solution.txt) |
