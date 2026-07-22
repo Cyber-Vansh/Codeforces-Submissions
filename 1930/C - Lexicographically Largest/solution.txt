@@ -1,0 +1,28 @@
+t = int(input())
+for _ in range(t):
+    n = int(input())
+    arr = list(map(int,input().split()))
+ 
+    st = set()
+    d = {}
+ 
+    for i in range(n):
+        x = arr[i]+i+1
+ 
+        if x not in st:
+            st.add(x)
+            d[x] = x-1
+        else:
+            lis = [x]
+            nxt = d[x]
+            while nxt in st and nxt>0:
+                lis.append(nxt)
+                nxt = d[nxt]
+ 
+            if nxt>0:
+                st.add(nxt)
+                d[nxt] = nxt-1
+                for j in range(len(lis)):
+                    d[lis[j]] = nxt-1
+    
+    print(*sorted(list(st),reverse=True))
