@@ -1,0 +1,24 @@
+t = int(input())
+for _ in range(t):
+    l,r = map(int,input().split())
+    n = r-l+1
+ 
+    ans = [i for i in range(r+1)]
+    aur = 0
+ 
+    for i in range(n-1,-1,-1):
+        if ans[i]!=i:
+            continue
+ 
+        x = i^((1<<i.bit_length())-1)
+ 
+        if x<i: 
+            ans[i] = x
+            ans[x] = i
+            aur += i|x
+            aur += i|x
+        else:
+            aur += i
+ 
+    print(aur)
+    print(*ans)
