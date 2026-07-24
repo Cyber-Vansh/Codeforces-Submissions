@@ -1,0 +1,66 @@
+t = int(input())
+for _ in range(t):
+    n,k,pb,ps = map(int,input().split())
+    p = list(map(int,input().split()))
+    a = list(map(int,input().split()))
+ 
+    store = k
+ 
+    ansb = 0
+    anss = 0
+ 
+    visited = [0]*n
+    curr = 0
+    Max = 0
+    curr_max = 0
+ 
+    while k>0 and visited[pb-1]==0:
+        visited[pb-1] = 1
+ 
+        if curr_max+k*Max<=curr+k*a[pb-1]:
+            Max = a[pb-1]
+            curr += a[pb-1]
+            curr_max = curr
+        else:
+            curr += a[pb-1]
+            curr_max += Max
+        
+        k -= 1
+ 
+        pb = p[pb-1]
+    
+    ansb = curr_max+k*Max
+ 
+    k = store
+ 
+    visited = [0]*n
+    curr = 0
+    Max = 0
+    curr_max = 0
+ 
+    while k>0 and visited[ps-1]==0:
+        visited[ps-1] = 1
+ 
+        if curr_max+k*Max<=curr+k*a[ps-1]:
+            Max = a[ps-1]
+            curr += a[ps-1]
+            curr_max = curr
+        else:
+            curr += a[ps-1]
+            curr_max += Max
+        
+        k -= 1
+ 
+        ps = p[ps-1]
+    
+    anss = curr_max+k*Max
+ 
+    if ansb==anss:
+        print("Draw")
+    elif ansb>anss:
+        print("Bodya")
+    else:
+        print("Sasha")
+ 
+ 
+    
