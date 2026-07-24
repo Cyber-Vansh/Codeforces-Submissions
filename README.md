@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 360 | 33 |
+| 361 | 33 |
 
 ---
 
@@ -20,11 +20,11 @@
 - [chinese remainder theorem](#chinese-remainder-theorem) (1)
 - [combinatorics](#combinatorics) (16)
 - [constructive algorithms](#constructive-algorithms) (78)
-- [data structures](#data-structures) (34)
+- [data structures](#data-structures) (35)
 - [dfs and similar](#dfs-and-similar) (17)
 - [divide and conquer](#divide-and-conquer) (2)
 - [dp](#dp) (52)
-- [dsu](#dsu) (3)
+- [dsu](#dsu) (4)
 - [expression parsing](#expression-parsing) (1)
 - [fft](#fft) (1)
 - [games](#games) (12)
@@ -41,7 +41,7 @@
 - [probabilities](#probabilities) (4)
 - [schedules](#schedules) (3)
 - [shortest paths](#shortest-paths) (9)
-- [sortings](#sortings) (45)
+- [sortings](#sortings) (46)
 - [strings](#strings) (20)
 - [trees](#trees) (9)
 - [two pointers](#two-pointers) (28)
@@ -358,6 +358,7 @@
 | 1795C | [Tea Tasting](https://codeforces.com/contest/1795/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1795/C%20-%20Tea%20Tasting/solution.cpp) |
 | 1850G | [The Morning Star](https://codeforces.com/contest/1850/problem/G) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1850/G%20-%20The%20Morning%20Star/solution.cpp) |
 | 1930C | [Lexicographically Largest](https://codeforces.com/contest/1930/problem/C) | 1700 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1930/C%20-%20Lexicographically%20Largest/solution.txt) |
+| 1971G | [XOUR](https://codeforces.com/contest/1971/problem/G) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1971/G%20-%20XOUR/solution.cpp) |
 | 1974C | [Beautiful Triple Pairs](https://codeforces.com/contest/1974/problem/C) | 1400 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1974/C%20-%20Beautiful%20Triple%20Pairs/solution.txt) |
 | 1985F | [Final Boss](https://codeforces.com/contest/1985/problem/F) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1985/F%20-%20Final%20Boss/solution.cpp) |
 | 1986C | [Update Queries](https://codeforces.com/contest/1986/problem/C) | 1100 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1986/C%20-%20Update%20Queries/solution.txt) |
@@ -472,6 +473,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 886C | [Petya and Catacombs](https://codeforces.com/contest/886/problem/C) | 1300 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/886/C%20-%20Petya%20and%20Catacombs/solution.txt) |
+| 1971G | [XOUR](https://codeforces.com/contest/1971/problem/G) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1971/G%20-%20XOUR/solution.cpp) |
 | 2031D | [Penchick and Desert Rabbit](https://codeforces.com/contest/2031/problem/D) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2031/D%20-%20Penchick%20and%20Desert%20Rabbit/solution.cpp) |
 | 2234C | [Vessels, Heights and Two Versions (Easy Version)](https://codeforces.com/contest/2234/problem/C) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2234/C%20-%20Vessels%2C%20Heights%20and%20Two%20Versions%20(Easy%20Version)/solution.txt) |
 
@@ -1099,6 +1101,7 @@
 | 1928B | [Equalize](https://codeforces.com/contest/1928/problem/B) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1928/B%20-%20Equalize/solution.txt) |
 | 1930C | [Lexicographically Largest](https://codeforces.com/contest/1930/problem/C) | 1700 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1930/C%20-%20Lexicographically%20Largest/solution.txt) |
 | 1971D | [Binary Cut](https://codeforces.com/contest/1971/problem/D) | 1100 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1971/D%20-%20Binary%20Cut/solution.txt) |
+| 1971G | [XOUR](https://codeforces.com/contest/1971/problem/G) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1971/G%20-%20XOUR/solution.cpp) |
 | 1986C | [Update Queries](https://codeforces.com/contest/1986/problem/C) | 1100 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1986/C%20-%20Update%20Queries/solution.txt) |
 | 1995B1 | [Bouquet (Easy Version)](https://codeforces.com/contest/1995/problem/B1) | 1100 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1995/B1%20-%20Bouquet%20(Easy%20Version)/solution.txt) |
 | 2005B2 | [The Strict Teacher (Hard Version)](https://codeforces.com/contest/2005/problem/B2) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2005/B2%20-%20The%20Strict%20Teacher%20(Hard%20Version)/solution.txt) |
