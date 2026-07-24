@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 358 | 33 |
+| 359 | 33 |
 
 ---
 
@@ -16,26 +16,26 @@
 - [Uncategorized](#uncategorized) (16)
 - [binary search](#binary-search) (39)
 - [bitmasks](#bitmasks) (18)
-- [brute force](#brute-force) (81)
+- [brute force](#brute-force) (82)
 - [chinese remainder theorem](#chinese-remainder-theorem) (1)
 - [combinatorics](#combinatorics) (16)
 - [constructive algorithms](#constructive-algorithms) (77)
 - [data structures](#data-structures) (34)
-- [dfs and similar](#dfs-and-similar) (16)
+- [dfs and similar](#dfs-and-similar) (17)
 - [divide and conquer](#divide-and-conquer) (1)
 - [dp](#dp) (52)
 - [dsu](#dsu) (3)
 - [expression parsing](#expression-parsing) (1)
 - [fft](#fft) (1)
-- [games](#games) (11)
+- [games](#games) (12)
 - [geometry](#geometry) (6)
 - [graph matchings](#graph-matchings) (2)
-- [graphs](#graphs) (17)
-- [greedy](#greedy) (158)
+- [graphs](#graphs) (18)
+- [greedy](#greedy) (159)
 - [hashing](#hashing) (4)
 - [implementation](#implementation) (92)
 - [interactive](#interactive) (1)
-- [math](#math) (155)
+- [math](#math) (156)
 - [matrices](#matrices) (2)
 - [number theory](#number-theory) (53)
 - [probabilities](#probabilities) (4)
@@ -175,6 +175,7 @@
 | 1914D | [Three Activities](https://codeforces.com/contest/1914/problem/D) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1914/D%20-%20Three%20Activities/solution.txt) |
 | 1916D | [Mathematical Problem](https://codeforces.com/contest/1916/problem/D) | 1700 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1916/D%20-%20Mathematical%20Problem/solution.txt) |
 | 1948C | [Arrow Path](https://codeforces.com/contest/1948/problem/C) | 1300 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1948/C%20-%20Arrow%20Path/solution.py) |
+| 1968D | [Permutation Game](https://codeforces.com/contest/1968/problem/D) | 1300 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1968/D%20-%20Permutation%20Game/solution.txt) |
 | 1981A | [Turtle and Piggy Are Playing a Game](https://codeforces.com/contest/1981/problem/A) | 800 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1981/A%20-%20Turtle%20and%20Piggy%20Are%20Playing%20a%20Game/solution.txt) |
 | 1985E | [Secret Box](https://codeforces.com/contest/1985/problem/E) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1985/E%20-%20Secret%20Box/solution.txt) |
 | 1989B | [Substring and Subsequence](https://codeforces.com/contest/1989/problem/B) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1989/B%20-%20Substring%20and%20Subsequence/solution.txt) |
@@ -391,6 +392,7 @@
 | 1893A | [Anonymous Informant](https://codeforces.com/contest/1893/problem/A) | 1400 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1893/A%20-%20Anonymous%20Informant/solution.txt) |
 | 1900C | [Anji's Binary Tree](https://codeforces.com/contest/1900/problem/C) | 1300 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1900/C%20-%20Anji's%20Binary%20Tree/solution.py) |
 | 1948C | [Arrow Path](https://codeforces.com/contest/1948/problem/C) | 1300 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1948/C%20-%20Arrow%20Path/solution.py) |
+| 1968D | [Permutation Game](https://codeforces.com/contest/1968/problem/D) | 1300 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1968/D%20-%20Permutation%20Game/solution.txt) |
 | 2027C | [Add Zeros](https://codeforces.com/contest/2027/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2027/C%20-%20Add%20Zeros/solution.cpp) |
 | 2031D | [Penchick and Desert Rabbit](https://codeforces.com/contest/2031/problem/D) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2031/D%20-%20Penchick%20and%20Desert%20Rabbit/solution.cpp) |
 | 2044G1 | [Medium Demon Problem (easy version)](https://codeforces.com/contest/2044/problem/G1) | 1700 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2044/G1%20-%20Medium%20Demon%20Problem%20(easy%20version)/solution.txt) |
@@ -487,6 +489,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1842A | [Tenzing and Tsondu](https://codeforces.com/contest/1842/problem/A) | 800 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1842/A%20-%20Tenzing%20and%20Tsondu/solution.txt) |
+| 1968D | [Permutation Game](https://codeforces.com/contest/1968/problem/D) | 1300 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1968/D%20-%20Permutation%20Game/solution.txt) |
 | 2030B | [Minimise Oneness](https://codeforces.com/contest/2030/problem/B) | 800 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2030/B%20-%20Minimise%20Oneness/solution.txt) |
 | 2104C | [Card Game](https://codeforces.com/contest/2104/problem/C) | 1100 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2104/C%20-%20Card%20Game/solution.py) |
 | 2140C | [Ultimate Value](https://codeforces.com/contest/2140/problem/C) | 1500 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2140/C%20-%20Ultimate%20Value/solution.txt) |
@@ -529,6 +532,7 @@
 | 1893A | [Anonymous Informant](https://codeforces.com/contest/1893/problem/A) | 1400 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1893/A%20-%20Anonymous%20Informant/solution.txt) |
 | 1915G | [Bicycles](https://codeforces.com/contest/1915/problem/G) | 1800 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1915/G%20-%20Bicycles/solution.txt) |
 | 1948C | [Arrow Path](https://codeforces.com/contest/1948/problem/C) | 1300 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1948/C%20-%20Arrow%20Path/solution.py) |
+| 1968D | [Permutation Game](https://codeforces.com/contest/1968/problem/D) | 1300 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1968/D%20-%20Permutation%20Game/solution.txt) |
 | 2027C | [Add Zeros](https://codeforces.com/contest/2027/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2027/C%20-%20Add%20Zeros/solution.cpp) |
 | 2044G1 | [Medium Demon Problem (easy version)](https://codeforces.com/contest/2044/problem/G1) | 1700 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2044/G1%20-%20Medium%20Demon%20Problem%20(easy%20version)/solution.txt) |
 | 2143C | [Max Tree](https://codeforces.com/contest/2143/problem/C) | 1300 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2143/C%20-%20Max%20Tree/solution.py) |
@@ -574,6 +578,7 @@
 | 1921B | [Arranging Cats](https://codeforces.com/contest/1921/problem/B) | 800 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1921/B%20-%20Arranging%20Cats/solution.txt) |
 | 1928B | [Equalize](https://codeforces.com/contest/1928/problem/B) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1928/B%20-%20Equalize/solution.txt) |
 | 1930C | [Lexicographically Largest](https://codeforces.com/contest/1930/problem/C) | 1700 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1930/C%20-%20Lexicographically%20Largest/solution.txt) |
+| 1968D | [Permutation Game](https://codeforces.com/contest/1968/problem/D) | 1300 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1968/D%20-%20Permutation%20Game/solution.txt) |
 | 1971D | [Binary Cut](https://codeforces.com/contest/1971/problem/D) | 1100 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1971/D%20-%20Binary%20Cut/solution.txt) |
 | 1977B | [Binary Colouring](https://codeforces.com/contest/1977/problem/B) | 1100 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1977/B%20-%20Binary%20Colouring/solution.txt) |
 | 1981A | [Turtle and Piggy Are Playing a Game](https://codeforces.com/contest/1981/problem/A) | 800 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1981/A%20-%20Turtle%20and%20Piggy%20Are%20Playing%20a%20Game/solution.txt) |
@@ -866,6 +871,7 @@
 | 1916D | [Mathematical Problem](https://codeforces.com/contest/1916/problem/D) | 1700 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1916/D%20-%20Mathematical%20Problem/solution.txt) |
 | 1927E | [Klever Permutation](https://codeforces.com/contest/1927/problem/E) | 1400 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1927/E%20-%20Klever%20Permutation/solution.txt) |
 | 1954B | [Make It Ugly](https://codeforces.com/contest/1954/problem/B) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1954/B%20-%20Make%20It%20Ugly/solution.txt) |
+| 1968D | [Permutation Game](https://codeforces.com/contest/1968/problem/D) | 1300 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1968/D%20-%20Permutation%20Game/solution.txt) |
 | 1977B | [Binary Colouring](https://codeforces.com/contest/1977/problem/B) | 1100 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1977/B%20-%20Binary%20Colouring/solution.txt) |
 | 1981A | [Turtle and Piggy Are Playing a Game](https://codeforces.com/contest/1981/problem/A) | 800 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1981/A%20-%20Turtle%20and%20Piggy%20Are%20Playing%20a%20Game/solution.txt) |
 | 1984B | [Large Addition](https://codeforces.com/contest/1984/problem/B) | 1100 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1984/B%20-%20Large%20Addition/solution.txt) |
