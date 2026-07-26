@@ -6,14 +6,14 @@
 
 | Total Problems | Topics |
 |---|---|
-| 361 | 33 |
+| 362 | 33 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [*special](#special) (3)
-- [Uncategorized](#uncategorized) (16)
+- [Uncategorized](#uncategorized) (17)
 - [binary search](#binary-search) (39)
 - [bitmasks](#bitmasks) (19)
 - [brute force](#brute-force) (82)
@@ -72,6 +72,7 @@
 | 2245A | [Who Watches the Watchpig?](https://codeforces.com/contest/2245/problem/A) | Unrated | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2245/A%20-%20Who%20Watches%20the%20Watchpig%3F/solution.txt) |
 | 2245B | [Delete and Concatenate](https://codeforces.com/contest/2245/problem/B) | Unrated | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2245/B%20-%20Delete%20and%20Concatenate/solution.txt) |
 | 2245C | [MEXOR](https://codeforces.com/contest/2245/problem/C) | Unrated | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2245/C%20-%20MEXOR/solution.txt) |
+| 2250A | [Threshold Movement](https://codeforces.com/contest/2250/problem/A) | Unrated | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2250/A%20-%20Threshold%20Movement/solution.txt) |
 | 102694A | [Circumference of a Tree](https://codeforces.com/contest/102694/problem/A) | Unrated | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/102694/A%20-%20Circumference%20of%20a%20Tree/solution.txt) |
 | 102694B | [Dynamic Diameter](https://codeforces.com/contest/102694/problem/B) | Unrated | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/102694/B%20-%20Dynamic%20Diameter/solution.txt) |
 | 102694C | [Sloth Naptime](https://codeforces.com/contest/102694/problem/C) | Unrated | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/102694/C%20-%20Sloth%20Naptime/solution.txt) |
