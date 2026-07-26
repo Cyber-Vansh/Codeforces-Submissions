@@ -1,0 +1,34 @@
+t = int(input())
+for _ in range(t):
+    n = int(input())
+    arr = list(map(int,input().split()))
+ 
+    if n%2==1 or arr[0]<arr[1]:
+        print("NO")
+        continue
+ 
+    upper = arr[0]
+    lower = arr[1]
+ 
+    check = True
+ 
+    for i in range(0,n,2):
+        if arr[i]<arr[i+1]:
+            check = False
+            break
+        
+        if arr[i]-lower<2 or upper-arr[i+1]<2:
+            check = False
+            break
+        
+        upper = min(upper,arr[i])
+        lower = max(lower,arr[i+1])
+ 
+        if upper-lower<2:
+            check = False
+            break
+    
+    if check:
+        print("YES")
+    else:
+        print("NO")
