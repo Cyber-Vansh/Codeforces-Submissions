@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 366 | 34 |
+| 367 | 34 |
 
 ---
 
@@ -16,7 +16,7 @@
 - [Uncategorized](#uncategorized) (19)
 - [binary search](#binary-search) (40)
 - [bitmasks](#bitmasks) (19)
-- [brute force](#brute-force) (83)
+- [brute force](#brute-force) (84)
 - [chinese remainder theorem](#chinese-remainder-theorem) (1)
 - [combinatorics](#combinatorics) (16)
 - [constructive algorithms](#constructive-algorithms) (78)
@@ -35,7 +35,7 @@
 - [hashing](#hashing) (4)
 - [implementation](#implementation) (93)
 - [interactive](#interactive) (1)
-- [math](#math) (158)
+- [math](#math) (159)
 - [matrices](#matrices) (2)
 - [number theory](#number-theory) (53)
 - [probabilities](#probabilities) (4)
@@ -172,6 +172,7 @@
 | 1731C | [Even Subarrays](https://codeforces.com/contest/1731/problem/C) | 1700 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1731/C%20-%20Even%20Subarrays/solution.txt) |
 | 1759D | [Make It Round](https://codeforces.com/contest/1759/problem/D) | 1400 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1759/D%20-%20Make%20It%20Round/solution.txt) |
 | 1780B | [GCD Partition](https://codeforces.com/contest/1780/problem/B) | 1100 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1780/B%20-%20GCD%20Partition/solution.txt) |
+| 1814B | [Long Legs](https://codeforces.com/contest/1814/problem/B) | 1700 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1814/B%20-%20Long%20Legs/solution.txt) |
 | 1826D | [Running Miles](https://codeforces.com/contest/1826/problem/D) | 1700 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1826/D%20-%20Running%20Miles/solution.txt) |
 | 1853B | [Fibonaccharsis](https://codeforces.com/contest/1853/problem/B) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1853/B%20-%20Fibonaccharsis/solution.txt) |
 | 1859C | [Another Permutation Problem](https://codeforces.com/contest/1859/problem/C) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1859/C%20-%20Another%20Permutation%20Problem/solution.txt) |
@@ -875,6 +876,7 @@
 | 1780B | [GCD Partition](https://codeforces.com/contest/1780/problem/B) | 1100 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1780/B%20-%20GCD%20Partition/solution.txt) |
 | 1795D | [Triangle Coloring](https://codeforces.com/contest/1795/problem/D) | 1600 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1795/D%20-%20Triangle%20Coloring/solution.txt) |
 | 1811B | [Conveyor Belts](https://codeforces.com/contest/1811/problem/B) | 1000 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1811/B%20-%20Conveyor%20Belts/solution.txt) |
+| 1814B | [Long Legs](https://codeforces.com/contest/1814/problem/B) | 1700 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1814/B%20-%20Long%20Legs/solution.txt) |
 | 1842A | [Tenzing and Tsondu](https://codeforces.com/contest/1842/problem/A) | 800 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1842/A%20-%20Tenzing%20and%20Tsondu/solution.txt) |
 | 1843D | [Apple Tree](https://codeforces.com/contest/1843/problem/D) | 1200 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1843/D%20-%20Apple%20Tree/solution.py) |
 | 1850G | [The Morning Star](https://codeforces.com/contest/1850/problem/G) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1850/G%20-%20The%20Morning%20Star/solution.cpp) |
