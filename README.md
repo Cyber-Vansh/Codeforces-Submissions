@@ -6,14 +6,14 @@
 
 | Total Problems | Topics |
 |---|---|
-| 371 | 34 |
+| 372 | 34 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [*special](#special) (3)
-- [Uncategorized](#uncategorized) (22)
+- [Uncategorized](#uncategorized) (23)
 - [binary search](#binary-search) (40)
 - [bitmasks](#bitmasks) (19)
 - [brute force](#brute-force) (84)
@@ -76,6 +76,7 @@
 | 2248A | [You Delete, I Delete](https://codeforces.com/contest/2248/problem/A) | Unrated | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2248/A%20-%20You%20Delete%2C%20I%20Delete/solution.txt) |
 | 2248B | [Merge to Match](https://codeforces.com/contest/2248/problem/B) | Unrated | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2248/B%20-%20Merge%20to%20Match/solution.txt) |
 | 2248C | [Maximize the Score](https://codeforces.com/contest/2248/problem/C) | Unrated | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2248/C%20-%20Maximize%20the%20Score/solution.txt) |
+| 2248D | [Good Pair Queries](https://codeforces.com/contest/2248/problem/D) | Unrated | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2248/D%20-%20Good%20Pair%20Queries/solution.txt) |
 | 2250A | [Threshold Movement](https://codeforces.com/contest/2250/problem/A) | Unrated | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2250/A%20-%20Threshold%20Movement/solution.txt) |
 | 2250B | [String Construction](https://codeforces.com/contest/2250/problem/B) | Unrated | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2250/B%20-%20String%20Construction/solution.txt) |
 | 2250C | [Rank Subsequence](https://codeforces.com/contest/2250/problem/C) | Unrated | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2250/C%20-%20Rank%20Subsequence/solution.txt) |
