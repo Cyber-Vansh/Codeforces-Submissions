@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 364 | 33 |
+| 365 | 33 |
 
 ---
 
@@ -16,14 +16,14 @@
 - [Uncategorized](#uncategorized) (19)
 - [binary search](#binary-search) (39)
 - [bitmasks](#bitmasks) (19)
-- [brute force](#brute-force) (82)
+- [brute force](#brute-force) (83)
 - [chinese remainder theorem](#chinese-remainder-theorem) (1)
 - [combinatorics](#combinatorics) (16)
 - [constructive algorithms](#constructive-algorithms) (78)
 - [data structures](#data-structures) (35)
 - [dfs and similar](#dfs-and-similar) (17)
 - [divide and conquer](#divide-and-conquer) (2)
-- [dp](#dp) (52)
+- [dp](#dp) (53)
 - [dsu](#dsu) (4)
 - [expression parsing](#expression-parsing) (1)
 - [fft](#fft) (1)
@@ -31,11 +31,11 @@
 - [geometry](#geometry) (6)
 - [graph matchings](#graph-matchings) (2)
 - [graphs](#graphs) (18)
-- [greedy](#greedy) (160)
+- [greedy](#greedy) (161)
 - [hashing](#hashing) (4)
 - [implementation](#implementation) (92)
 - [interactive](#interactive) (1)
-- [math](#math) (156)
+- [math](#math) (157)
 - [matrices](#matrices) (2)
 - [number theory](#number-theory) (53)
 - [probabilities](#probabilities) (4)
@@ -172,6 +172,7 @@
 | 1780B | [GCD Partition](https://codeforces.com/contest/1780/problem/B) | 1100 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1780/B%20-%20GCD%20Partition/solution.txt) |
 | 1826D | [Running Miles](https://codeforces.com/contest/1826/problem/D) | 1700 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1826/D%20-%20Running%20Miles/solution.txt) |
 | 1853B | [Fibonaccharsis](https://codeforces.com/contest/1853/problem/B) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1853/B%20-%20Fibonaccharsis/solution.txt) |
+| 1859C | [Another Permutation Problem](https://codeforces.com/contest/1859/problem/C) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1859/C%20-%20Another%20Permutation%20Problem/solution.txt) |
 | 1893A | [Anonymous Informant](https://codeforces.com/contest/1893/problem/A) | 1400 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1893/A%20-%20Anonymous%20Informant/solution.txt) |
 | 1899B | [250 Thousand Tons of TNT](https://codeforces.com/contest/1899/problem/B) | 1100 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1899/B%20-%20250%20Thousand%20Tons%20of%20TNT/solution.txt) |
 | 1904A | [Forked!](https://codeforces.com/contest/1904/problem/A) | 900 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1904/A%20-%20Forked!/solution.txt) |
@@ -437,6 +438,7 @@
 | 1826D | [Running Miles](https://codeforces.com/contest/1826/problem/D) | 1700 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1826/D%20-%20Running%20Miles/solution.txt) |
 | 1843D | [Apple Tree](https://codeforces.com/contest/1843/problem/D) | 1200 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1843/D%20-%20Apple%20Tree/solution.py) |
 | 1845C | [Strong Password](https://codeforces.com/contest/1845/problem/C) | 1400 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1845/C%20-%20Strong%20Password/solution.txt) |
+| 1859C | [Another Permutation Problem](https://codeforces.com/contest/1859/problem/C) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1859/C%20-%20Another%20Permutation%20Problem/solution.txt) |
 | 1900C | [Anji's Binary Tree](https://codeforces.com/contest/1900/problem/C) | 1300 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1900/C%20-%20Anji's%20Binary%20Tree/solution.py) |
 | 1914D | [Three Activities](https://codeforces.com/contest/1914/problem/D) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1914/D%20-%20Three%20Activities/solution.txt) |
 | 1948C | [Arrow Path](https://codeforces.com/contest/1948/problem/C) | 1300 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1948/C%20-%20Arrow%20Path/solution.py) |
@@ -579,6 +581,7 @@
 | 1839B | [Lamps](https://codeforces.com/contest/1839/problem/B) | 1100 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1839/B%20-%20Lamps/solution.txt) |
 | 1845C | [Strong Password](https://codeforces.com/contest/1845/problem/C) | 1400 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1845/C%20-%20Strong%20Password/solution.txt) |
 | 1847B | [Hamon Odyssey](https://codeforces.com/contest/1847/problem/B) | 1000 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1847/B%20-%20Hamon%20Odyssey/solution.txt) |
+| 1859C | [Another Permutation Problem](https://codeforces.com/contest/1859/problem/C) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1859/C%20-%20Another%20Permutation%20Problem/solution.txt) |
 | 1875C | [Jellyfish and Green Apple](https://codeforces.com/contest/1875/problem/C) | 1400 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1875/C%20-%20Jellyfish%20and%20Green%20Apple/solution.txt) |
 | 1884B | [Haunted House](https://codeforces.com/contest/1884/problem/B) | 1100 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1884/B%20-%20Haunted%20House/solution.txt) |
 | 1914D | [Three Activities](https://codeforces.com/contest/1914/problem/D) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1914/D%20-%20Three%20Activities/solution.txt) |
@@ -874,6 +877,7 @@
 | 1850G | [The Morning Star](https://codeforces.com/contest/1850/problem/G) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1850/G%20-%20The%20Morning%20Star/solution.cpp) |
 | 1851D | [Prefix Permutation Sums](https://codeforces.com/contest/1851/problem/D) | 1300 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1851/D%20-%20Prefix%20Permutation%20Sums/solution.txt) |
 | 1853B | [Fibonaccharsis](https://codeforces.com/contest/1853/problem/B) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1853/B%20-%20Fibonaccharsis/solution.txt) |
+| 1859C | [Another Permutation Problem](https://codeforces.com/contest/1859/problem/C) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1859/C%20-%20Another%20Permutation%20Problem/solution.txt) |
 | 1864C | [Divisor Chain](https://codeforces.com/contest/1864/problem/C) | 1300 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1864/C%20-%20Divisor%20Chain/solution.txt) |
 | 1875C | [Jellyfish and Green Apple](https://codeforces.com/contest/1875/problem/C) | 1400 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1875/C%20-%20Jellyfish%20and%20Green%20Apple/solution.txt) |
 | 1884B | [Haunted House](https://codeforces.com/contest/1884/problem/B) | 1100 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1884/B%20-%20Haunted%20House/solution.txt) |
