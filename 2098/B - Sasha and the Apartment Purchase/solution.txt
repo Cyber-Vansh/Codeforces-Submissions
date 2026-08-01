@@ -1,0 +1,19 @@
+t = int(input())
+for _ in range(t):
+    n,k = map(int,input().split())
+    a = list(map(int,input().split()))
+    
+    a.sort()
+    
+    if k==0 and n%2==1:
+        print(1)
+        continue
+    
+    keep = n-k
+ 
+    if keep%2==1:
+        keep += 1
+    
+    ans = a[n-(keep//2)] - a[(keep//2)-1] + 1
+    
+    print(ans)
