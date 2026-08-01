@@ -1,0 +1,109 @@
+t = int(input())
+for _ in range(t):
+    n,m = map(int,input().split())
+    a = list(map(int,input().split()))
+    b = list(map(int,input().split()))
+ 
+    small = [0]*n
+    big = [0]*n
+    used = [0]*n
+ 
+    check = True
+ 
+    a.sort()
+ 
+    for i in range(m):
+        found = False
+ 
+        left = 0
+        right = n-1
+ 
+        less = None
+        great = None
+ 
+        while left<=right:
+            mid = (left+right)//2
+ 
+            if a[mid]==b[i]:
+                found = True
+                break
+ 
+            if a[mid]<=b[i]:
+                less = mid
+                left = mid+1
+            else:
+                right = mid-1
+ 
+        left = 0
+        right = n-1
+ 
+        while left<=right:
+            mid = (left+right)//2
+ 
+            if a[mid]<b[i]:
+                left = mid+1
+            else:
+                great = mid
+                right = mid-1
+ 
+        if found:
+            used[less] = 1
+        else:
+            # print(less,great)
+            if less is not None:
+                small[less] += 1
+            else:
+                check = False
+            if great is not None:
+                big[great] += 1
+            else:
+                check = False
+ 
+    if not check:
+        print("NO")
+        continue
+ 
+    # print(small)
+    # print(big)
+    # print(used)
+ 
+    newbig = [0]*n
+    cur = n-1
+ 
+    for i in range(n-1,-1,-1):
+        for _ in range(big[i]):
+            while (cur>=i and newbig[cur]) or used[cur]:
+                cur -= 1
+ 
+            if cur<i:
+                check = False
+                break
+ 
+            newbig[cur] = 1
+            cur -= 1
+ 
+    newsmall = [0]*n
+    cur = 0
+ 
+    for i in range(n):
+        for _ in range(small[i]):
+            while (cur<=i and newsmall[cur]) or used[cur]:
+                cur += 1
+ 
+            if cur>i:
+                check = False
+                break
+ 
+            newsmall[cur] = 1
+            cur += 1
+ 
+ 
+    for i in range(n):
+        if newbig[i]+newsmall[i]+used[i]>1:
+            check = False
+            break
+ 
+    if check:
+        print("YES")
+    else:
+        print("NO")
