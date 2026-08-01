@@ -1,0 +1,19 @@
+t = int(input())
+for _ in range(t):
+    s = input()
+ 
+    final1= []
+    check1 = False
+    check2 = False
+ 
+    for i in range(len(s)):
+        if not check1 and s[i]=="1":
+            check1 = True
+            continue
+ 
+        if not check2 and s[i]=="0":
+            check2 = True
+            continue
+        final1.append(s[i])
+ 
+    print("".join(final1))
