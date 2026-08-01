@@ -1,0 +1,32 @@
+t = int(input())
+for _ in range(t):
+    n,q = map(int,input().split())
+    a = input()
+    b = input()
+ 
+    pre01 = [int(a[0]=="0" and b[0]=="1")]
+    pre10 = [int(a[0]=="1" and b[0]=="0")]
+ 
+    for i in range(1,n):
+        pre01.append(pre01[i-1])
+        pre10.append(pre10[i-1])
+ 
+        if a[i]=="0" and b[i]=="1":
+            pre01[i] += 1
+        elif a[i]=="1" and b[i]=="0":
+            pre10[i] += 1
+ 
+    for i in range(q):
+        l,r = map(int,input().split())
+        l -= 1
+        r -= 1
+ 
+        if l==0:
+            count01,count10 = pre01[r],pre10[r]
+        else:
+            count01,count10 = pre01[r]-pre01[l-1],pre10[r]-pre10[l-1]
+ 
+        if count01*2<=(r-l+1) and count10*2<=(r-l+1):
+            print("YES")
+        else:
+            print("NO")
