@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 367 | 34 |
+| 368 | 34 |
 
 ---
 
@@ -35,13 +35,13 @@
 - [hashing](#hashing) (4)
 - [implementation](#implementation) (93)
 - [interactive](#interactive) (1)
-- [math](#math) (159)
+- [math](#math) (160)
 - [matrices](#matrices) (2)
 - [number theory](#number-theory) (53)
 - [probabilities](#probabilities) (4)
 - [schedules](#schedules) (3)
 - [shortest paths](#shortest-paths) (9)
-- [sortings](#sortings) (46)
+- [sortings](#sortings) (47)
 - [strings](#strings) (20)
 - [ternary search](#ternary-search) (1)
 - [trees](#trees) (9)
@@ -926,6 +926,7 @@
 | 2093B | [Expensive Number](https://codeforces.com/contest/2093/problem/B) | 900 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2093/B%20-%20Expensive%20Number/solution.py) |
 | 2093C | [Simple Repetition](https://codeforces.com/contest/2093/problem/C) | 1000 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2093/C%20-%20Simple%20Repetition/solution.py) |
 | 2096B | [Wonderful Gloves](https://codeforces.com/contest/2096/problem/B) | 1100 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2096/B%20-%20Wonderful%20Gloves/solution.txt) |
+| 2098B | [Sasha and the Apartment Purchase](https://codeforces.com/contest/2098/problem/B) | 1400 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2098/B%20-%20Sasha%20and%20the%20Apartment%20Purchase/solution.txt) |
 | 2102A | [Dinner Time](https://codeforces.com/contest/2102/problem/A) | 900 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2102/A%20-%20Dinner%20Time/solution.txt) |
 | 2103B | [Binary Typewriter](https://codeforces.com/contest/2103/problem/B) | 1100 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2103/B%20-%20Binary%20Typewriter/solution.txt) |
 | 2104A | [Three Decks](https://codeforces.com/contest/2104/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2104/A%20-%20Three%20Decks/solution.py) |
@@ -1127,6 +1128,7 @@
 | 2060B | [Farmer John's Card Game](https://codeforces.com/contest/2060/problem/B) | 1000 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2060/B%20-%20Farmer%20John's%20Card%20Game/solution.py) |
 | 2092A | [Kamilka and the Sheep](https://codeforces.com/contest/2092/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2092/A%20-%20Kamilka%20and%20the%20Sheep/solution.py) |
 | 2096B | [Wonderful Gloves](https://codeforces.com/contest/2096/problem/B) | 1100 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2096/B%20-%20Wonderful%20Gloves/solution.txt) |
+| 2098B | [Sasha and the Apartment Purchase](https://codeforces.com/contest/2098/problem/B) | 1400 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2098/B%20-%20Sasha%20and%20the%20Apartment%20Purchase/solution.txt) |
 | 2102B | [The Picky Cat](https://codeforces.com/contest/2102/problem/B) | 900 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2102/B%20-%20The%20Picky%20Cat/solution.txt) |
 | 2143B | [Discounts](https://codeforces.com/contest/2143/problem/B) | 1000 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2143/B%20-%20Discounts/solution.py) |
 | 2148D | [Destruction of the Dandelion Fields](https://codeforces.com/contest/2148/problem/D) | 1000 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2148/D%20-%20Destruction%20of%20the%20Dandelion%20Fields/solution.py) |
