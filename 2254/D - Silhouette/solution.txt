@@ -1,0 +1,45 @@
+t = int(input())
+for _ in range(t):
+    n = int(input())
+    b = list(map(int,input().split()))
+ 
+    store = sorted(b[::])
+ 
+    freq = {}
+    ans = {}
+ 
+    if store[0]!=0:
+        print(-1)
+        continue
+ 
+    for i in range(n):
+        freq[store[i]] = freq.get(store[i],0)+1
+ 
+    items = list(freq.items())
+ 
+    curr = 0
+    prev = 0
+    check = True
+ 
+    for i in range(len(items)-1):
+        x = items[i+1][0]-curr
+ 
+        if x%items[i][1]!=0 or x//items[i][1]<=prev:
+            check = False
+            break
+ 
+        ans[items[i][0]] = x//items[i][1]
+ 
+        prev = ans[items[i][0]]
+        curr += x
+ 
+    ans[items[-1][0]] = prev+1
+ 
+    if not check:
+        print(-1)
+        continue
+ 
+    for i in range(n):
+        print(ans[b[i]],end=" ")
+ 
+    print()
