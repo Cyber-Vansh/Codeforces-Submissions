@@ -1,0 +1,44 @@
+t = int(input())
+for _ in range(t):
+    n = int(input())
+    a = input()
+    b = input()
+ 
+    evena = []
+    odda = []
+ 
+    for i in range(n):
+        if a[i]=="1":
+            if i%2==0:
+                evena.append(i)
+            else:
+                odda.append(i)
+ 
+    evena.reverse()
+    odda.reverse()
+ 
+    check = True
+ 
+    ans = 0
+ 
+    for i in range(n):
+        if b[i]=="1":
+            if i%2==0:
+                if len(evena)==0:
+                    check = False
+                    break
+ 
+                ans += abs(evena[-1]-i)//2
+                evena.pop()
+            else:
+                if len(odda)==0:
+                    check = False
+                    break
+ 
+                ans += abs(odda[-1]-i)//2
+                odda.pop()
+ 
+    if not check or len(evena)>0 or len(odda)>0:
+        print(-1)
+    else:
+        print(ans)
