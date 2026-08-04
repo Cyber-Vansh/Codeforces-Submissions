@@ -1,0 +1,14 @@
+t = int(input())
+for _ in range(t):
+    a,b,c = map(int,input().split())
+ 
+    count = 0
+ 
+    while a!=b and b!=c and a!=c:
+        a,b,c = sorted([a,b,c])
+        a+=1
+        c-=1
+ 
+        count += 1
+ 
+    print(count)
