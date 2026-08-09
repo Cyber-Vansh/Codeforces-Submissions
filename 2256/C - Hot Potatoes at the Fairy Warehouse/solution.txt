@@ -1,0 +1,23 @@
+t = int(input())
+for _ in range(t):
+    n,k = map(int,input().split())
+    s = input()
+ 
+    red = 0
+    blue = 0
+ 
+    for i in range(2*n):
+        if i==0:
+            if (s[-1]=="1" and s[i]=="0") or (s[i]=="1" and s[i+1]=="1"):
+                blue += 1
+        elif i==2*n-1:
+            if (s[i-1]=="1" and s[i]=="0") or (s[i]=="1" and s[0]=="1"):
+                red += 1
+        elif i%2==1:
+            if (i-1>=0 and s[i-1]=="1" and s[i]=="0") or (i+1<2*n and s[i]=="1" and s[i+1]=="1"):
+                red += 1
+        else:
+            if (i-1>=0 and s[i-1]=="1" and s[i]=="0") or (i+1<2*n and s[i]=="1" and s[i+1]=="1"):
+                blue += 1
+ 
+    print(red,blue)
