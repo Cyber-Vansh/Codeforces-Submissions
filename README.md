@@ -6,14 +6,14 @@
 
 | Total Problems | Topics |
 |---|---|
-| 381 | 34 |
+| 382 | 34 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [*special](#special) (3)
-- [Uncategorized](#uncategorized) (32)
+- [Uncategorized](#uncategorized) (33)
 - [binary search](#binary-search) (40)
 - [bitmasks](#bitmasks) (19)
 - [brute force](#brute-force) (84)
@@ -89,6 +89,7 @@
 | 2256A | [Three Numbers on the Blackboard](https://codeforces.com/contest/2256/problem/A) | Unrated | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2256/A%20-%20Three%20Numbers%20on%20the%20Blackboard/solution.txt) |
 | 2256B | [Domino Tiles](https://codeforces.com/contest/2256/problem/B) | Unrated | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2256/B%20-%20Domino%20Tiles/solution.txt) |
 | 2256C | [Hot Potatoes at the Fairy Warehouse](https://codeforces.com/contest/2256/problem/C) | Unrated | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2256/C%20-%20Hot%20Potatoes%20at%20the%20Fairy%20Warehouse/solution.txt) |
+| 2256D | [A Ribbon for Tomorrow](https://codeforces.com/contest/2256/problem/D) | Unrated | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2256/D%20-%20A%20Ribbon%20for%20Tomorrow/solution.txt) |
 | 102694A | [Circumference of a Tree](https://codeforces.com/contest/102694/problem/A) | Unrated | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/102694/A%20-%20Circumference%20of%20a%20Tree/solution.txt) |
 | 102694B | [Dynamic Diameter](https://codeforces.com/contest/102694/problem/B) | Unrated | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/102694/B%20-%20Dynamic%20Diameter/solution.txt) |
 | 102694C | [Sloth Naptime](https://codeforces.com/contest/102694/problem/C) | Unrated | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/102694/C%20-%20Sloth%20Naptime/solution.txt) |
