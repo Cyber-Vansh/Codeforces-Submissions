@@ -6,14 +6,14 @@
 
 | Total Problems | Topics |
 |---|---|
-| 378 | 34 |
+| 379 | 34 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [*special](#special) (3)
-- [Uncategorized](#uncategorized) (29)
+- [Uncategorized](#uncategorized) (30)
 - [binary search](#binary-search) (40)
 - [bitmasks](#bitmasks) (19)
 - [brute force](#brute-force) (84)
@@ -86,6 +86,7 @@
 | 2254C2 | [Marenol (hard version)](https://codeforces.com/contest/2254/problem/C2) | Unrated | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2254/C2%20-%20Marenol%20(hard%20version)/solution.txt) |
 | 2254D | [Silhouette](https://codeforces.com/contest/2254/problem/D) | Unrated | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2254/D%20-%20Silhouette/solution.txt) |
 | 2254E | [Chronostasis](https://codeforces.com/contest/2254/problem/E) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2254/E%20-%20Chronostasis/solution.cpp) |
+| 2256A | [Three Numbers on the Blackboard](https://codeforces.com/contest/2256/problem/A) | Unrated | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2256/A%20-%20Three%20Numbers%20on%20the%20Blackboard/solution.txt) |
 | 102694A | [Circumference of a Tree](https://codeforces.com/contest/102694/problem/A) | Unrated | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/102694/A%20-%20Circumference%20of%20a%20Tree/solution.txt) |
 | 102694B | [Dynamic Diameter](https://codeforces.com/contest/102694/problem/B) | Unrated | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/102694/B%20-%20Dynamic%20Diameter/solution.txt) |
 | 102694C | [Sloth Naptime](https://codeforces.com/contest/102694/problem/C) | Unrated | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/102694/C%20-%20Sloth%20Naptime/solution.txt) |
