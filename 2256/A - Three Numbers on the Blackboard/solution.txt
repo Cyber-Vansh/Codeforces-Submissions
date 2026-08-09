@@ -1,0 +1,16 @@
+t = int(input())
+for _ in range(t):
+    a,b,c = map(int,input().split())
+ 
+    a,b,c = sorted([a,b,c])
+ 
+    ans = c-a
+ 
+    while a+b<c:
+        c = a+b
+ 
+        a,b,c = sorted([a,b,c])
+ 
+        ans = min(ans,c-a)
+ 
+    print(ans)
