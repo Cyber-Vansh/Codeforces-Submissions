@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 383 | 34 |
+| 384 | 34 |
 
 ---
 
@@ -23,7 +23,7 @@
 - [data structures](#data-structures) (35)
 - [dfs and similar](#dfs-and-similar) (17)
 - [divide and conquer](#divide-and-conquer) (2)
-- [dp](#dp) (54)
+- [dp](#dp) (55)
 - [dsu](#dsu) (4)
 - [expression parsing](#expression-parsing) (1)
 - [fft](#fft) (1)
@@ -461,6 +461,7 @@
 | 1914D | [Three Activities](https://codeforces.com/contest/1914/problem/D) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1914/D%20-%20Three%20Activities/solution.txt) |
 | 1948C | [Arrow Path](https://codeforces.com/contest/1948/problem/C) | 1300 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1948/C%20-%20Arrow%20Path/solution.py) |
 | 1971D | [Binary Cut](https://codeforces.com/contest/1971/problem/D) | 1100 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1971/D%20-%20Binary%20Cut/solution.txt) |
+| 1974E | [Money Buys Happiness](https://codeforces.com/contest/1974/problem/E) | 1800 | [C++23 (GCC 14-64, msys2)](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1974/E%20-%20Money%20Buys%20Happiness/solution.cpp) |
 | 1984C1 | [Magnitude (Easy Version)](https://codeforces.com/contest/1984/problem/C1) | 1300 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1984/C1%20-%20Magnitude%20(Easy%20Version)/solution.txt) |
 | 2027C | [Add Zeros](https://codeforces.com/contest/2027/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2027/C%20-%20Add%20Zeros/solution.cpp) |
 | 2031A | [Penchick and Modern Monument](https://codeforces.com/contest/2031/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2031/A%20-%20Penchick%20and%20Modern%20Monument/solution.py) |
