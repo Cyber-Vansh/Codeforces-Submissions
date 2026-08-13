@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 382 | 34 |
+| 383 | 34 |
 
 ---
 
@@ -23,7 +23,7 @@
 - [data structures](#data-structures) (35)
 - [dfs and similar](#dfs-and-similar) (17)
 - [divide and conquer](#divide-and-conquer) (2)
-- [dp](#dp) (53)
+- [dp](#dp) (54)
 - [dsu](#dsu) (4)
 - [expression parsing](#expression-parsing) (1)
 - [fft](#fft) (1)
@@ -451,6 +451,7 @@
 | 1462B | [Last Year's Substring](https://codeforces.com/contest/1462/problem/B) | 800 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1462/B%20-%20Last%20Year's%20Substring/solution.txt) |
 | 1536C | [Diluc and Kaeya](https://codeforces.com/contest/1536/problem/C) | 1500 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1536/C%20-%20Diluc%20and%20Kaeya/solution.txt) |
 | 1555C | [Coin Rows](https://codeforces.com/contest/1555/problem/C) | 1300 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1555/C%20-%20Coin%20Rows/solution.txt) |
+| 1741E | [Sending a Sequence Over the Network](https://codeforces.com/contest/1741/problem/E) | 1600 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1741/E%20-%20Sending%20a%20Sequence%20Over%20the%20Network/solution.txt) |
 | 1771B | [Hossam and Friends](https://codeforces.com/contest/1771/problem/B) | 1400 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1771/B%20-%20Hossam%20and%20Friends/solution.txt) |
 | 1826D | [Running Miles](https://codeforces.com/contest/1826/problem/D) | 1700 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1826/D%20-%20Running%20Miles/solution.txt) |
 | 1843D | [Apple Tree](https://codeforces.com/contest/1843/problem/D) | 1200 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1843/D%20-%20Apple%20Tree/solution.py) |
