@@ -1,0 +1,29 @@
+def solve():
+    n,m = map(int,input().split())
+    
+    first = set()
+    for _ in range(n):
+        w = input()
+        if w:
+            first.add(w[0])
+ 
+    check = True
+ 
+    for _ in range(m):
+        a = input().lower()
+        
+        if check:
+            for j in range(len(a)):
+                if a[j] not in first:
+                    check = False
+                    break
+ 
+    if check:
+        print("YES")
+    else:
+        print("NO")
+ 
+ 
+t = int(input())
+for _ in range(t):
+    solve()
