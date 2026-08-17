@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 387 | 35 |
+| 388 | 35 |
 
 ---
 
@@ -19,7 +19,7 @@
 - [brute force](#brute-force) (84)
 - [chinese remainder theorem](#chinese-remainder-theorem) (1)
 - [combinatorics](#combinatorics) (16)
-- [constructive algorithms](#constructive-algorithms) (78)
+- [constructive algorithms](#constructive-algorithms) (79)
 - [data structures](#data-structures) (36)
 - [dfs and similar](#dfs-and-similar) (17)
 - [divide and conquer](#divide-and-conquer) (3)
@@ -38,7 +38,7 @@
 - [math](#math) (160)
 - [matrices](#matrices) (2)
 - [meet-in-the-middle](#meet-in-the-middle) (1)
-- [number theory](#number-theory) (53)
+- [number theory](#number-theory) (54)
 - [probabilities](#probabilities) (4)
 - [schedules](#schedules) (3)
 - [shortest paths](#shortest-paths) (9)
@@ -328,6 +328,7 @@
 | 2104C | [Card Game](https://codeforces.com/contest/2104/problem/C) | 1100 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2104/C%20-%20Card%20Game/solution.py) |
 | 2113B | [Good Start](https://codeforces.com/contest/2113/problem/B) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2113/B%20-%20Good%20Start/solution.txt) |
 | 2118A | [Equal Subsequences](https://codeforces.com/contest/2118/problem/A) | 800 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2118/A%20-%20Equal%20Subsequences/solution.txt) |
+| 2123F | [Minimize Fixed Points](https://codeforces.com/contest/2123/problem/F) | 1700 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2123/F%20-%20Minimize%20Fixed%20Points/solution.txt) |
 | 2136B | [Like the Bitset](https://codeforces.com/contest/2136/problem/B) | 900 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2136/B%20-%20Like%20the%20Bitset/solution.py) |
 | 2137A | [Collatz Conjecture](https://codeforces.com/contest/2137/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2137/A%20-%20Collatz%20Conjecture/solution.py) |
 | 2137B | [Fun Permutation](https://codeforces.com/contest/2137/problem/B) | 900 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2137/B%20-%20Fun%20Permutation/solution.py) |
@@ -1080,6 +1081,7 @@
 | 2092A | [Kamilka and the Sheep](https://codeforces.com/contest/2092/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2092/A%20-%20Kamilka%20and%20the%20Sheep/solution.py) |
 | 2093C | [Simple Repetition](https://codeforces.com/contest/2093/problem/C) | 1000 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2093/C%20-%20Simple%20Repetition/solution.py) |
 | 2104D | [Array and GCD](https://codeforces.com/contest/2104/problem/D) | 1400 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2104/D%20-%20Array%20and%20GCD/solution.py) |
+| 2123F | [Minimize Fixed Points](https://codeforces.com/contest/2123/problem/F) | 1700 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2123/F%20-%20Minimize%20Fixed%20Points/solution.txt) |
 | 2137B | [Fun Permutation](https://codeforces.com/contest/2137/problem/B) | 900 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2137/B%20-%20Fun%20Permutation/solution.py) |
 | 2144A | [Cut the Array](https://codeforces.com/contest/2144/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2144/A%20-%20Cut%20the%20Array/solution.py) |
 | 2180A | [Carnival Wheel](https://codeforces.com/contest/2180/problem/A) | 800 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2180/A%20-%20Carnival%20Wheel/solution.txt) |
