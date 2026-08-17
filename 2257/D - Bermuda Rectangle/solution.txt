@@ -1,0 +1,105 @@
+import sys
+ 
+input = sys.stdin.buffer.readline
+ 
+def solve():
+    s,horizontal = map(int, input().split())
+    
+    fact = []
+    for i in range(1,int(s**0.5)+1):
+        if s%i==0:
+            fact.append(i)
+            if i*i!=s:
+                fact.append(s//i)
+ 
+    fact.sort()
+    
+    height = [0]*len(fact)
+    width = [0]*len(fact)
+    pre = [0]*len(fact)
+    
+    for i in range(len(fact)):
+        height[i] = s//fact[i]
+        
+        if i>0:
+            width[i] = fact[i]-fact[i-1]
+            pre[i] = width[i]*height[i] + pre[i-1]
+        else:
+            width[i] = fact[i]
+            pre[i] = width[i]*height[i]
+    
+    for _ in range(horizontal):
+        x,y = map(int,input().split())
+        
+        if x>s:
+            x = s
+        if y>s:
+            y = s
+        
+        left = 0
+        right = len(fact)
+ 
+        while left<right:
+            mid = (left+right)//2
+ 
+            if fact[mid]<x:
+                left = mid+1
+            else:
+                right = mid
+ 
+        horizontal = left
+        
+        target = (s+y-1)//y
+ 
+        left = 0
+        right = len(fact)
+ 
+        while left<right:
+            mid = (left+right)//2
+ 
+            if fact[mid]<target:
+                left = mid+1
+            else:
+                right = mid
+ 
+        vertical = left
+        
+        if horizontal<=vertical:
+            if horizontal>0:
+                a = fact[horizontal-1]
+            else:
+                a = 0
+                
+            if y<height[horizontal]:
+                b = y
+            else:
+                b = height[horizontal]
+                
+            area = a*y + (x-a)*b
+        else:
+            if vertical>0:
+                b = fact[vertical-1]
+                c = pre[vertical-1]
+            else:
+                b = 0
+                c = 0
+                
+            if horizontal>0:
+                a = fact[horizontal-1]
+                d = pre[horizontal-1]
+            else:
+                a = 0
+                d = 0
+                
+            area1 = b*y
+            area2 = d-c
+            area3 = (x-a)*height[horizontal]
+            
+            area = area1+area2+area3
+            
+            
+        print(area)
+ 
+t = int(input())
+for _ in range(t):
+    solve()
