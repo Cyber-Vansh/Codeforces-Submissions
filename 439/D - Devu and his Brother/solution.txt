@@ -1,0 +1,43 @@
+n,m = map(int,input().split())
+a = list(map(int,input().split()))
+b = list(map(int,input().split()))
+ 
+a.sort()
+b.sort()
+ 
+left = a[0]
+right = b[-1]
+ 
+if left>right:
+    print(0)
+else:
+    ans = float('inf')
+ 
+    while left<=right:
+        mid1 = left+(right-left)//3
+        mid2 = right-(right-left)//3
+ 
+        curr1 = 0
+        for i in range(n):
+            if a[i]<mid1:
+                curr1 += mid1-a[i]
+        for i in range(m):
+            if b[i]>mid1:
+                curr1 += b[i]-mid1
+ 
+        curr2 = 0
+        for i in range(n):
+            if a[i]<mid2:
+                curr2 += mid2-a[i]
+        for i in range(m):
+            if b[i]>mid2:
+                curr2 += b[i]-mid2
+ 
+        if curr1<=curr2:
+            ans = min(ans,curr1)
+            right = mid2-1
+        else:
+            ans = min(ans,curr2)
+            left = mid1+1
+ 
+    print(ans)
