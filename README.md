@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 386 | 34 |
+| 387 | 35 |
 
 ---
 
@@ -15,14 +15,14 @@
 - [*special](#special) (3)
 - [Uncategorized](#uncategorized) (33)
 - [binary search](#binary-search) (41)
-- [bitmasks](#bitmasks) (19)
+- [bitmasks](#bitmasks) (20)
 - [brute force](#brute-force) (84)
 - [chinese remainder theorem](#chinese-remainder-theorem) (1)
 - [combinatorics](#combinatorics) (16)
 - [constructive algorithms](#constructive-algorithms) (78)
 - [data structures](#data-structures) (36)
 - [dfs and similar](#dfs-and-similar) (17)
-- [divide and conquer](#divide-and-conquer) (2)
+- [divide and conquer](#divide-and-conquer) (3)
 - [dp](#dp) (55)
 - [dsu](#dsu) (4)
 - [expression parsing](#expression-parsing) (1)
@@ -37,6 +37,7 @@
 - [interactive](#interactive) (1)
 - [math](#math) (160)
 - [matrices](#matrices) (2)
+- [meet-in-the-middle](#meet-in-the-middle) (1)
 - [number theory](#number-theory) (53)
 - [probabilities](#probabilities) (4)
 - [schedules](#schedules) (3)
@@ -150,6 +151,7 @@
 | 476B | [Dreamoon and WiFi](https://codeforces.com/contest/476/problem/B) | 1300 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/476/B%20-%20Dreamoon%20and%20WiFi/solution.txt) |
 | 580D | [Kefa and Dishes](https://codeforces.com/contest/580/problem/D) | 1800 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/580/D%20-%20Kefa%20and%20Dishes/solution.txt) |
 | 581D | [Three Logos](https://codeforces.com/contest/581/problem/D) | 1700 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/581/D%20-%20Three%20Logos/solution.txt) |
+| 888E | [Maximum Subsequence](https://codeforces.com/contest/888/problem/E) | 1800 | [C++23 (GCC 14-64, msys2)](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/888/E%20-%20Maximum%20Subsequence/solution.cpp) |
 | 1731C | [Even Subarrays](https://codeforces.com/contest/1731/problem/C) | 1700 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1731/C%20-%20Even%20Subarrays/solution.txt) |
 | 1847B | [Hamon Odyssey](https://codeforces.com/contest/1847/problem/B) | 1000 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1847/B%20-%20Hamon%20Odyssey/solution.txt) |
 | 1864C | [Divisor Chain](https://codeforces.com/contest/1864/problem/C) | 1300 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1864/C%20-%20Divisor%20Chain/solution.txt) |
@@ -431,6 +433,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 888E | [Maximum Subsequence](https://codeforces.com/contest/888/problem/E) | 1800 | [C++23 (GCC 14-64, msys2)](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/888/E%20-%20Maximum%20Subsequence/solution.cpp) |
 | 2146D1 | [Max Sum OR (Easy Version)](https://codeforces.com/contest/2146/problem/D1) | 1500 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2146/D1%20-%20Max%20Sum%20OR%20(Easy%20Version)/solution.txt) |
 | 2207C | [Where's My Water?](https://codeforces.com/contest/2207/problem/C) | 1600 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2207/C%20-%20Where's%20My%20Water%3F/solution.txt) |
 
@@ -1024,6 +1027,12 @@
 |---|---------|------------|----------|
 | 166E | [Tetrahedron](https://codeforces.com/contest/166/problem/E) | 1500 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/166/E%20-%20Tetrahedron/solution.txt) |
 | 2036D | [I Love 1543](https://codeforces.com/contest/2036/problem/D) | 1300 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2036/D%20-%20I%20Love%201543/solution.txt) |
+
+### meet-in-the-middle
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 888E | [Maximum Subsequence](https://codeforces.com/contest/888/problem/E) | 1800 | [C++23 (GCC 14-64, msys2)](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/888/E%20-%20Maximum%20Subsequence/solution.cpp) |
 
 ### number theory
 
