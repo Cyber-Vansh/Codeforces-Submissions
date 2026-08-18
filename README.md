@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 392 | 35 |
+| 393 | 35 |
 
 ---
 
@@ -18,12 +18,12 @@
 - [bitmasks](#bitmasks) (20)
 - [brute force](#brute-force) (84)
 - [chinese remainder theorem](#chinese-remainder-theorem) (1)
-- [combinatorics](#combinatorics) (16)
+- [combinatorics](#combinatorics) (17)
 - [constructive algorithms](#constructive-algorithms) (79)
 - [data structures](#data-structures) (36)
 - [dfs and similar](#dfs-and-similar) (17)
-- [divide and conquer](#divide-and-conquer) (3)
-- [dp](#dp) (55)
+- [divide and conquer](#divide-and-conquer) (4)
+- [dp](#dp) (56)
 - [dsu](#dsu) (4)
 - [expression parsing](#expression-parsing) (1)
 - [fft](#fft) (1)
@@ -35,10 +35,10 @@
 - [hashing](#hashing) (4)
 - [implementation](#implementation) (93)
 - [interactive](#interactive) (1)
-- [math](#math) (160)
+- [math](#math) (161)
 - [matrices](#matrices) (2)
 - [meet-in-the-middle](#meet-in-the-middle) (1)
-- [number theory](#number-theory) (54)
+- [number theory](#number-theory) (55)
 - [probabilities](#probabilities) (4)
 - [schedules](#schedules) (3)
 - [shortest paths](#shortest-paths) (9)
@@ -272,6 +272,7 @@
 |---|---------|------------|----------|
 | 476B | [Dreamoon and WiFi](https://codeforces.com/contest/476/problem/B) | 1300 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/476/B%20-%20Dreamoon%20and%20WiFi/solution.txt) |
 | 1305C | [Kuroni and Impossible Calculation](https://codeforces.com/contest/1305/problem/C) | 1600 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1305/C%20-%20Kuroni%20and%20Impossible%20Calculation/solution.txt) |
+| 1794D | [Counting Factorizations](https://codeforces.com/contest/1794/problem/D) | 1900 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1794/D%20-%20Counting%20Factorizations/solution.txt) |
 | 1795D | [Triangle Coloring](https://codeforces.com/contest/1795/problem/D) | 1600 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1795/D%20-%20Triangle%20Coloring/solution.txt) |
 | 1843D | [Apple Tree](https://codeforces.com/contest/1843/problem/D) | 1200 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1843/D%20-%20Apple%20Tree/solution.py) |
 | 1850G | [The Morning Star](https://codeforces.com/contest/1850/problem/G) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1850/G%20-%20The%20Morning%20Star/solution.cpp) |
@@ -439,6 +440,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 888E | [Maximum Subsequence](https://codeforces.com/contest/888/problem/E) | 1800 | [C++23 (GCC 14-64, msys2)](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/888/E%20-%20Maximum%20Subsequence/solution.cpp) |
+| 1794D | [Counting Factorizations](https://codeforces.com/contest/1794/problem/D) | 1900 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1794/D%20-%20Counting%20Factorizations/solution.txt) |
 | 2146D1 | [Max Sum OR (Easy Version)](https://codeforces.com/contest/2146/problem/D1) | 1500 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2146/D1%20-%20Max%20Sum%20OR%20(Easy%20Version)/solution.txt) |
 | 2207C | [Where's My Water?](https://codeforces.com/contest/2207/problem/C) | 1600 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2207/C%20-%20Where's%20My%20Water%3F/solution.txt) |
 
@@ -463,6 +465,7 @@
 | 1555C | [Coin Rows](https://codeforces.com/contest/1555/problem/C) | 1300 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1555/C%20-%20Coin%20Rows/solution.txt) |
 | 1741E | [Sending a Sequence Over the Network](https://codeforces.com/contest/1741/problem/E) | 1600 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1741/E%20-%20Sending%20a%20Sequence%20Over%20the%20Network/solution.txt) |
 | 1771B | [Hossam and Friends](https://codeforces.com/contest/1771/problem/B) | 1400 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1771/B%20-%20Hossam%20and%20Friends/solution.txt) |
+| 1794D | [Counting Factorizations](https://codeforces.com/contest/1794/problem/D) | 1900 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1794/D%20-%20Counting%20Factorizations/solution.txt) |
 | 1826D | [Running Miles](https://codeforces.com/contest/1826/problem/D) | 1700 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1826/D%20-%20Running%20Miles/solution.txt) |
 | 1843D | [Apple Tree](https://codeforces.com/contest/1843/problem/D) | 1200 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1843/D%20-%20Apple%20Tree/solution.py) |
 | 1845C | [Strong Password](https://codeforces.com/contest/1845/problem/C) | 1400 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1845/C%20-%20Strong%20Password/solution.txt) |
@@ -901,6 +904,7 @@
 | 1753B | [Factorial Divisibility](https://codeforces.com/contest/1753/problem/B) | 1600 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1753/B%20-%20Factorial%20Divisibility/solution.txt) |
 | 1775D | [Friendly Spiders](https://codeforces.com/contest/1775/problem/D) | 1800 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1775/D%20-%20Friendly%20Spiders/solution.txt) |
 | 1780B | [GCD Partition](https://codeforces.com/contest/1780/problem/B) | 1100 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1780/B%20-%20GCD%20Partition/solution.txt) |
+| 1794D | [Counting Factorizations](https://codeforces.com/contest/1794/problem/D) | 1900 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1794/D%20-%20Counting%20Factorizations/solution.txt) |
 | 1795D | [Triangle Coloring](https://codeforces.com/contest/1795/problem/D) | 1600 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1795/D%20-%20Triangle%20Coloring/solution.txt) |
 | 1811B | [Conveyor Belts](https://codeforces.com/contest/1811/problem/B) | 1000 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1811/B%20-%20Conveyor%20Belts/solution.txt) |
 | 1814B | [Long Legs](https://codeforces.com/contest/1814/problem/B) | 1700 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1814/B%20-%20Long%20Legs/solution.txt) |
@@ -1069,6 +1073,7 @@
 | 1759D | [Make It Round](https://codeforces.com/contest/1759/problem/D) | 1400 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1759/D%20-%20Make%20It%20Round/solution.txt) |
 | 1775D | [Friendly Spiders](https://codeforces.com/contest/1775/problem/D) | 1800 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1775/D%20-%20Friendly%20Spiders/solution.txt) |
 | 1780B | [GCD Partition](https://codeforces.com/contest/1780/problem/B) | 1100 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1780/B%20-%20GCD%20Partition/solution.txt) |
+| 1794D | [Counting Factorizations](https://codeforces.com/contest/1794/problem/D) | 1900 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1794/D%20-%20Counting%20Factorizations/solution.txt) |
 | 1864C | [Divisor Chain](https://codeforces.com/contest/1864/problem/C) | 1300 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1864/C%20-%20Divisor%20Chain/solution.txt) |
 | 1875C | [Jellyfish and Green Apple](https://codeforces.com/contest/1875/problem/C) | 1400 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1875/C%20-%20Jellyfish%20and%20Green%20Apple/solution.txt) |
 | 1876B | [Effects of Anti Pimples](https://codeforces.com/contest/1876/problem/B) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1876/B%20-%20Effects%20of%20Anti%20Pimples/solution.cpp) |
