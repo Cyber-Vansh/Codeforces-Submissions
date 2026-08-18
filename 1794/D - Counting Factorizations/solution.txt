@@ -1,0 +1,71 @@
+import sys
+ 
+input = sys.stdin.buffer.readline
+ 
+mod = 998244353
+ 
+is_prime = [1]*1000001
+is_prime[0] = 0
+is_prime[1] = 0
+ 
+for i in range(2,len(is_prime)):
+    if is_prime[i]:
+        for j in range(i*i,len(is_prime),i):
+            is_prime[j] = 0
+ 
+fact = [1]*(1000001)
+inv_fact = [1]*(1000001)
+ 
+for i in range(1,len(fact)):
+    fact[i] = (fact[i-1]*i)%mod
+ 
+inv_fact[-1] = pow(fact[-1],mod-2,mod)
+ 
+for i in range(len(fact)-2,-1,-1):
+    inv_fact[i] = (inv_fact[i+1]*(i+1))%mod
+ 
+ 
+def ncr(n,r):
+    if r<0 or r>n:
+        return 0
+        
+    num = fact[n]
+    denom = (inv_fact[r]*inv_fact[n-r])%mod
+    
+    return (num*denom)%mod
+ 
+def solve():
+    n = int(input())
+    arr = list(map(int,input().split()))
+ 
+    freq = {}
+    for i in arr:
+        freq[i] = freq.get(i,0)+1
+ 
+    dp = [0]*(n+1)
+    dp[0] = 1
+ 
+    used = 0
+ 
+    for i,j in freq.items():
+        for k in range(len(dp)-1,-1,-1):
+            if dp[k]==0:
+                continue
+ 
+            available = n-(used-k)
+ 
+            x = ncr(available,j-1)
+ 
+            if is_prime[i] and k+1<=n and x>0:
+                dp[k+1] = (dp[k+1]+dp[k]*x)%mod
+ 
+            dp[k] = (dp[k]*ncr(available,j))%mod
+ 
+        used += j
+            
+ 
+    print(dp[n])
+ 
+t = 1
+for _ in range(t):
+    solve()
