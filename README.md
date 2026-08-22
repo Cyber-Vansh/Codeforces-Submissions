@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 394 | 36 |
+| 395 | 36 |
 
 ---
 
@@ -20,9 +20,9 @@
 - [chinese remainder theorem](#chinese-remainder-theorem) (1)
 - [combinatorics](#combinatorics) (17)
 - [constructive algorithms](#constructive-algorithms) (79)
-- [data structures](#data-structures) (36)
+- [data structures](#data-structures) (37)
 - [dfs and similar](#dfs-and-similar) (18)
-- [divide and conquer](#divide-and-conquer) (4)
+- [divide and conquer](#divide-and-conquer) (5)
 - [dp](#dp) (57)
 - [dsu](#dsu) (4)
 - [expression parsing](#expression-parsing) (1)
@@ -43,7 +43,7 @@
 - [probabilities](#probabilities) (4)
 - [schedules](#schedules) (3)
 - [shortest paths](#shortest-paths) (9)
-- [sortings](#sortings) (49)
+- [sortings](#sortings) (50)
 - [strings](#strings) (20)
 - [ternary search](#ternary-search) (2)
 - [trees](#trees) (10)
@@ -378,6 +378,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 343B | [Alternating Current](https://codeforces.com/contest/343/problem/B) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/343/B%20-%20Alternating%20Current/solution.cpp) |
+| 459D | [Pashmak and Parmida's problem](https://codeforces.com/contest/459/problem/D) | 1800 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/459/D%20-%20Pashmak%20and%20Parmida's%20problem/solution.txt) |
 | 474E | [Pillars](https://codeforces.com/contest/474/problem/E) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/474/E%20-%20Pillars/solution.cpp) |
 | 597C | [Subsequences](https://codeforces.com/contest/597/problem/C) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/597/C%20-%20Subsequences/solution.cpp) |
 | 1349A | [Orac and LCM](https://codeforces.com/contest/1349/problem/A) | 1600 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1349/A%20-%20Orac%20and%20LCM/solution.txt) |
@@ -441,6 +442,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 459D | [Pashmak and Parmida's problem](https://codeforces.com/contest/459/problem/D) | 1800 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/459/D%20-%20Pashmak%20and%20Parmida's%20problem/solution.txt) |
 | 888E | [Maximum Subsequence](https://codeforces.com/contest/888/problem/E) | 1800 | [C++23 (GCC 14-64, msys2)](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/888/E%20-%20Maximum%20Subsequence/solution.cpp) |
 | 1794D | [Counting Factorizations](https://codeforces.com/contest/1794/problem/D) | 1900 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1794/D%20-%20Counting%20Factorizations/solution.txt) |
 | 2146D1 | [Max Sum OR (Easy Version)](https://codeforces.com/contest/2146/problem/D1) | 1500 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2146/D1%20-%20Max%20Sum%20OR%20(Easy%20Version)/solution.txt) |
@@ -1152,6 +1154,7 @@
 |---|---------|------------|----------|
 | 433B | [Kuriyama Mirai's Stones](https://codeforces.com/contest/433/problem/B) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/433/B%20-%20Kuriyama%20Mirai's%20Stones/solution.cpp) |
 | 439D | [Devu and his Brother](https://codeforces.com/contest/439/problem/D) | 1700 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/439/D%20-%20Devu%20and%20his%20Brother/solution.txt) |
+| 459D | [Pashmak and Parmida's problem](https://codeforces.com/contest/459/problem/D) | 1800 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/459/D%20-%20Pashmak%20and%20Parmida's%20problem/solution.txt) |
 | 474E | [Pillars](https://codeforces.com/contest/474/problem/E) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/474/E%20-%20Pillars/solution.cpp) |
 | 479C | [Exams](https://codeforces.com/contest/479/problem/C) | 1400 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/479/C%20-%20Exams/solution.txt) |
 | 1133C | [Balanced Team](https://codeforces.com/contest/1133/problem/C) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1133/C%20-%20Balanced%20Team/solution.txt) |
