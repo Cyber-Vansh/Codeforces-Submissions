@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 395 | 36 |
+| 396 | 36 |
 
 ---
 
@@ -20,7 +20,7 @@
 - [chinese remainder theorem](#chinese-remainder-theorem) (1)
 - [combinatorics](#combinatorics) (17)
 - [constructive algorithms](#constructive-algorithms) (79)
-- [data structures](#data-structures) (37)
+- [data structures](#data-structures) (38)
 - [dfs and similar](#dfs-and-similar) (18)
 - [divide and conquer](#divide-and-conquer) (5)
 - [dp](#dp) (57)
@@ -36,7 +36,7 @@
 - [hashing](#hashing) (4)
 - [implementation](#implementation) (94)
 - [interactive](#interactive) (1)
-- [math](#math) (161)
+- [math](#math) (162)
 - [matrices](#matrices) (2)
 - [meet-in-the-middle](#meet-in-the-middle) (1)
 - [number theory](#number-theory) (55)
@@ -381,6 +381,7 @@
 | 459D | [Pashmak and Parmida's problem](https://codeforces.com/contest/459/problem/D) | 1800 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/459/D%20-%20Pashmak%20and%20Parmida's%20problem/solution.txt) |
 | 474E | [Pillars](https://codeforces.com/contest/474/problem/E) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/474/E%20-%20Pillars/solution.cpp) |
 | 597C | [Subsequences](https://codeforces.com/contest/597/problem/C) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/597/C%20-%20Subsequences/solution.cpp) |
+| 903D | [Almost Difference](https://codeforces.com/contest/903/problem/D) | 2200 | [C++23 (GCC 14-64, msys2)](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/903/D%20-%20Almost%20Difference/solution.cpp) |
 | 1349A | [Orac and LCM](https://codeforces.com/contest/1349/problem/A) | 1600 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1349/A%20-%20Orac%20and%20LCM/solution.txt) |
 | 1398C | [Good Subarrays](https://codeforces.com/contest/1398/problem/C) | 1600 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1398/C%20-%20Good%20Subarrays/solution.txt) |
 | 1490E | [Accidental Victory](https://codeforces.com/contest/1490/problem/E) | 1400 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1490/E%20-%20Accidental%20Victory/solution.txt) |
@@ -896,6 +897,7 @@
 | 597A | [Divisibility](https://codeforces.com/contest/597/problem/A) | 1600 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/597/A%20-%20Divisibility/solution.txt) |
 | 630E | [A rectangle](https://codeforces.com/contest/630/problem/E) | 1900 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/630/E%20-%20A%20rectangle/solution.txt) |
 | 630J | [Divisibility](https://codeforces.com/contest/630/problem/J) | 1100 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/630/J%20-%20Divisibility/solution.txt) |
+| 903D | [Almost Difference](https://codeforces.com/contest/903/problem/D) | 2200 | [C++23 (GCC 14-64, msys2)](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/903/D%20-%20Almost%20Difference/solution.cpp) |
 | 1056B | [Divide Candies](https://codeforces.com/contest/1056/problem/B) | 1600 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1056/B%20-%20Divide%20Candies/solution.txt) |
 | 1141C | [Polycarp Restores Permutation](https://codeforces.com/contest/1141/problem/C) | 1500 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1141/C%20-%20Polycarp%20Restores%20Permutation/solution.txt) |
 | 1165D | [Almost All Divisors](https://codeforces.com/contest/1165/problem/D) | 1600 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1165/D%20-%20Almost%20All%20Divisors/solution.txt) |
