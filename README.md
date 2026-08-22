@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 396 | 36 |
+| 397 | 36 |
 
 ---
 
@@ -20,9 +20,9 @@
 - [chinese remainder theorem](#chinese-remainder-theorem) (1)
 - [combinatorics](#combinatorics) (17)
 - [constructive algorithms](#constructive-algorithms) (79)
-- [data structures](#data-structures) (38)
+- [data structures](#data-structures) (39)
 - [dfs and similar](#dfs-and-similar) (18)
-- [divide and conquer](#divide-and-conquer) (5)
+- [divide and conquer](#divide-and-conquer) (6)
 - [dp](#dp) (57)
 - [dsu](#dsu) (4)
 - [expression parsing](#expression-parsing) (1)
@@ -34,7 +34,7 @@
 - [graphs](#graphs) (19)
 - [greedy](#greedy) (163)
 - [hashing](#hashing) (4)
-- [implementation](#implementation) (94)
+- [implementation](#implementation) (95)
 - [interactive](#interactive) (1)
 - [math](#math) (162)
 - [matrices](#matrices) (2)
@@ -43,7 +43,7 @@
 - [probabilities](#probabilities) (4)
 - [schedules](#schedules) (3)
 - [shortest paths](#shortest-paths) (9)
-- [sortings](#sortings) (50)
+- [sortings](#sortings) (51)
 - [strings](#strings) (20)
 - [ternary search](#ternary-search) (2)
 - [trees](#trees) (10)
@@ -382,6 +382,7 @@
 | 474E | [Pillars](https://codeforces.com/contest/474/problem/E) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/474/E%20-%20Pillars/solution.cpp) |
 | 597C | [Subsequences](https://codeforces.com/contest/597/problem/C) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/597/C%20-%20Subsequences/solution.cpp) |
 | 903D | [Almost Difference](https://codeforces.com/contest/903/problem/D) | 2200 | [C++23 (GCC 14-64, msys2)](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/903/D%20-%20Almost%20Difference/solution.cpp) |
+| 1311F | [Moving Points](https://codeforces.com/contest/1311/problem/F) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1311/F%20-%20Moving%20Points/solution.cpp) |
 | 1349A | [Orac and LCM](https://codeforces.com/contest/1349/problem/A) | 1600 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1349/A%20-%20Orac%20and%20LCM/solution.txt) |
 | 1398C | [Good Subarrays](https://codeforces.com/contest/1398/problem/C) | 1600 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1398/C%20-%20Good%20Subarrays/solution.txt) |
 | 1490E | [Accidental Victory](https://codeforces.com/contest/1490/problem/E) | 1400 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1490/E%20-%20Accidental%20Victory/solution.txt) |
@@ -445,6 +446,7 @@
 |---|---------|------------|----------|
 | 459D | [Pashmak and Parmida's problem](https://codeforces.com/contest/459/problem/D) | 1800 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/459/D%20-%20Pashmak%20and%20Parmida's%20problem/solution.txt) |
 | 888E | [Maximum Subsequence](https://codeforces.com/contest/888/problem/E) | 1800 | [C++23 (GCC 14-64, msys2)](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/888/E%20-%20Maximum%20Subsequence/solution.cpp) |
+| 1311F | [Moving Points](https://codeforces.com/contest/1311/problem/F) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1311/F%20-%20Moving%20Points/solution.cpp) |
 | 1794D | [Counting Factorizations](https://codeforces.com/contest/1794/problem/D) | 1900 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1794/D%20-%20Counting%20Factorizations/solution.txt) |
 | 2146D1 | [Max Sum OR (Easy Version)](https://codeforces.com/contest/2146/problem/D1) | 1500 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2146/D1%20-%20Max%20Sum%20OR%20(Easy%20Version)/solution.txt) |
 | 2207C | [Where's My Water?](https://codeforces.com/contest/2207/problem/C) | 1600 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2207/C%20-%20Where's%20My%20Water%3F/solution.txt) |
@@ -792,6 +794,7 @@
 | 702C | [Cellular Network](https://codeforces.com/contest/702/problem/C) | 1500 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/702/C%20-%20Cellular%20Network/solution.txt) |
 | 886C | [Petya and Catacombs](https://codeforces.com/contest/886/problem/C) | 1300 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/886/C%20-%20Petya%20and%20Catacombs/solution.txt) |
 | 911A | [Nearest Minimums](https://codeforces.com/contest/911/problem/A) | 1100 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/911/A%20-%20Nearest%20Minimums/solution.txt) |
+| 1311F | [Moving Points](https://codeforces.com/contest/1311/problem/F) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1311/F%20-%20Moving%20Points/solution.cpp) |
 | 1330B | [Dreamoon Likes Permutations](https://codeforces.com/contest/1330/problem/B) | 1400 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1330/B%20-%20Dreamoon%20Likes%20Permutations/solution.txt) |
 | 1339A | [Filling Diamonds](https://codeforces.com/contest/1339/problem/A) | 900 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1339/A%20-%20Filling%20Diamonds/solution.txt) |
 | 1462A | [Favorite Sequence](https://codeforces.com/contest/1462/problem/A) | 800 | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1462/A%20-%20Favorite%20Sequence/solution.py) |
@@ -1160,6 +1163,7 @@
 | 474E | [Pillars](https://codeforces.com/contest/474/problem/E) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/474/E%20-%20Pillars/solution.cpp) |
 | 479C | [Exams](https://codeforces.com/contest/479/problem/C) | 1400 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/479/C%20-%20Exams/solution.txt) |
 | 1133C | [Balanced Team](https://codeforces.com/contest/1133/problem/C) | 1200 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1133/C%20-%20Balanced%20Team/solution.txt) |
+| 1311F | [Moving Points](https://codeforces.com/contest/1311/problem/F) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1311/F%20-%20Moving%20Points/solution.cpp) |
 | 1344A | [Hilbert's Hotel](https://codeforces.com/contest/1344/problem/A) | 1600 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1344/A%20-%20Hilbert's%20Hotel/solution.txt) |
 | 1401C | [Mere Array](https://codeforces.com/contest/1401/problem/C) | 1300 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1401/C%20-%20Mere%20Array/solution.txt) |
 | 1419D2 | [Sage's Birthday (hard version)](https://codeforces.com/contest/1419/problem/D2) | 1500 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1419/D2%20-%20Sage's%20Birthday%20(hard%20version)/solution.txt) |
