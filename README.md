@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 397 | 36 |
+| 398 | 36 |
 
 ---
 
@@ -15,8 +15,8 @@
 - [*special](#special) (3)
 - [Uncategorized](#uncategorized) (37)
 - [binary search](#binary-search) (41)
-- [bitmasks](#bitmasks) (20)
-- [brute force](#brute-force) (84)
+- [bitmasks](#bitmasks) (21)
+- [brute force](#brute-force) (85)
 - [chinese remainder theorem](#chinese-remainder-theorem) (1)
 - [combinatorics](#combinatorics) (17)
 - [constructive algorithms](#constructive-algorithms) (79)
@@ -32,11 +32,11 @@
 - [geometry](#geometry) (6)
 - [graph matchings](#graph-matchings) (2)
 - [graphs](#graphs) (19)
-- [greedy](#greedy) (163)
+- [greedy](#greedy) (164)
 - [hashing](#hashing) (4)
 - [implementation](#implementation) (95)
 - [interactive](#interactive) (1)
-- [math](#math) (162)
+- [math](#math) (163)
 - [matrices](#matrices) (2)
 - [meet-in-the-middle](#meet-in-the-middle) (1)
 - [number theory](#number-theory) (55)
@@ -157,6 +157,7 @@
 | 580D | [Kefa and Dishes](https://codeforces.com/contest/580/problem/D) | 1800 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/580/D%20-%20Kefa%20and%20Dishes/solution.txt) |
 | 581D | [Three Logos](https://codeforces.com/contest/581/problem/D) | 1700 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/581/D%20-%20Three%20Logos/solution.txt) |
 | 888E | [Maximum Subsequence](https://codeforces.com/contest/888/problem/E) | 1800 | [C++23 (GCC 14-64, msys2)](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/888/E%20-%20Maximum%20Subsequence/solution.cpp) |
+| 1554B | [Cobb](https://codeforces.com/contest/1554/problem/B) | 1700 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1554/B%20-%20Cobb/solution.txt) |
 | 1731C | [Even Subarrays](https://codeforces.com/contest/1731/problem/C) | 1700 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1731/C%20-%20Even%20Subarrays/solution.txt) |
 | 1847B | [Hamon Odyssey](https://codeforces.com/contest/1847/problem/B) | 1000 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1847/B%20-%20Hamon%20Odyssey/solution.txt) |
 | 1864C | [Divisor Chain](https://codeforces.com/contest/1864/problem/C) | 1300 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1864/C%20-%20Divisor%20Chain/solution.txt) |
@@ -190,6 +191,7 @@
 | 1419D2 | [Sage's Birthday (hard version)](https://codeforces.com/contest/1419/problem/D2) | 1500 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1419/D2%20-%20Sage's%20Birthday%20(hard%20version)/solution.txt) |
 | 1485A | [Add and Divide](https://codeforces.com/contest/1485/problem/A) | 1000 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1485/A%20-%20Add%20and%20Divide/solution.txt) |
 | 1499C | [Minimum Grid Path](https://codeforces.com/contest/1499/problem/C) | 1500 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1499/C%20-%20Minimum%20Grid%20Path/solution.txt) |
+| 1554B | [Cobb](https://codeforces.com/contest/1554/problem/B) | 1700 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1554/B%20-%20Cobb/solution.txt) |
 | 1555C | [Coin Rows](https://codeforces.com/contest/1555/problem/C) | 1300 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1555/C%20-%20Coin%20Rows/solution.txt) |
 | 1731C | [Even Subarrays](https://codeforces.com/contest/1731/problem/C) | 1700 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1731/C%20-%20Even%20Subarrays/solution.txt) |
 | 1759D | [Make It Round](https://codeforces.com/contest/1759/problem/D) | 1400 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1759/D%20-%20Make%20It%20Round/solution.txt) |
@@ -618,6 +620,7 @@
 | 1499C | [Minimum Grid Path](https://codeforces.com/contest/1499/problem/C) | 1500 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1499/C%20-%20Minimum%20Grid%20Path/solution.txt) |
 | 1514C | [Product 1 Modulo N](https://codeforces.com/contest/1514/problem/C) | 1600 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1514/C%20-%20Product%201%20Modulo%20N/solution.txt) |
 | 1515C | [Phoenix and Towers](https://codeforces.com/contest/1515/problem/C) | 1400 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1515/C%20-%20Phoenix%20and%20Towers/solution.txt) |
+| 1554B | [Cobb](https://codeforces.com/contest/1554/problem/B) | 1700 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1554/B%20-%20Cobb/solution.txt) |
 | 1573B | [Swaps](https://codeforces.com/contest/1573/problem/B) | 1400 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1573/B%20-%20Swaps/solution.txt) |
 | 1579D | [Productive Meeting](https://codeforces.com/contest/1579/problem/D) | 1400 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1579/D%20-%20Productive%20Meeting/solution.txt) |
 | 1609A | [Divide and Multiply](https://codeforces.com/contest/1609/problem/A) | 900 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1609/A%20-%20Divide%20and%20Multiply/solution.txt) |
@@ -917,6 +920,7 @@
 | 1476A | [K-divisible Sum](https://codeforces.com/contest/1476/problem/A) | 1000 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1476/A%20-%20K-divisible%20Sum/solution.txt) |
 | 1485A | [Add and Divide](https://codeforces.com/contest/1485/problem/A) | 1000 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1485/A%20-%20Add%20and%20Divide/solution.txt) |
 | 1499C | [Minimum Grid Path](https://codeforces.com/contest/1499/problem/C) | 1500 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1499/C%20-%20Minimum%20Grid%20Path/solution.txt) |
+| 1554B | [Cobb](https://codeforces.com/contest/1554/problem/B) | 1700 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1554/B%20-%20Cobb/solution.txt) |
 | 1573B | [Swaps](https://codeforces.com/contest/1573/problem/B) | 1400 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1573/B%20-%20Swaps/solution.txt) |
 | 1609A | [Divide and Multiply](https://codeforces.com/contest/1609/problem/A) | 900 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1609/A%20-%20Divide%20and%20Multiply/solution.txt) |
 | 1731C | [Even Subarrays](https://codeforces.com/contest/1731/problem/C) | 1700 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1731/C%20-%20Even%20Subarrays/solution.txt) |
