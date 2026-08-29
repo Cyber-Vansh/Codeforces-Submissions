@@ -6,14 +6,14 @@
 
 | Total Problems | Topics |
 |---|---|
-| 403 | 36 |
+| 404 | 36 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [*special](#special) (3)
-- [Uncategorized](#uncategorized) (39)
+- [Uncategorized](#uncategorized) (40)
 - [binary search](#binary-search) (42)
 - [bitmasks](#bitmasks) (21)
 - [brute force](#brute-force) (85)
@@ -98,6 +98,7 @@
 | 2257D | [Bermuda Rectangle](https://codeforces.com/contest/2257/problem/D) | Unrated | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2257/D%20-%20Bermuda%20Rectangle/solution.txt) |
 | 2258A | [Odd Eraser](https://codeforces.com/contest/2258/problem/A) | Unrated | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2258/A%20-%20Odd%20Eraser/solution.txt) |
 | 2258B1 | [Carrot Chopdown (Easy Version)](https://codeforces.com/contest/2258/problem/B1) | Unrated | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2258/B1%20-%20Carrot%20Chopdown%20(Easy%20Version)/solution.txt) |
+| 2258B2 | [Carrot Chopdown (Hard Version)](https://codeforces.com/contest/2258/problem/B2) | Unrated | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2258/B2%20-%20Carrot%20Chopdown%20(Hard%20Version)/solution.txt) |
 | 102694A | [Circumference of a Tree](https://codeforces.com/contest/102694/problem/A) | Unrated | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/102694/A%20-%20Circumference%20of%20a%20Tree/solution.txt) |
 | 102694B | [Dynamic Diameter](https://codeforces.com/contest/102694/problem/B) | Unrated | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/102694/B%20-%20Dynamic%20Diameter/solution.txt) |
 | 102694C | [Sloth Naptime](https://codeforces.com/contest/102694/problem/C) | Unrated | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/102694/C%20-%20Sloth%20Naptime/solution.txt) |
