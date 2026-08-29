@@ -1,0 +1,48 @@
+import sys
+ 
+input = sys.stdin.buffer.readline
+ 
+def solve():
+    n = int(input())
+    
+    dis = 0
+    u = 1
+    
+    for i in range(2,n+1):
+        while dis<n:
+            print(f"? {1} {i} {dis+1}",flush=True)
+            ans = int(input())
+            
+            if ans==-1:
+                sys.exit(0)
+ 
+            if ans==1:
+                u = i
+                dis += 1
+            else:
+                break
+                
+    v = 1
+    
+    for i in range(2,n+1):
+        if i==u:
+            continue
+ 
+        while dis<n:
+            print(f"? {u} {i} {dis+1}",flush=True)
+            ans = int(input())
+            
+            if ans==-1:
+                sys.exit(0)
+ 
+            if ans==1:
+                v = i
+                dis += 1
+            else:
+                break
+                
+    print(f"! {u} {v} {dis}", flush=True)
+ 
+t = int(input())
+for _ in range(t):
+    solve()
