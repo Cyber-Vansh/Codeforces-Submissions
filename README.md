@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 406 | 36 |
+| 407 | 36 |
 
 ---
 
@@ -20,10 +20,10 @@
 - [chinese remainder theorem](#chinese-remainder-theorem) (1)
 - [combinatorics](#combinatorics) (17)
 - [constructive algorithms](#constructive-algorithms) (79)
-- [data structures](#data-structures) (43)
+- [data structures](#data-structures) (44)
 - [dfs and similar](#dfs-and-similar) (18)
 - [divide and conquer](#divide-and-conquer) (6)
-- [dp](#dp) (57)
+- [dp](#dp) (58)
 - [dsu](#dsu) (4)
 - [expression parsing](#expression-parsing) (1)
 - [fft](#fft) (1)
@@ -427,6 +427,7 @@
 | 2233D | [Goods on the Shelf](https://codeforces.com/contest/2233/problem/D) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2233/D%20-%20Goods%20on%20the%20Shelf/solution.cpp) |
 | 2242B | [Predominant Frequency Division](https://codeforces.com/contest/2242/problem/B) | Unrated | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2242/B%20-%20Predominant%20Frequency%20Division/solution.txt) |
 | 2242C | [Unstable Elements](https://codeforces.com/contest/2242/problem/C) | Unrated | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2242/C%20-%20Unstable%20Elements/solution.txt) |
+| 2244G | [Yura and Deadlines](https://codeforces.com/contest/2244/problem/G) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2244/G%20-%20Yura%20and%20Deadlines/solution.cpp) |
 
 ### dfs and similar
 
@@ -523,6 +524,7 @@
 | 2236D | [Brand New Tatar TV Show](https://codeforces.com/contest/2236/problem/D) | 1300 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2236/D%20-%20Brand%20New%20Tatar%20TV%20Show/solution.txt) |
 | 2241D | [An Alternative Way](https://codeforces.com/contest/2241/problem/D) | Unrated | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2241/D%20-%20An%20Alternative%20Way/solution.txt) |
 | 2241E | [Fair and Square](https://codeforces.com/contest/2241/problem/E) | Unrated | [Python 3](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2241/E%20-%20Fair%20and%20Square/solution.py) |
+| 2244G | [Yura and Deadlines](https://codeforces.com/contest/2244/problem/G) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2244/G%20-%20Yura%20and%20Deadlines/solution.cpp) |
 
 ### dsu
 
