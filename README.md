@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 407 | 36 |
+| 408 | 36 |
 
 ---
 
@@ -20,7 +20,7 @@
 - [chinese remainder theorem](#chinese-remainder-theorem) (1)
 - [combinatorics](#combinatorics) (17)
 - [constructive algorithms](#constructive-algorithms) (79)
-- [data structures](#data-structures) (44)
+- [data structures](#data-structures) (45)
 - [dfs and similar](#dfs-and-similar) (18)
 - [divide and conquer](#divide-and-conquer) (6)
 - [dp](#dp) (58)
@@ -31,7 +31,7 @@
 - [games](#games) (12)
 - [geometry](#geometry) (6)
 - [graph matchings](#graph-matchings) (2)
-- [graphs](#graphs) (19)
+- [graphs](#graphs) (20)
 - [greedy](#greedy) (164)
 - [hashing](#hashing) (5)
 - [implementation](#implementation) (96)
@@ -42,7 +42,7 @@
 - [number theory](#number-theory) (56)
 - [probabilities](#probabilities) (4)
 - [schedules](#schedules) (3)
-- [shortest paths](#shortest-paths) (9)
+- [shortest paths](#shortest-paths) (10)
 - [sortings](#sortings) (51)
 - [strings](#strings) (20)
 - [ternary search](#ternary-search) (2)
@@ -389,6 +389,7 @@
 | 459D | [Pashmak and Parmida's problem](https://codeforces.com/contest/459/problem/D) | 1800 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/459/D%20-%20Pashmak%20and%20Parmida's%20problem/solution.txt) |
 | 474E | [Pillars](https://codeforces.com/contest/474/problem/E) | 2000 | [C++23 (GCC 14-64, msys2)](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/474/E%20-%20Pillars/solution.cpp) |
 | 597C | [Subsequences](https://codeforces.com/contest/597/problem/C) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/597/C%20-%20Subsequences/solution.cpp) |
+| 786B | [Legacy](https://codeforces.com/contest/786/problem/B) | 2300 | [C++23 (GCC 14-64, msys2)](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/786/B%20-%20Legacy/solution.cpp) |
 | 816B | [Karen and Coffee](https://codeforces.com/contest/816/problem/B) | 1400 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/816/B%20-%20Karen%20and%20Coffee/solution.txt) |
 | 869E | [The Untended Antiquity](https://codeforces.com/contest/869/problem/E) | 2400 | [C++23 (GCC 14-64, msys2)](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/869/E%20-%20The%20Untended%20Antiquity/solution.cpp) |
 | 903D | [Almost Difference](https://codeforces.com/contest/903/problem/D) | 2200 | [C++23 (GCC 14-64, msys2)](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/903/D%20-%20Almost%20Difference/solution.cpp) |
@@ -595,6 +596,7 @@
 | 11D | [A Simple Task](https://codeforces.com/contest/11/problem/D) | 2200 | [C++23 (GCC 14-64, msys2)](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/11/D%20-%20A%20Simple%20Task/solution.cpp) |
 | 242C | [King's Path](https://codeforces.com/contest/242/problem/C) | 1800 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/242/C%20-%20King's%20Path/solution.txt) |
 | 769C | [Cycle In Maze](https://codeforces.com/contest/769/problem/C) | 1700 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/769/C%20-%20Cycle%20In%20Maze/solution.txt) |
+| 786B | [Legacy](https://codeforces.com/contest/786/problem/B) | 2300 | [C++23 (GCC 14-64, msys2)](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/786/B%20-%20Legacy/solution.cpp) |
 | 1037D | [Valid BFS?](https://codeforces.com/contest/1037/problem/D) | 1700 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1037/D%20-%20Valid%20BFS%3F/solution.txt) |
 | 1579D | [Productive Meeting](https://codeforces.com/contest/1579/problem/D) | 1400 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1579/D%20-%20Productive%20Meeting/solution.txt) |
 | 1775D | [Friendly Spiders](https://codeforces.com/contest/1775/problem/D) | 1800 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1775/D%20-%20Friendly%20Spiders/solution.txt) |
@@ -1164,6 +1166,7 @@
 | 35C | [Fire Again](https://codeforces.com/contest/35/problem/C) | 1500 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/35/C%20-%20Fire%20Again/solution.txt) |
 | 242C | [King's Path](https://codeforces.com/contest/242/problem/C) | 1800 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/242/C%20-%20King's%20Path/solution.txt) |
 | 769C | [Cycle In Maze](https://codeforces.com/contest/769/problem/C) | 1700 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/769/C%20-%20Cycle%20In%20Maze/solution.txt) |
+| 786B | [Legacy](https://codeforces.com/contest/786/problem/B) | 2300 | [C++23 (GCC 14-64, msys2)](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/786/B%20-%20Legacy/solution.cpp) |
 | 1037D | [Valid BFS?](https://codeforces.com/contest/1037/problem/D) | 1700 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1037/D%20-%20Valid%20BFS%3F/solution.txt) |
 | 1775D | [Friendly Spiders](https://codeforces.com/contest/1775/problem/D) | 1800 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1775/D%20-%20Friendly%20Spiders/solution.txt) |
 | 1915G | [Bicycles](https://codeforces.com/contest/1915/problem/G) | 1800 | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/1915/G%20-%20Bicycles/solution.txt) |
