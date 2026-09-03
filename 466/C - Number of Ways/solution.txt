@@ -1,0 +1,43 @@
+import sys
+ 
+input = sys.stdin.buffer.readline
+ 
+def solve():
+    n = int(input())
+    arr = list(map(int,input().split()))
+ 
+    d = {}
+    curr = 0
+ 
+    for i in range(n-1):
+        curr += arr[i]
+        d[curr] = d.get(curr,0)+1
+ 
+    suff = [0]*n
+    suff[n-1] = arr[n-1]
+ 
+    for i in range(n-2,-1,-1):
+        suff[i] = suff[i+1]+arr[i]
+ 
+    ans = 0
+ 
+    # print(d)
+ 
+    curr = 0
+    for i in range(n-1):
+        curr += arr[i]
+        d[curr] -= 1
+ 
+        left = suff[i+1]
+ 
+        if curr*2==left:
+            ans += d.get(curr*2,0)
+ 
+        # print(i,ans)
+ 
+    print(ans)
+ 
+ 
+t = 1
+for _ in range(t):
+    solve()
