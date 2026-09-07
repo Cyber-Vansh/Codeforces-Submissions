@@ -1,0 +1,41 @@
+import sys
+ 
+input = sys.stdin.buffer.readline
+ 
+def solve():
+    n = int(input())
+ 
+    arr = []
+    for i in range(n):
+        arr.append(list(map(int,input().split())))
+ 
+    ans = 0
+ 
+    l = 0
+    r = n
+ 
+    while l<=r:
+        mid = (l+r)//2
+ 
+        took = 0
+ 
+        for i in range(n):
+            a,b = arr[i]
+ 
+            if took>b or mid-took-1>a:
+                continue
+ 
+            took += 1
+ 
+        if took>=mid:
+            ans = max(ans,mid)
+            l = mid+1
+        else:
+            r = mid-1
+ 
+    print(ans)
+ 
+ 
+t = int(input())
+for _ in range(t):
+    solve()
