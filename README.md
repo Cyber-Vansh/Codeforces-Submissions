@@ -6,14 +6,14 @@
 
 | Total Problems | Topics |
 |---|---|
-| 415 | 36 |
+| 416 | 36 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [*special](#special) (3)
-- [Uncategorized](#uncategorized) (44)
+- [Uncategorized](#uncategorized) (45)
 - [binary search](#binary-search) (44)
 - [bitmasks](#bitmasks) (21)
 - [brute force](#brute-force) (86)
@@ -103,6 +103,7 @@
 | 2260A | [Monocarp's Contest](https://codeforces.com/contest/2260/problem/A) | Unrated | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2260/A%20-%20Monocarp's%20Contest/solution.txt) |
 | 2260B | [Monocarp and Projects](https://codeforces.com/contest/2260/problem/B) | Unrated | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2260/B%20-%20Monocarp%20and%20Projects/solution.txt) |
 | 2260C | [Maximize XOR, Minimize Operations](https://codeforces.com/contest/2260/problem/C) | Unrated | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2260/C%20-%20Maximize%20XOR%2C%20Minimize%20Operations/solution.txt) |
+| 2260D | [Signs of Prefix Sums](https://codeforces.com/contest/2260/problem/D) | Unrated | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/2260/D%20-%20Signs%20of%20Prefix%20Sums/solution.txt) |
 | 102694A | [Circumference of a Tree](https://codeforces.com/contest/102694/problem/A) | Unrated | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/102694/A%20-%20Circumference%20of%20a%20Tree/solution.txt) |
 | 102694B | [Dynamic Diameter](https://codeforces.com/contest/102694/problem/B) | Unrated | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/102694/B%20-%20Dynamic%20Diameter/solution.txt) |
 | 102694C | [Sloth Naptime](https://codeforces.com/contest/102694/problem/C) | Unrated | [PyPy 3-64](https://github.com/Cyber-Vansh/Codeforces-Submissions/blob/HEAD/102694/C%20-%20Sloth%20Naptime/solution.txt) |
