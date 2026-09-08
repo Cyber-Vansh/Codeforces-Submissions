@@ -1,0 +1,30 @@
+import sys
+ 
+input = sys.stdin.buffer.readline
+ 
+def solve():
+    n = int(input())
+    arr = list(map(int,input().split()))
+ 
+    if arr.count(0)<2:
+        print(-1)
+        return
+ 
+    ans1 = 0
+    ans2 = 0
+ 
+    for i in range(n):
+        if arr[i]==0:
+            break
+        ans1 = 1
+ 
+    for i in range(n-1,-1,-1):
+        if arr[i]==0:
+            break
+        ans2 = 1
+ 
+    print(ans1+ans2)
+ 
+t = int(input())
+for _ in range(t):
+    solve()
